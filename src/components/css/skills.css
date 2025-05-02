@@ -1,0 +1,49 @@
+.skills-slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.skills-track {
+  display: flex;
+  width: calc(200%); /* because duplicated */
+  animation: scrollSkills 20s linear infinite; /* <-- Animation here */
+}
+
+@keyframes scrollSkills {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* move to left */
+  }
+}
+
+.skill-slide {
+  flex: 0 0 auto;
+  width: 300px; /* width of each skill item */
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.skill-card {
+  background: gray;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin-left: 10px;
+}
