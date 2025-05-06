@@ -18,7 +18,7 @@ function App() {
         <Route
           path="/"
           element={
-            <main>
+            <main id="main-wrapper">
               <Home />
               <About />
               <Skills />
