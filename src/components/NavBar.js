@@ -9,17 +9,8 @@ export default function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const toggleMenu = () => {
-    setMenuOpen((prev) => !prev);
-  };
-
-  const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  };
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const handleScroll = () => setSticky(window.scrollY > 0);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -36,6 +27,7 @@ export default function Navbar() {
   };
 
   const handleLinkClick = (sectionId) => {
+    setMenuOpen(false);
     if (location.pathname !== "/") {
       navigate("/", { replace: true });
       setTimeout(() => {
@@ -47,7 +39,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky">
+    <header className={`sticky ${sticky ? "active" : ""}`}>
       <nav className="navbar-container">
         <div className="navbar-content">
           <Link
@@ -58,37 +50,24 @@ export default function Navbar() {
             Jeannie's Portfolio
           </Link>
 
-          <div className="navbar-links">
-            <button
-              className="nav-link"
-              onClick={() => handleLinkClick("home")}
-            >
-              Home
-            </button>
-            <button
-              className="nav-link"
-              onClick={() => handleLinkClick("about")}
-            >
-              About
-            </button>
-            <button
-              className="nav-link"
-              onClick={() => handleLinkClick("skills")}
-            >
-              Skills
-            </button>
-            <button
-              className="nav-link"
-              onClick={() => handleLinkClick("projects")}
-            >
-              Projects
-            </button>
-            <button
-              className="nav-link"
-              onClick={() => handleLinkClick("contact")}
-            >
-              Contact
-            </button>
+          <button className="hamburger" onClick={toggleMenu}>
+            <span className="bar" />
+            <span className="bar" />
+            <span className="bar" />
+          </button>
+
+          <div className={`navbar-links ${menuOpen ? "open" : ""}`}>
+            {["home", "about", "skills", "projects", "contact"].map(
+              (section) => (
+                <button
+                  key={section}
+                  className="nav-link"
+                  onClick={() => handleLinkClick(section)}
+                >
+                  {section.charAt(0).toUpperCase() + section.slice(1)}
+                </button>
+              )
+            )}
           </div>
         </div>
       </nav>

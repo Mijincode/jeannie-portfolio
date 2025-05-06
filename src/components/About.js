@@ -1,20 +1,125 @@
-import React from "react";
-import "../index.css";
-import "./styles.css";
-// import { AcademicCapIcon } from "@heroicons/react/outline";
+import React, { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import peteCat from "./images/blueCat.png";
+import shoe from "./images/shoe.png";
 
-function About() {
+gsap.registerPlugin(ScrollTrigger);
+
+export default function About() {
+  const sectionRef = useRef();
+  const peteRef = useRef();
+  const shoeRef = useRef();
+
+  useEffect(() => {
+    const el = sectionRef.current;
+    const pete = peteRef.current;
+    const shoe = shoeRef.current;
+    gsap.set(pete, { x: -200, rotation: -20, opacity: 0 });
+    gsap.set(shoe, { transformOrigin: "bottom center", y: 0, rotation: 0 });
+
+    const scrollTriggerInstance = ScrollTrigger.create({
+      trigger: el,
+      start: "top center",
+      end: "bottom center",
+
+      onEnter: () => {
+        gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
+        gsap.to("h1, h2, p, li", {
+          color: "#F9F9F6",
+          duration: 0.5,
+        });
+
+        gsap.to(pete, {
+          x: 0,
+          rotation: 20,
+          opacity: 1,
+          duration: 4,
+          ease: "power3.out",
+        });
+
+        const shoeBounce = gsap.timeline({ repeat: -1, yoyo: true });
+        shoeBounce
+          .to(shoe, {
+            y: -30,
+            rotation: 15,
+            duration: 0.4,
+            ease: "power1.inOut",
+          })
+          .to(shoe, {
+            y: 0,
+            rotation: -15,
+            duration: 0.4,
+            ease: "power1.inOut",
+          });
+      },
+      onLeave: () => {
+        gsap.to(pete, {
+          x: -200,
+          rotation: -20,
+          opacity: 0,
+          duration: 1,
+          ease: "power3.in",
+        });
+      },
+      onEnterBack: () => {
+        gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
+        gsap.to("h1, h2, p, li", {
+          color: "#F9F9F6",
+          duration: 0.5,
+        });
+
+        gsap.to(pete, {
+          x: 0,
+          rotation: 20,
+          opacity: 1,
+          duration: 1,
+          ease: "power3.out",
+        });
+
+        const shoeBounce = gsap.timeline({ repeat: -1, yoyo: true });
+        shoeBounce
+          .to(shoe, {
+            y: -30,
+            rotation: 15,
+            duration: 0.4,
+            ease: "power1.inOut",
+          })
+          .to(shoe, {
+            y: 0,
+            rotation: -15,
+            duration: 0.4,
+            ease: "power1.inOut",
+          });
+      },
+      onLeaveBack: () => {
+        gsap.to(pete, {
+          x: -200,
+          rotation: -20,
+          opacity: 0,
+          duration: 1,
+          ease: "power3.in",
+        });
+      },
+    });
+
+    return () => {
+      if (scrollTriggerInstance) {
+        scrollTriggerInstance.kill();
+      }
+    };
+  }, []);
+
   return (
-    <section id="about">
+    <section id="about" ref={sectionRef}>
       <div className="about-container">
-        <h2 className="text-4xl font-bold text-center mb-20 mt-10">About Me</h2>
-
+        <h2 className="custom-heading">About Me</h2>
         <div className="max-w-3xl mx-auto text-base leading-relaxed">
           <div className="sub-title-about">
-            <strong>From Classrooms to Code</strong>
+            <p>From Classrooms to Code</p>
           </div>
           <p>
-            my journey has been shaped by curiosity, creativity, and a deep
+            My journey has been shaped by curiosity, creativity, and a deep
             appreciation for the transformative power of technology. After
             transitioning from the education sector to the tech industry, I’ve
             been eager to explore how UI/UX design and full-stack development
@@ -30,7 +135,7 @@ function About() {
             in Information Technology (Web Development).
           </p>
           <div className="sub-title-about">
-            <strong>Designing Beyond the Code</strong>
+            <p>Designing Beyond the Code</p>
           </div>
           <p>
             As I delved deeper into the field, my passion naturally evolved
@@ -61,21 +166,47 @@ function About() {
             Always eager to learn and grow, I strive to enhance user experiences
             through thoughtful design and clean, maintainable code.
           </p>
-          <h2 className="custom-heading">Education: </h2>{" "}
+          <h2 className="custom-heading">Education: </h2>
           <ul className="leading-relaxed text-base">
             <li className="flex items-center mb-4">
-              <span className="inline-block w-5 h-5 mr-2 text-green-500" />
               Graduate Certificate in Information Technology (Web Development) -
               (QUT) | 2023 - 2024
             </li>
-            <li>
-              <span className="inline-block w-5 h-5 mr-2 text-green-500" />
-              Master of Teaching (Primary) - (QUT) | 2018 - 2021
-            </li>
+            <li>Master of Teaching (Primary) - (QUT) | 2018 - 2021</li>
           </ul>
+        </div>
+        <div className="images-container">
+          <img
+            ref={peteRef}
+            src={peteCat}
+            alt="Pete the Cat"
+            className="pete-the-cat"
+            style={{
+              position: "absolute",
+              top: "80vh",
+              left: "10vw",
+              height: "40vh",
+              opacity: 0,
+              maxWidth: "100%",
+              transition: "opacity 1s ease-out",
+            }}
+          />
+          <img
+            ref={shoeRef}
+            src={shoe}
+            alt="Shoe"
+            className="shoe"
+            style={{
+              position: "absolute",
+              top: "90vh",
+              right: "8vw",
+              width: "20vw",
+              maxWidth: "90%",
+              transition: "transform 0.3s ease-in-out",
+            }}
+          />
         </div>
       </div>
     </section>
   );
 }
-export default About;

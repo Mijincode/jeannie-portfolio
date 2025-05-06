@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./css/skills.css";
 import figma from "./images/figma.png";
 import javaScript from "./images/javaScript.png";
@@ -7,6 +9,8 @@ import css from "./images/css.png";
 import react from "./images/react.png";
 import mySQL from "./images/mySQL.png";
 import nodeJS from "./images/nodeJS.png";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const skillsData = [
   { name: "HTML5", icon: html },
@@ -19,13 +23,57 @@ const skillsData = [
 ];
 
 export default function Skills() {
+  const sectionRef = useRef();
+
+  useEffect(() => {
+    const el = sectionRef.current;
+
+    const scrollTriggerInstance = ScrollTrigger.create({
+      trigger: el,
+      start: "top center",
+      end: "bottom center",
+      onEnter: () => {
+        gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
+        gsap.to("h1, h2", {
+          color: "#FFFFFF",
+          duration: 0.5,
+        });
+      },
+      onEnterBack: () => {
+        gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
+        gsap.to("h1, h2", {
+          color: "#FFFFFF",
+          duration: 0.5,
+        });
+      },
+      // onLeave: () => {
+      //   gsap.to("body", { backgroundColor: "#ffffff", duration: 0.5 });
+      //   gsap.to("h1, h2, p, .text, .strong, .span", {
+      //     color: "#000000",
+      //     duration: 0.5,
+      //   });
+      // },
+      // onLeaveBack: () => {
+      //   gsap.to("body", { backgroundColor: "#ffffff", duration: 0.5 });
+      //   gsap.to("h1, h2, p, .text, .strong, .span", {
+      //     color: "#000000",
+      //     duration: 0.5,
+      //   });
+      // },
+    });
+
+    // Cleanup on unmount
+    return () => {
+      if (scrollTriggerInstance) {
+        scrollTriggerInstance.kill();
+      }
+    };
+  }, []);
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-center mb-8 mt-8">
-            Skills &amp; Technologies
-          </h2>
+          <h2 className="custom-heading">Skills &amp; Technologies</h2>
         </div>
 
         <div className="skills-slider">
