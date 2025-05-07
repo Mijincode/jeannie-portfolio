@@ -1,0 +1,67 @@
+.about-container {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  padding: 2.5rem 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.custom-heading {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.sub-title-about {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+p,
+li {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+  .sub-title-about {
+    font-size: 1.2rem;
+  }
+
+  .custom-heading {
+    font-size: 1.5rem;
+  }
+  .p {
+    font-size: 1rem;
+  }
+  .about-container {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .pete-the-cat,
+  .shoe {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .sub-title-about {
+    font-size: 1rem;
+  }
+
+  .custom-heading {
+    font-size: 1.2rem;
+  }
+
+  p,
+  li {
+    font-size: 0.9rem;
+  }
+}

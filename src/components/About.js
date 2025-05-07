@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import peteCat from "./images/blueCat.png";
 import shoe from "./images/shoe.png";
+import "./css/about.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
