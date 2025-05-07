@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { AiOutlineMail, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import "./css/contact.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -31,38 +32,24 @@ function Contact() {
   }, []);
 
   return (
-    <section id="contact" ref={sectionRef} className="mt-10 bg-yellow-300">
-      <div className="p-20 py-20">
-        <div className="container mx-auto flex flex-col items-center justify-center">
-          <h1 className="text-3xl font-bold mb-8 text-gray-800 mt-8">
-            Contact me
-          </h1>
-          <div className="max-w-md mx-auto flex flex-wrap justify-center">
-            <p className="text-lg mb-4 mr-4">
-              <a
-                href="mailto:mijindoig@hotmail.com"
-                className="text-indigo-600 hover:underline"
-              >
-                <AiOutlineMail className="inline-block" /> Email
-              </a>
-            </p>
-            <p className="text-lg mb-4 mr-4">
-              <a
-                href="https://www.linkedin.com/in/mijin-lee-35b09b1b7/"
-                className="text-indigo-600 hover:underline"
-              >
-                <AiFillLinkedin className="inline-block" /> LinkedIn
-              </a>
-            </p>
-            <p className="text-lg mb-4">
-              <a
-                href="https://github.com/Mijincode"
-                className="text-indigo-600 hover:underline"
-              >
-                <AiFillGithub className="inline-block" /> GitHub
-              </a>
-            </p>
-          </div>
+    <section id="contact" ref={sectionRef} className="contact-section">
+      <div className="contact-content">
+        <h1 className="contact-heading">Contact me</h1>
+        <div className="contact-links">
+          <a href="mailto:jeanniedoig@hotmail.com" className="contact-link">
+            <AiOutlineMail className="contact-icon" /> Email
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/mijin-lee-35b09b1b7/"
+            className="contact-link"
+          >
+            <AiFillLinkedin className="contact-icon" /> LinkedIn
+          </a>
+
+          <a href="https://github.com/Mijincode" className="contact-link">
+            <AiFillGithub className="contact-icon" /> GitHub
+          </a>
         </div>
       </div>
     </section>

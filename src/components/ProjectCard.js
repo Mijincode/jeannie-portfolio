@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 // import { AiFillGithub } from "react-icons/ai";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   const navigate = useNavigate();
@@ -20,14 +20,9 @@ const ProjectCard = ({ project }) => {
   // };
 
   return (
-    <Card className="border border-gray-200 rounded-lg">
-      <Card.Body>
-        <Card.Title className="text-lg font-semibold text-center">
-          {project.title}
-        </Card.Title>
-
+    <div className="project-card">
+      <Link to={project.link}>
         <div className="image-container">
-          {/* Check if there's an image or video */}
           {project.img && !project.videoSrc && (
             <img
               src={project.img}
@@ -45,19 +40,19 @@ const ProjectCard = ({ project }) => {
               allowFullScreen
             />
           )}
-          {/* Show hover text */}
+
           {(project.img || project.videoSrc) && (
             <div className="overlay-text">
-              <p>{project.hoverText}</p> {/* Dynamic hover text */}
+              <p style={{ color: "black" }}>{project.hoverText}</p>
             </div>
           )}
         </div>
-
-        <Card.Text className="text-gray-700 mt-2 no-underline">
-          {project.description}
-        </Card.Text>
-      </Card.Body>
-    </Card>
+      </Link>
+      {/* 
+      <Card.Text style={{ textDecoration: "none" }}>
+        {project.description}
+      </Card.Text> */}
+    </div>
   );
 };
 
