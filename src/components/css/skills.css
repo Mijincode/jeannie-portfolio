@@ -5,8 +5,8 @@
 
 .skills-track {
   display: flex;
-  width: calc(200%); /* because duplicated */
-  animation: scrollSkills 20s linear infinite; /* <-- Animation here */
+  width: 200%;
+  animation: scrollSkills 20s linear infinite;
 }
 
 @keyframes scrollSkills {
@@ -14,19 +14,19 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* move to left */
+    transform: translateX(-50%);
   }
 }
 
 .skill-slide {
   flex: 0 0 auto;
-  width: 300px; /* width of each skill item */
+  width: 300px;
   padding: 10px;
   margin-top: 20px;
 }
 
 .skill-card {
-  background: gray;
+  background: #d9d7d0;
   border-radius: 8px;
   padding: 10px 20px;
   display: flex;
@@ -44,6 +44,36 @@
 .skill-name {
   font-size: 1.2rem;
   font-weight: 600;
-  color: white;
+  color: black !important;
   margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .skill-slide {
+    width: 200px; /* reduce width on tablets and small screens */
+  }
+
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skill-name {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-slide {
+    width: 150px; /* further reduce on very small screens */
+  }
+
+  .skill-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .skill-name {
+    font-size: 0.9rem;
+  }
 }
