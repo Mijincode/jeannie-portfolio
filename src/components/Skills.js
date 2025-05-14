@@ -46,23 +46,8 @@ export default function Skills() {
           duration: 0.5,
         });
       },
-      // onLeave: () => {
-      //   gsap.to("body", { backgroundColor: "#ffffff", duration: 0.5 });
-      //   gsap.to("h1, h2, p, .text, .strong, .span", {
-      //     color: "#000000",
-      //     duration: 0.5,
-      //   });
-      // },
-      // onLeaveBack: () => {
-      //   gsap.to("body", { backgroundColor: "#ffffff", duration: 0.5 });
-      //   gsap.to("h1, h2, p, .text, .strong, .span", {
-      //     color: "#000000",
-      //     duration: 0.5,
-      //   });
-      // },
     });
 
-    // Cleanup on unmount
     return () => {
       if (scrollTriggerInstance) {
         scrollTriggerInstance.kill();
@@ -71,9 +56,9 @@ export default function Skills() {
   }, []);
   return (
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <h2 className="custom-heading">Skills &amp; Technologies</h2>
+      <div className="skills-container">
+        <div className="skills-header">
+          <h2 className="skills-heading">Skills &amp; Technologies</h2>
         </div>
 
         <div className="skills-slider">

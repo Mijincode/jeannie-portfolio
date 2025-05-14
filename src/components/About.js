@@ -115,7 +115,7 @@ export default function About() {
     <section id="about" ref={sectionRef}>
       <div className="about-container">
         <h2 className="about-heading">About Me</h2>
-        <div className="max-w-3xl mx-auto text-base leading-relaxed">
+        <div className="about-content">
           <div className="sub-title-about">
             <p>From Classrooms to Code</p>
           </div>
@@ -167,7 +167,7 @@ export default function About() {
             Always eager to learn and grow, I strive to enhance user experiences
             through thoughtful design and clean, maintainable code.
           </p>
-          <h2 className="about-heading">Education: </h2>
+          <h2 className="education-heading">Education: </h2>
           <ul className="leading-relaxed text-base">
             <li className="flex items-center mb-4">
               Graduate Certificate in Information Technology (Web Development) -
