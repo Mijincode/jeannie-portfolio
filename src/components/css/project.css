@@ -1,3 +1,8 @@
+#projects {
+  padding: 30px 80px;
+  background-color: transparent;
+}
+
 .project-heading {
   font-size: 2rem;
   font-family: sans-serif;
@@ -25,7 +30,7 @@
 
 .project-card {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  /* aspect-ratio: 16 / 9; */
   position: relative;
   overflow: hidden;
   border-radius: 10px;
