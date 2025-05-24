@@ -176,7 +176,7 @@ export default function About() {
             <li>Master of Teaching (Primary) - (QUT) | 2018 - 2021</li>
           </ul>
         </div>
-        <div className="images-container">
+        {/* <div className="images-container">
           <img
             ref={peteRef}
             src={peteCat}
@@ -206,7 +206,7 @@ export default function About() {
               transition: "transform 0.3s ease-in-out",
             }}
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
