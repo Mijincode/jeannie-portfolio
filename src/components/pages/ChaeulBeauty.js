@@ -1,8 +1,9 @@
 import React from "react";
 import "../pages/ChaeulMiCaseStudyStyles.css";
-import FinalGif from "../images/chaeulBeauty/Chaeulmi.gif";
-import PhoneFrame from "../images/Rectangle.png";
-import StickyNotes from "../images/stickyNotes.jpeg";
+import FinalProduct from "../videos/Chaeulmi.mp4";
+import brandingLogo from "../images/chaeulBeauty/logo3.png";
+import PhoneFrame from "../images/chaeulBeauty/ChaeulAngle.png";
+import StickyNotes from "../images/chaeulBeauty/stickyNotes.jpeg";
 import hiFiVideo from "../videos/hiFiPrototype.mp4";
 import { useSpring, animated } from "react-spring";
 import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts"; // For visual data (pie chart)
@@ -76,6 +77,7 @@ const ChaeulBeauty = () => {
           performed competitor analysis to identify the strengths and weaknesses
           of similar platforms.
         </p>
+
         <div className="research-container">
           {/* Pie chart to visualize the research insights */}
           <div className="research-chart">
@@ -162,11 +164,23 @@ const ChaeulBeauty = () => {
           user-friendly interface that highlights her portfolio while
           emphasizing easy navigation for booking appointments.
         </p>
+        <p>
+          <img src={brandingLogo} />
+          The Chaeul Beauty logo is inspired by the Chinese character ‘美 (Mi)’,
+          meaning beauty, reimagined in the abstract form of a blossoming
+          flower. Flowers are a timeless symbol of beauty, and here, the flower
+          sits at the center of the design to represent elegance and harmony.
+          The surrounding circular frame reflects the word ‘Chaeul (채울)’,
+          which means "to fill" or "to complete" in Korean. Together, the logo
+          conveys the philosophy of filling life with beauty, both inside and
+          out. This elegant and minimal design captures the essence of refined
+          natural beauty, aligning with the brand’s core mission.
+        </p>
         <div className="image-gallery">
           <img src={PhoneFrame} alt="Mockup Design" className="mockup-design" />
-          <video width="360" height="720" controls>
+          {/* <video width="360" height="720" controls>
             <source src={hiFiVideo} type="video/mp4" />
-          </video>
+          </video> */}
         </div>
       </section>
 
@@ -196,7 +210,15 @@ const ChaeulBeauty = () => {
         </p>
         <div className="image-gallery">
           <div className="final-product">
-            <img src={FinalGif} alt="Final Design" className="final-product" />
+            {/* <img src={FinalGif} alt="Final Design" className="final-product" /> */}
+            <video
+              width="360"
+              height="720"
+              // style={{ borderRadius: "5%" }}
+              controls
+            >
+              <source src={hiFiVideo} type="video/mp4" />
+            </video>
           </div>
         </div>
       </section>
