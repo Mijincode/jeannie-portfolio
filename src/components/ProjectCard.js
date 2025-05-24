@@ -1,5 +1,4 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
 // import { AiFillGithub } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -48,7 +47,7 @@ const ProjectCard = ({ project }) => {
           )}
         </div>
       </Link>
-      {/* 
+      {/*
       <Card.Text style={{ textDecoration: "none" }}>
         {project.description}
       </Card.Text> */}
