@@ -1,12 +1,11 @@
 import React from "react";
 import "../pages/ChaeulMiCaseStudyStyles.css";
-import FinalProduct from "../videos/Chaeulmi.mp4";
-import brandingLogo from "../images/chaeulBeauty/logo3.png";
+import brandingLogo from "../images/chaeulBeauty/logo.png";
 import PhoneFrame from "../images/chaeulBeauty/ChaeulAngle.png";
 import StickyNotes from "../images/chaeulBeauty/stickyNotes.jpeg";
-import hiFiVideo from "../videos/hiFiPrototype.mp4";
+// import hiFiVideo from "../videos/hiFiPrototype.mp4";
 import { useSpring, animated } from "react-spring";
-import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts"; // For visual data (pie chart)
+import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
 
 const ChaeulBeauty = () => {
   const fadeIn = useSpring({
@@ -57,7 +56,7 @@ const ChaeulBeauty = () => {
           non-Korean-speaking clients. Without multilingual support, many
           potential customers couldn't fully understand the content or navigate
           the booking process. To address this, I implemented{" "}
-          <stron>a language switcher </stron>to allow foreign users to easily
+          <strong>a language switcher </strong>to allow foreign users to easily
           access content in their preferred language, significantly improving
           inclusivity.
         </p>
@@ -157,25 +156,32 @@ const ChaeulBeauty = () => {
       </section>
 
       <section className="case-study-section design-process">
-        <h2 className="section-title">Design Process</h2>
-        <p>
-          After gathering insights from research, I started designing wireframes
-          that would simplify the user journey. The goal was to create a clean,
-          user-friendly interface that highlights her portfolio while
-          emphasizing easy navigation for booking appointments.
-        </p>
-        <p>
-          <img src={brandingLogo} />
-          The Chaeul Beauty logo is inspired by the Chinese character ‘美 (Mi)’,
-          meaning beauty, reimagined in the abstract form of a blossoming
-          flower. Flowers are a timeless symbol of beauty, and here, the flower
-          sits at the center of the design to represent elegance and harmony.
-          The surrounding circular frame reflects the word ‘Chaeul (채울)’,
-          which means "to fill" or "to complete" in Korean. Together, the logo
-          conveys the philosophy of filling life with beauty, both inside and
-          out. This elegant and minimal design captures the essence of refined
-          natural beauty, aligning with the brand’s core mission.
-        </p>
+        <div>
+          <h2 className="section-title">Design Process</h2>
+          <p>
+            After gathering insights from research, I started designing
+            wireframes that would simplify the user journey. The goal was to
+            create a clean, user-friendly interface that highlights her
+            portfolio while emphasizing easy navigation for booking
+            appointments.
+          </p>
+        </div>
+
+        <div className="branding-descriptioin">
+          <img src={brandingLogo} alt="brand-logo" className="logo-image" />
+          <p className="logo-description">
+            The Chaeul Beauty logo is inspired by the Chinese character ‘美
+            (Mi)’, meaning beauty, reimagined in the abstract form of a
+            blossoming flower. Flowers are a timeless symbol of beauty, and
+            here, the flower sits at the center of the design to represent
+            elegance and harmony. The surrounding circular frame reflects the
+            word ‘Chaeul (채울)’, which means "to fill" or "to complete" in
+            Korean. Together, the logo conveys the philosophy of filling life
+            with beauty, both inside and out. This elegant and minimal design
+            captures the essence of refined natural beauty, aligning with the
+            brand’s core mission.
+          </p>
+        </div>
         <div className="image-gallery">
           <img src={PhoneFrame} alt="Mockup Design" className="mockup-design" />
           {/* <video width="360" height="720" controls>
@@ -208,17 +214,35 @@ const ChaeulBeauty = () => {
           This design reflects the client's artistic style and makes the process
           of booking an appointment easy and clear for potential clients.
         </p>
-        <div className="image-gallery">
+        <div className="final-gallery">
           <div className="final-product">
             {/* <img src={FinalGif} alt="Final Design" className="final-product" /> */}
-            <video
+            {/* <video
               width="360"
               height="720"
               // style={{ borderRadius: "5%" }}
               controls
             >
               <source src={hiFiVideo} type="video/mp4" />
-            </video>
+            </video> */}
+            <iframe
+              title="Chaeul Beauty Figma Prototype"
+              style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+              width="800"
+              height="450"
+              src="https://embed.figma.com/design/WVezNJe7PEMdTMI1ooz2GZ/Chaeul-Mi?node-id=166-685&embed-host=share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="prototype-link">
+            <a
+              href="https://www.figma.com/proto/WVezNJe7PEMdTMI1ooz2GZ/Chaeul-Mi?page-id=166%3A685&node-id=166-737&p=f&viewport=468%2C270%2C0.1&t=9AggI19hn21r7GdZ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=166%3A737&show-proto-sidebar=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              View Hi-fi prototype
+            </a>
           </div>
         </div>
       </section>
