@@ -1,0 +1,114 @@
+/* 애니메이션 효과 */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.case-study-container {
+  background-color: #ffffff;
+  color: #333;
+  padding: 40px;
+  padding-top: 80px;
+  max-width: 1200px;
+  margin: 40px auto;
+  line-height: 1.6;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.case-study-header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.case-study-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.case-study-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #555;
+}
+
+.section-title {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.case-study-section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.video-wrapper {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  background-color: #4c5fd5;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3b4cc0;
+}
+
+@media (max-width: 768px) {
+  .case-study-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio-image,
+  .video-wrapper iframe {
+    width: 100%;
+  }
+}
