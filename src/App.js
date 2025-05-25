@@ -11,6 +11,7 @@ import StudyPlan from "./components/pages/StudyPlan";
 import StyleSerenity from "./components/pages/StyleSerenity";
 
 function App() {
+  // Test commit
   return (
     <Router>
       <Navbar />
