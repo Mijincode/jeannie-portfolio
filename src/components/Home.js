@@ -39,23 +39,28 @@ export default function Home() {
 
   return (
     <section id="home" className="home" ref={sectionRef}>
+      {/* <section id="home" className="home"> */}
       <div className="home-container">
         <div className="home-content">
           <div className="text-column">
-            <h1 className="greeting">Hi, I'm Jeannie</h1>
-            <h2 className="greeting-title">
-              A UI/UX Designer & Full-Stack Developer
-            </h2>
+            <div>
+              {" "}
+              <h1 className="greeting">Jeannie Lee</h1>
+              <h2 className="greeting-title">
+                A UI/UX Designer & Full-Stack Developer{" "}
+              </h2>
+            </div>
+            <div>
+              <p className="description">
+                Driven by empathy, simplicity, and curiosity
+              </p>
+            </div>
           </div>
 
           <div className="image-column">
             <img src={image8} alt="Portrait" className="image-me" />
           </div>
         </div>
-
-        <p className="description">
-          Driven by empathy, simplicity, and curiosity
-        </p>
       </div>
     </section>
   );

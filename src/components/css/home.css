@@ -7,16 +7,21 @@
 .home-content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-top: 4rem;
   flex-wrap: wrap;
-  gap: 20rem;
+  gap: 4rem;
 }
 
 .text-column {
   flex: 1;
   min-width: 0;
-  margin-left: 0;
+
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
 }
 
 .greeting {
@@ -32,6 +37,8 @@
   color: #555;
   width: 100%;
   font-family: sans-serif;
+  display: flex;
+  margin-top: 30px;
 }
 
 .image-me {
@@ -62,8 +69,8 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
-  font-family: sans-serif;
+  margin-top: 70px;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -108,7 +115,7 @@
 }
 
 body {
-  background-color: #eee4e1;
+  /* background-color: #eee4e1; */
   margin: 0;
   padding: 0;
   font-family: sans-serif;
