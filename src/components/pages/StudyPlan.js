@@ -3,7 +3,7 @@ import "../pages/StudyPlan.css";
 import { useSpring, animated } from "react-spring";
 import projectData from "../ProjectData";
 
-const StudyPlan = () => {
+export default function StudyPlan() {
   const project = projectData["StudyPlan"];
 
   const fadeIn = useSpring({
@@ -42,7 +42,6 @@ const StudyPlan = () => {
           <li>JavaScript ES6+</li>
           <li>Custom REST APIs</li>
           <li>CSS Modules</li>
-          <li>Deployed on Netlify</li>
         </ul>
       </section>
 
@@ -90,6 +89,4 @@ const StudyPlan = () => {
       </section>
     </main>
   );
-};
-
-export default StudyPlan;
+}
