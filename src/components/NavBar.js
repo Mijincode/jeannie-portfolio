@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Logo from "./images/jeannieLogo.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -47,7 +48,7 @@ export default function Navbar() {
             className="navbar-brand"
             onClick={() => scrollToSection("home")}
           >
-            Jeannie's Portfolio
+            <img src={Logo} alt="jeannie-logo" className="logo" />
           </Link>
 
           <button className="hamburger" onClick={toggleMenu}>
