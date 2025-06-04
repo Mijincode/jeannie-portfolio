@@ -1,7 +1,7 @@
 import chaeumImg from "./images/chaeulBeauty/chaeTwo.png";
 import SerenityImg from "./images/styleSerenity/styleSerenity.png";
 import LmsImg from "./images/LMS/Frame6.png";
-import LaptopHappy from "./images/happyToo/Frame5.png";
+import HappyTooImg from "./images/happyToo/Frame5.png";
 
 const projectData = {
   ChaeulBeauty: {
@@ -27,18 +27,18 @@ const projectData = {
     description:
       "This is a Learning Management System (LMS) web application for Future Leaders Network, enhancing educational experiences through interactive tools",
     videoSrc: "https://youtube.com/embed/Ub5G4wQfq_M",
-    githubUrl: "https://github.com/Mijincode/StudyPlanApp",
+    githubUrl: "https://github.com/Mijincode/LearningManagementSystem.git",
     link: "/projects/study-plan",
   },
 
   HappyToo: {
     hoverText: "Happy Too",
     // videoSrc: HappyTooVideo,
-    // img: HappyTooImg,
-    img: LaptopHappy,
+    img: HappyTooImg,
     description:
       "A Busniess Consulting web application designed for a small and medium business",
     webPage: "http://happytoo.netlify.app",
+    link: "/projects/happy-too",
   },
   // HappinessApp: {
   //   title: "Happiness Ranking",

@@ -9,13 +9,11 @@ import projectData from "./ProjectData";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Projects = () => {
+export default function Projects() {
   const sectionRef = useRef();
-
   useEffect(() => {
     const el = sectionRef.current;
-
-    ScrollTrigger.create({
+    const trigger = ScrollTrigger.create({
       trigger: el,
       start: "top center",
       end: "bottom center",
@@ -28,6 +26,7 @@ const Projects = () => {
 
   return (
     <section id="projects" ref={sectionRef}>
+      {/* <section id="projects" className="projects"> */}
       <div className="project-container">
         <h2 className="project-heading">Projects</h2>
         <div className="card-container">
@@ -49,6 +48,4 @@ const Projects = () => {
       </div>
     </section>
   );
-};
-
-export default Projects;
+}
