@@ -9,203 +9,107 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
   const sectionRef = useRef();
-  const peteRef = useRef();
-  const shoeRef = useRef();
 
   useEffect(() => {
     const el = sectionRef.current;
-    const pete = peteRef.current;
-    const shoe = shoeRef.current;
-    gsap.set(pete, { x: -200, rotation: -20, opacity: 0 });
-    gsap.set(shoe, { transformOrigin: "bottom center", y: 0, rotation: 0 });
 
-    const scrollTriggerInstance = ScrollTrigger.create({
+    const trigger = ScrollTrigger.create({
       trigger: el,
       start: "top center",
       end: "bottom center",
-
-      onEnter: () => {
-        gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
-        gsap.to("h1, h2, p, li", {
-          color: "#F9F9F6",
-          duration: 0.5,
-        });
-
-        gsap.to(pete, {
-          x: 0,
-          rotation: 20,
-          opacity: 1,
-          duration: 4,
-          ease: "power3.out",
-        });
-
-        const shoeBounce = gsap.timeline({ repeat: -1, yoyo: true });
-        shoeBounce
-          .to(shoe, {
-            y: -30,
-            rotation: 15,
-            duration: 0.4,
-            ease: "power1.inOut",
-          })
-          .to(shoe, {
-            y: 0,
-            rotation: -15,
-            duration: 0.4,
-            ease: "power1.inOut",
-          });
-      },
-      onLeave: () => {
-        gsap.to(pete, {
-          x: -200,
-          rotation: -20,
-          opacity: 0,
-          duration: 1,
-          ease: "power3.in",
-        });
-      },
-      onEnterBack: () => {
-        gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
-        gsap.to("h1, h2, p, li", {
-          color: "#F9F9F6",
-          duration: 0.5,
-        });
-
-        gsap.to(pete, {
-          x: 0,
-          rotation: 20,
-          opacity: 1,
-          duration: 1,
-          ease: "power3.out",
-        });
-
-        const shoeBounce = gsap.timeline({ repeat: -1, yoyo: true });
-        shoeBounce
-          .to(shoe, {
-            y: -30,
-            rotation: 15,
-            duration: 0.4,
-            ease: "power1.inOut",
-          })
-          .to(shoe, {
-            y: 0,
-            rotation: -15,
-            duration: 0.4,
-            ease: "power1.inOut",
-          });
-      },
-      onLeaveBack: () => {
-        gsap.to(pete, {
-          x: -200,
-          rotation: -20,
-          opacity: 0,
-          duration: 1,
-          ease: "power3.in",
-        });
-      },
+      onEnter: () => applyTheme(),
+      onEnterBack: () => applyTheme(),
     });
 
-    return () => {
-      if (scrollTriggerInstance) {
-        scrollTriggerInstance.kill();
-      }
-    };
+    function applyTheme() {
+      gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
+      gsap.to("h1, h2, p, li", { color: "#F9F9F6", duration: 0.5 });
+    }
+
+    return () => trigger.kill();
   }, []);
 
   return (
-    <section id="about" ref={sectionRef}>
+    // <section id="about" ref={sectionRef}>
+    <section id="about" className="about">
       <div className="about-container">
         <h2 className="about-heading">About Me</h2>
         <div className="about-content">
           <div className="sub-title-about">
-            <p>From Classrooms to Code</p>
+            <p>From Teaching to Tech</p>
           </div>
           <p>
-            My journey has been shaped by curiosity, creativity, and a deep
-            appreciation for the transformative power of technology. After
-            transitioning from the education sector to the tech industry, I’ve
-            been eager to explore how UI/UX design and full-stack development
-            can reshape digital experiences.
+            With a background in education, I bring both empathy and structured
+            thinking into tech. These skills naturally align with UX design —
+            understanding users, designing with clarity, and creating intuitive
+            journeys — as well as development, where logical thinking,
+            problem-solving, and communication are essential.
           </p>
           <p>
-            It all began in high school, when I first experimented with
-            Microsoft Office and explored the basics of coding. These early
-            experiences sparked a fascination with technology, even though I
-            initially pursued a teaching career. While inspiring students in the
-            classroom, my passion for technology quietly grew stronger in the
-            background, eventually guiding me to pursue a Graduate Certificate
-            in Information Technology (Web Development).
+            Now, with formal training in web development, I combine structured
+            thinking from my teaching career with creative problem-solving to
+            build meaningful digital solutions.
           </p>
+
           <div className="sub-title-about">
-            <p>Designing Beyond the Code</p>
+            <p>Design Meets Development</p>
           </div>
+
           <p>
-            As I delved deeper into the field, my passion naturally evolved
-            toward front-end development, UI/UX design, and crafting exceptional
-            user experiences. Now, I am fully immersed in the world of UI/UX
-            design, eager to make a meaningful impact by merging creativity with
-            technology.
+            As a designer and developer, I bring a unique perspective that
+            blends creative vision with technical execution. With hands-on
+            experience in both front-end development and UX/UI design, I craft
+            solutions that are not only beautiful—but also functional, scalable,
+            and user-focused.
           </p>
+
           <p>
-            In every project, I approach design with creativity and innovation,
-            always striving to build solutions that are both functional and
-            inspiring. I believe that the fusion of thoughtful design and
-            cutting-edge technology can break barriers, solve complex problems,
-            and leave a lasting mark on the digital world. Driven by a passion
-            for pushing the boundaries of what's possible, I continually strive
-            to create designs that prioritize creativity, functionality, and
-            seamless user experience. For me, this journey is not just about
-            coding and design—it's about crafting digital experiences that truly
-            make a difference.
+            I balance <strong>structured thinking</strong> with a strong sense
+            of <strong>user flow</strong>, always considering both the{" "}
+            <strong>client’s business goals</strong> and the{" "}
+            <strong>user’s perspective</strong>. My approach ensures the designs
+            I create are not only visually engaging, but also easy to build,
+            maintain, and scale in real-world projects.
           </p>
+
           <p>
-            Passionate about crafting visually engaging and user-friendly web
-            experiences. With a strong foundation in design and development, I
-            enjoy bringing ideas to life by focusing on aesthetics,
-            functionality, and seamless user interactions. My experience in
-            building responsive websites and intuitive interfaces allows me to
-            create digital solutions that are both beautiful and efficient.
-            Always eager to learn and grow, I strive to enhance user experiences
-            through thoughtful design and clean, maintainable code.
+            Whether I'm wireframing user journeys or coding responsive
+            interfaces, I focus on creating seamless experiences. I often
+            receive feedback such as <em>"detail-oriented"</em> and{" "}
+            <em>"beyond expectations"</em>, which reinforces that my
+            design-to-dev workflow delivers clarity and impact.
           </p>
-          <h2 className="education-heading">Education: </h2>
-          <ul className="leading-relaxed text-base">
-            <li className="flex items-center mb-4">
-              Graduate Certificate in Information Technology (Web Development) -
-              (QUT) | 2023 - 2024
+
+          <div className="sub-title-about">
+            <p>My Approach</p>
+          </div>
+          {/* 
+          <div className="key-points-box">
+            <h3 className="key-heading">My Approach</h3> */}
+          <ul className="key-points-list">
+            <li>
+              <strong>Design × Code Synergy:</strong> I design with
+              implementation in mind, making developer handoff smoother—or
+              skipping it entirely by building it myself.
             </li>
-            <li>Master of Teaching (Primary) - (QUT) | 2018 - 2021</li>
+            <li>
+              <strong>Structured Thinking:</strong> I plan user journeys and
+              content structure with precision.
+            </li>
+            <li>
+              <strong>Client-Centered UX:</strong> My work supports business
+              goals and delivers real value.
+            </li>
+            <li>
+              <strong>Developer Mindset:</strong> I write clean, maintainable
+              code to bring interfaces to life.
+            </li>
+            <li>
+              <strong>Pixel + Logic:</strong> Detail in visuals, and precision
+              in logic.
+            </li>
           </ul>
-        </div>
-        <div className="images-container">
-          <img
-            ref={peteRef}
-            src={peteCat}
-            alt="Pete the Cat"
-            className="pete-the-cat"
-            style={{
-              position: "absolute",
-              top: "80vh",
-              left: "10vw",
-              height: "40vh",
-              opacity: 0,
-              maxWidth: "100%",
-              transition: "opacity 1s ease-out",
-            }}
-          />
-          <img
-            ref={shoeRef}
-            src={shoe}
-            alt="Shoe"
-            className="shoe"
-            style={{
-              position: "absolute",
-              top: "90vh",
-              right: "8vw",
-              width: "20vw",
-              maxWidth: "90%",
-              transition: "transform 0.3s ease-in-out",
-            }}
-          />
+          {/* </div> */}
         </div>
       </div>
     </section>
