@@ -1,13 +1,10 @@
 import React from "react";
 import "../pages/ChaeulMiCaseStudyStyles.css";
-import brandingLogo from "../images/chaeulBeauty/logo.png";
 import PhoneFrame from "../images/chaeulBeauty/ChaeulAngle.png";
-import StickyNotes from "../images/chaeulBeauty/stickyNotes.jpeg";
-// import hiFiVideo from "../videos/hiFiPrototype.mp4";
 import { useSpring, animated } from "react-spring";
 import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
 
-const ChaeulBeauty = () => {
+export default function ChaeulBeauty() {
   const fadeIn = useSpring({
     opacity: 1,
     from: { opacity: 0 },
@@ -97,20 +94,6 @@ const ChaeulBeauty = () => {
               <Tooltip />
               <Legend />
             </PieChart>
-
-            {/* Image section */}
-            <div style={{ marginLeft: "30px", width: "400px" }}>
-              <img
-                src={StickyNotes}
-                alt="Related to research"
-                style={{
-                  width: "100%",
-                  height: "250px",
-                  borderRadius: "8px",
-                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-                }}
-              />
-            </div>
           </div>
         </div>
         <p className="persona">
@@ -168,7 +151,11 @@ const ChaeulBeauty = () => {
         </div>
 
         <div className="branding-descriptioin">
-          <img src={brandingLogo} alt="brand-logo" className="logo-image" />
+          <img
+            src="https://res.cloudinary.com/dmvngssd0/image/upload/v1748740064/logo_unyycj.png"
+            alt="brand-logo"
+            className="logo-image"
+          />
           <p className="logo-description">
             The Chaeul Beauty logo is inspired by the Chinese character ‘美
             (Mi)’, meaning beauty, reimagined in the abstract form of a
@@ -231,7 +218,7 @@ const ChaeulBeauty = () => {
               width="800"
               height="450"
               src="https://embed.figma.com/design/WVezNJe7PEMdTMI1ooz2GZ/Chaeul-Mi?node-id=166-685&embed-host=share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
           <div className="prototype-link">
@@ -283,6 +270,4 @@ const ChaeulBeauty = () => {
       </section>
     </main>
   );
-};
-
-export default ChaeulBeauty;
+}
