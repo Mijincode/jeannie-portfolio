@@ -4,7 +4,22 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
       <div className="image-container">
-        <img src={project.img} alt={project.title} className="project-image" />
+        {project.images ? (
+          project.images.map((imgSrc, index) => (
+            <img
+              key={index}
+              src={imgSrc}
+              alt={`${project.title || project.hoverText} ${index + 1}`}
+              className="project-image"
+            />
+          ))
+        ) : (
+          <img
+            src={project.img}
+            alt={project.title || project.hoverText}
+            className="project-image"
+          />
+        )}
 
         <div className="overlay-text">
           <p style={{ color: "black" }}>{project.hoverText}</p>

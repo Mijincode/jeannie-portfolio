@@ -58,9 +58,14 @@ export default function HappyToo() {
         <div className="case-block">
           <h2>3. Design References</h2>
           <p>
-            Client provided image samples to guide visual direction and tone.
+            Client provided a logo and image samples to guide visual direction.
           </p>
           <div className="reference-images">
+            <img
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1749015906/HappyToo_LOGO_2024_Business_2_iezlqm.png"
+              alt="Design Logo"
+              className="reference-logo"
+            />
             <img
               src="https://res.cloudinary.com/dmvngssd0/image/upload/v1748740090/reference_hntypk.webp"
               alt="Design Reference"
@@ -83,11 +88,11 @@ export default function HappyToo() {
           </p>
           <p>
             Another challenge was defining the visual direction and brand color
-            scheme. While the client provided a draft logo and some reference
-            images, creating a UI that felt trustworthy and aligned well with
-            the brand wasn’t easy. I went through several iterations balancing
-            background colors, buttons, and text styles—testing different
-            combinations until the overall tone felt cohesive and professional.
+            scheme. While the client provided a logo and a reference image,
+            creating a UI that felt trustworthy and aligned well with the brand
+            wasn’t easy. I went through several iterations balancing background
+            colors, buttons, and text styles—testing different combinations
+            until the overall tone felt cohesive and professional.
           </p>
 
           <p>
