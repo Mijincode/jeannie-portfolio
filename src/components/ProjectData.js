@@ -13,12 +13,14 @@ const projectData = {
     link: "/projects/chaeul-beauty",
   },
 
-  StyleSerenityEcommerce: {
-    hoverText: "Style Serenity",
-    img: SerenityImg,
+  HappyToo: {
+    hoverText: "Happy Too",
+    // videoSrc: HappyTooVideo,
+    img: HappyTooImg,
     description:
-      "A fashion e-commerce web application designed for a seamless shopping experience.",
-    link: "/projects/style-serenity",
+      "A Busniess Consulting web application designed for a small and medium business",
+    webPage: "http://happytoo.netlify.app",
+    link: "/projects/happy-too",
   },
 
   StudyPlan: {
@@ -31,15 +33,14 @@ const projectData = {
     link: "/projects/study-plan",
   },
 
-  HappyToo: {
-    hoverText: "Happy Too",
-    // videoSrc: HappyTooVideo,
-    img: HappyTooImg,
+  StyleSerenityEcommerce: {
+    hoverText: "Style Serenity",
+    img: SerenityImg,
     description:
-      "A Busniess Consulting web application designed for a small and medium business",
-    webPage: "http://happytoo.netlify.app",
-    link: "/projects/happy-too",
+      "A fashion e-commerce web application designed for a seamless shopping experience.",
+    link: "/projects/style-serenity",
   },
+
   // HappinessApp: {
   //   title: "Happiness Ranking",
   //   videoSrc: "https://www.youtube.com/embed/U-Vrown8XYM",
