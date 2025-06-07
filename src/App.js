@@ -10,6 +10,7 @@ import ChaeulBeauty from "./components/pages/ChaeulBeauty";
 import StudyPlan from "./components/pages/StudyPlan";
 import StyleSerenity from "./components/pages/StyleSerenity";
 import HappyToo from "./components/pages/HappyToo";
+import HMRedesign from "./components/pages/HMRedesign";
 
 function App() {
   // Test commit
@@ -35,6 +36,7 @@ function App() {
         <Route path="/projects/style-serenity" element={<StyleSerenity />} />
         <Route path="/projects/study-plan" element={<StudyPlan />} />
         <Route path="/projects/happy-too" element={<HappyToo />} />
+        <Route path="/projects/hm-redesign" element={<HMRedesign />} />
       </Routes>
     </Router>
   );

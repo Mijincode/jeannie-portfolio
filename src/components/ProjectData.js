@@ -2,6 +2,8 @@ import chaeumImg from "./images/chaeulBeauty/chaeTwo.png";
 import SerenityImg from "./images/styleSerenity/styleSerenity.png";
 import LmsImg from "./images/LMS/Frame6.png";
 import HappyTooImg from "./images/happyToo/Frame5.png";
+import HappyIphone from "./images/happyToo/iPhone.png";
+import HMImg from "./images/hm.png";
 
 const projectData = {
   ChaeulBeauty: {
@@ -16,6 +18,10 @@ const projectData = {
   HappyToo: {
     hoverText: "Happy Too",
     // videoSrc: HappyTooVideo,
+    // img: [
+    //   "https://res.cloudinary.com/dmvngssd0/image/upload/v1748740097/Frame5_zke9sk.png",
+    //   "https://res.cloudinary.com/dmvngssd0/image/upload/v1748740095/iPhone15_ed41gn.png",
+    // ],
     img: HappyTooImg,
     description:
       "A Busniess Consulting web application designed for a small and medium business",
@@ -31,6 +37,14 @@ const projectData = {
     videoSrc: "https://youtube.com/embed/Ub5G4wQfq_M",
     githubUrl: "https://github.com/Mijincode/LearningManagementSystem.git",
     link: "/projects/study-plan",
+  },
+
+  HMCaseStudy: {
+    hoverText: "H&M UX Redesign",
+    img: HMImg,
+    description:
+      "A UX redesign concept based on user pain points from the existing H&M site.",
+    link: "/projects/hm-redesign",
   },
 
   StyleSerenityEcommerce: {
