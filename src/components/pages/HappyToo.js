@@ -219,10 +219,6 @@ export default function HappyToo() {
             <li>Integrated contact forms and Kakao chat</li>
             <li>Deployed using Netlify</li>
           </ul>
-          <img
-            src="https://res.cloudinary.com/dmvngssd0/video/upload/v1749006655/iphone-zoom-out_qesvyk.mp4"
-            alt="Hi Fidelity Wireframe 1"
-          />
         </div>
 
         <div className="case-block">
