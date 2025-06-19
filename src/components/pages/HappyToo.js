@@ -204,7 +204,7 @@ export default function HappyToo() {
               style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
               width="800"
               height="450"
-              src="https://embed.figma.com/proto/L9vPludzgsSKq5kI5509Oj/Happy-Too?page-id=1%3A114&node-id=79-65&p=f&viewport=106%2C156%2C0.06&scaling=scale-down&content-scaling=fixed&starting-point-node-id=79%3A65&embed-host=share"
+              src="https://embed.figma.com/design/L9vPludzgsSKq5kI5509Oj/Happy-Too?node-id=162-624&embed-host=share"
               allowFullScreen
               title="hi-fi"
             ></iframe>
