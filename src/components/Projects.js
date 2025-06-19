@@ -11,8 +11,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Projects() {
   const sectionRef = useRef();
+
   useEffect(() => {
     const el = sectionRef.current;
+
     const trigger = ScrollTrigger.create({
       trigger: el,
       start: "top center",
@@ -22,6 +24,10 @@ export default function Projects() {
       onEnterBack: () =>
         gsap.to("body", { backgroundColor: "#4224D2", duration: 0.5 }),
     });
+
+    return () => {
+      trigger.kill();
+    };
   }, []);
 
   return (

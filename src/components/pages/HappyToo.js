@@ -206,6 +206,7 @@ export default function HappyToo() {
               height="450"
               src="https://embed.figma.com/proto/L9vPludzgsSKq5kI5509Oj/Happy-Too?page-id=1%3A114&node-id=79-65&p=f&viewport=106%2C156%2C0.06&scaling=scale-down&content-scaling=fixed&starting-point-node-id=79%3A65&embed-host=share"
               allowFullScreen
+              title="hi-fi"
             ></iframe>
           </div>
         </div>

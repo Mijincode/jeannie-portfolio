@@ -2,7 +2,6 @@ import chaeumImg from "./images/chaeulBeauty/chaeTwo.png";
 import SerenityImg from "./images/styleSerenity/styleSerenity.png";
 import LmsImg from "./images/LMS/Frame6.png";
 import HappyTooImg from "./images/happyToo/Frame5.png";
-import HappyIphone from "./images/happyToo/iPhone.png";
 import HMImg from "./images/hm.png";
 
 const projectData = {
