@@ -95,21 +95,9 @@
   pointer-events: none;
 }
 
-/* .project-video {
-  position: absolute;
-  top: 30px;
-  left: 72px;
-  width: 430px;
-  height: 260px;
-  border: none;
-  object-fit: cover;
-  z-index: 1;
-  border-radius: 4px;
-} */
-
 .project-video {
   position: absolute;
-  top: 10%;
+  top: 13%;
   left: 12.6%;
   width: 75%;
   height: 70%;
