@@ -36,6 +36,7 @@
 }
 
 .image-container {
+  position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -45,12 +46,6 @@
   justify-content: center;
 }
 
-/* .project-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cotain;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-} */
 .project-image {
   max-height: 400px;
   width: auto;
@@ -81,6 +76,47 @@
 
 .image-container:hover .overlay-text {
   opacity: 1;
+}
+
+.laptop-frame {
+  position: relative;
+  width: 570px;
+  height: auto;
+  margin: 0 auto;
+  aspect-ratio: 570 / 370;
+}
+
+.frame-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* .project-video {
+  position: absolute;
+  top: 30px;
+  left: 72px;
+  width: 430px;
+  height: 260px;
+  border: none;
+  object-fit: cover;
+  z-index: 1;
+  border-radius: 4px;
+} */
+
+.project-video {
+  position: absolute;
+  top: 10%;
+  left: 12.6%;
+  width: 75%;
+  height: 70%;
+  border: none;
+  object-fit: cover;
+  z-index: 1;
+  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
