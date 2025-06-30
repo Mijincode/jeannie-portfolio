@@ -1,4 +1,5 @@
 import React from "react";
+import LaptopFrame from "./images/laptop.png";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -13,13 +14,23 @@ const ProjectCard = ({ project }) => {
               className="project-image"
             />
           ))
-        ) : (
+        ) : project.img ? (
           <img
             src={project.img}
             alt={project.title || project.hoverText}
             className="project-image"
           />
-        )}
+        ) : project.videoSrc ? (
+          <div className="laptop-frame">
+            <img src={LaptopFrame} alt="Laptop Frame" className="frame-img" />
+            <iframe
+              src={project.videoSrc}
+              title={project.title || "Video Project"}
+              className="project-video"
+              allowFullScreen
+            />
+          </div>
+        ) : null}
 
         <div className="overlay-text">
           <p style={{ color: "black" }}>{project.hoverText}</p>
