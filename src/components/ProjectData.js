@@ -54,28 +54,28 @@ const projectData = {
     link: "/projects/style-serenity",
   },
 
-  // HappinessApp: {
-  //   title: "Happiness Ranking",
-  //   videoSrc: "https://www.youtube.com/embed/U-Vrown8XYM",
-  //   description:
-  //     "A React-based web application for analyzing happiness survey data, enabling users to filter and visualize information across demographics.",
-  //   githubUrl: "https://github.com/Mijincode/HappinessApp",
-  // },
+  HappinessApp: {
+    title: "Happiness Ranking",
+    videoSrc: "https://www.youtube.com/embed/U-Vrown8XYM",
+    description:
+      "A React-based web application for analyzing happiness survey data, enabling users to filter and visualize information across demographics.",
+    githubUrl: "https://github.com/Mijincode/HappinessApp",
+  },
 
-  // FlightRoutes: {
-  //   title: "Flight Routes and Airports",
-  //   videoSrc: "https://www.youtube.com/embed/n7On5x0mXxo",
-  //   description:
-  //     "This interactive platform allows users to explore flight routes and airport information across Australia.",
-  //   githubUrl: "https://github.com/Mijincode/FlightRoutes",
-  // },
+  FlightRoutes: {
+    title: "Flight Routes and Airports",
+    videoSrc: "https://www.youtube.com/embed/n7On5x0mXxo",
+    description:
+      "This interactive platform allows users to explore flight routes and airport information across Australia.",
+    githubUrl: "https://github.com/Mijincode/FlightRoutes",
+  },
 
-  // MovieApp: {
-  //   title: "Movie Search",
-  //   videoSrc: "https://www.youtube.com/embed/kMa4L73EOr8",
-  //   description:
-  //     "A movie search app that features user authentication, movie detail lookups via IMDb, and image upload for movie posters.",
-  //   githubUrl: "https://github.com/Mijincode/MovieApp",
-  // },
+  MovieApp: {
+    title: "Movie Search",
+    videoSrc: "https://www.youtube.com/embed/kMa4L73EOr8",
+    description:
+      "A movie search app that features user authentication, movie detail lookups via IMDb, and image upload for movie posters.",
+    githubUrl: "https://github.com/Mijincode/MovieApp",
+  },
 };
 export default projectData;
