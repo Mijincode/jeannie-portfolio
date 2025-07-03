@@ -1,4 +1,16 @@
-/* 애니메이션 효과 */
+/* ChaulMi case study page css */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -8,29 +20,9 @@
   }
 }
 
-.case-study-container {
-  background-color: white;
-  color: #333;
-  padding: 40px;
-  padding-top: 80px;
-  max-width: 1200px;
-  margin: 40px auto;
-  line-height: 1.6;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 .case-study-header {
   margin-bottom: 40px;
   text-align: center;
-}
-
-.case-study-title {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #333;
-  animation: fadeIn 1s ease-in-out;
 }
 
 .case-study-subtitle {
@@ -99,7 +91,7 @@
   margin-top: 30px;
 }
 
-.branding-descriptioin {
+.branding-description {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -334,21 +326,12 @@
 }
 
 @media (max-width: 768px) {
-  .case-study-title {
-    font-size: 2rem;
+  .case-study-container {
+    padding: 1rem;
+    margin: 0;
   }
 
-  .case-block {
-    padding: 1.5rem;
-  }
-
-  .comparison-table th,
-  .comparison-table td {
-    font-size: 0.9rem;
-  }
-}
-@media (max-width: 768px) {
-  .research-chart {
+  .mockup-images {
     flex-direction: column;
     align-items: center;
   }
@@ -357,13 +340,39 @@
     max-width: 100%;
   }
 
-  .final-product iframe {
-    width: 100%;
-    height: auto;
+  .branding-description {
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem 0;
   }
 
-  .cta-button a {
-    font-size: 1rem;
-    padding: 8px 16px;
+  .logo-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .logo-description {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .comparison-img {
+    width: 100%;
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    font-size: 0.85rem;
+  }
+
+  .case-block h2 {
+    font-size: 1.5rem;
+  }
+
+  .case-block {
+    padding: 1.2rem;
   }
 }

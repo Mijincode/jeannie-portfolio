@@ -1,5 +1,6 @@
 import React from "react";
-import "../pages/ChaeulMiCaseStudyStyles.css";
+import "../pages/ChaeulBeauty.css";
+
 // import PhoneFrame from "../images/chaeulBeauty/ChaeulAngle.png";
 // import { useSpring, animated } from "react-spring";
 // import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
