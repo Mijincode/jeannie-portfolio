@@ -1,0 +1,153 @@
+/** Family Nutrients case study page css*/
+
+.case-study-section {
+  background-color: #fffefc;
+  padding: 5rem 2rem;
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  color: #222;
+  line-height: 1.75;
+}
+
+.case-study-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.case-study-title {
+  font-size: 3rem;
+  color: #e4aa3f;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.case-block {
+  margin-bottom: 4rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #fdfaf5;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.case-block h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  border-left: 6px solid #e4aa3f;
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.case-block p,
+.case-block li {
+  font-size: 1.05rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+
+.case-block ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.process-step h3 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.section-label {
+  font-weight: 700;
+  margin: 2.5rem 0 1rem;
+  font-size: 1.25rem;
+  color: #555;
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.85rem 1.6rem;
+  margin: 0.5rem 1rem 0 0;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #e4aa3f;
+  color: #000;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn.secondary {
+  background-color: #333;
+  color: #fff;
+}
+
+.cta-btn:hover {
+  background-color: #d3982d;
+}
+
+.reference,
+.user-flow-img {
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin: 1rem auto;
+}
+
+.wireframes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.wireframes-grid img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
+}
+
+.reference-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.reference-logo,
+.reference-img {
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .case-study-title {
+    font-size: 2.25rem;
+  }
+
+  .case-block {
+    padding: 1.5rem;
+  }
+
+  .case-block h2 {
+    font-size: 1.5rem;
+  }
+
+  .wireframes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-btn {
+    display: block;
+    width: 100%;
+    margin: 0.75rem;
+  }
+}
