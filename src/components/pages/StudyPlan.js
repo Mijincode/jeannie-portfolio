@@ -127,7 +127,26 @@ export default function StudyPlan() {
       </section>
 
       <section className="case-study-section">
-        <h2 className="section-title">7. Demo & Code</h2>
+        <h2 className="section-title">7. Outcomes & Reflections</h2>
+        <ul>
+          <li>
+            ✅ Successfully delivered student dashboard with real-time features
+          </li>
+          <li>✅ Improved collaboration skills through Agile team workflows</li>
+          <li>
+            ✅ Learned to balance technical feasibility with UX priorities
+          </li>
+        </ul>
+        <p>
+          Working on a real-world team taught me to prioritize both code and
+          communication. I focused on clean, reusable front-end logic while
+          making sure student flows remained intuitive. I also deepened my
+          understanding of how UI supports educational outcomes.
+        </p>
+      </section>
+
+      <section className="case-study-section">
+        <h2 className="section-title">8. Demo & Code</h2>
         <div className="video-wrapper">
           <iframe
             width="100%"
@@ -157,25 +176,6 @@ export default function StudyPlan() {
             Visit Live App
           </a>
         </div>
-      </section>
-
-      <section className="case-study-section">
-        <h2 className="section-title">8. Outcomes & Reflections</h2>
-        <ul>
-          <li>
-            ✅ Successfully delivered student dashboard with real-time features
-          </li>
-          <li>✅ Improved collaboration skills through Agile team workflows</li>
-          <li>
-            ✅ Learned to balance technical feasibility with UX priorities
-          </li>
-        </ul>
-        <p>
-          Working on a real-world team taught me to prioritize both code and
-          communication. I focused on clean, reusable front-end logic while
-          making sure student flows remained intuitive. I also deepened my
-          understanding of how UI supports educational outcomes.
-        </p>
       </section>
     </main>
   );
