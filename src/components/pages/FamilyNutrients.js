@@ -100,7 +100,7 @@ export default function FamilyNutrients() {
               <p className="section-label">Low-Fi</p>
               <div className="wireframes-grid">
                 <img
-                  src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751496571/20250701_001301_lbmq0y.png"
+                  src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751589823/20250701_001301_hclqyx.png"
                   alt="Low Fidelity Wireframe 1"
                 />
               </div>
@@ -118,6 +118,10 @@ export default function FamilyNutrients() {
                 <img
                   src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495198/Detail_Recipe_Page_-_Ingredients_-1_mbreze.png"
                   alt="Hi Fidelity Wireframe 3"
+                />
+                <img
+                  src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495206/Delete_recipe_fp84b4.png"
+                  alt="Hi Fidelity Wireframe 4"
                 />
               </div>
             </div>
@@ -139,6 +143,14 @@ export default function FamilyNutrients() {
               handoff with documentation, organized components, and design specs
               to front-end developer.
             </p>
+            <iframe
+              style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+              width="800"
+              height="450"
+              src="https://embed.figma.com/design/bliM6ebweIBktbQA6FDPDK/Doig-s-recipe?node-id=0-1&embed-host=share"
+              allowFullScreen
+              title="prototype"
+            ></iframe>
           </div>
         </div>
 
