@@ -1,7 +1,9 @@
 import React from "react";
 import "./HappyToo.css";
+import projectData from "../ProjectData";
 
 export default function HappyToo() {
+  const project = projectData["HappyToo"];
   return (
     <section className="case-study-section">
       <div className="case-study-container">
@@ -206,7 +208,7 @@ export default function HappyToo() {
               height="450"
               src="https://embed.figma.com/design/L9vPludzgsSKq5kI5509Oj/Happy-Too?node-id=162-624&embed-host=share"
               allowFullScreen
-              title="hi-fi"
+              title="prototype"
             ></iframe>
           </div>
         </div>
@@ -271,26 +273,24 @@ export default function HappyToo() {
         <div className="case-block">
           <h2>8. Links & Resources</h2>
           <ul>
-            <li>
-              <strong>Live Site:</strong>{" "}
+            <div className="button-group">
               <a
-                href="https://happytoo.netlify.app"
+                href={project.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="button"
               >
-                happytoo.netlify.app
+                View GitHub
               </a>
-            </li>
-            <li>
-              <strong>GitHub Repo:</strong>{" "}
               <a
-                href="https://github.com/Mijincode/happytoo"
+                href={project.webPage}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="button"
               >
-                github.com/Mijincode/happytoo
+                Visit Live App
               </a>
-            </li>
+            </div>
             <li>
               <strong>Figma File:</strong> Available upon request
             </li>
