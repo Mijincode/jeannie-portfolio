@@ -13,19 +13,16 @@ const projectData = {
     description:
       "A beauty tattoo web application for my client in South Korea to enhance customer engagement and operational efficiency.",
     link: "/projects/chaeul-beauty",
+    githubUrl: "https://github.com/Mijincode/Chaeul_mi",
   },
 
   HappyToo: {
     hoverText: "Happy Too",
-    // videoSrc: HappyTooVideo,
-    // img: [
-    //   "https://res.cloudinary.com/dmvngssd0/image/upload/v1748740097/Frame5_zke9sk.png",
-    //   "https://res.cloudinary.com/dmvngssd0/image/upload/v1748740095/iPhone15_ed41gn.png",
-    // ],
     img: HappyTooImg,
     description:
       "A Busniess Consulting web application designed for a small and medium business",
     webPage: "http://happytoo.netlify.app",
+    githubUrl: "https://github.com/Mijincode/HappyToo",
     link: "/projects/happy-too",
   },
 
@@ -45,12 +42,14 @@ const projectData = {
     link: "/projects/family-nutrients",
   },
 
-  StyleSerenityEcommerce: {
+  StyleSerenity: {
     hoverText: "Style Serenity",
     img: SerenityImg,
     description:
       "A fashion e-commerce web application designed for a seamless shopping experience.",
     link: "/projects/style-serenity",
+    videoSrc: "https://youtube.com/embed/fN1HkiEuzVA",
+    githubUrl: "https://github.com/Mijincode/StyleSerenity",
   },
 
   StudyPlan: {
@@ -59,7 +58,7 @@ const projectData = {
     description:
       "Many students struggle to find personalized educational tools thatadapt to their pace and goals. The project was initiated in response to challenges observed by Scott Ko (FNs Network), who noted how rigid, standardized learning structures fail to serve students with varied learning journeys. This LMS addresses that gap through customizable learning plans.",
     videoSrc: "https://youtube.com/embed/Ub5G4wQfq_M",
-    githubUrl: "https://github.com/Mijincode/LearningManagementSystem.git",
+    githubUrl: "https://github.com/Mijincode/LearningManagementSystem",
     link: "/projects/study-plan",
   },
 
