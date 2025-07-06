@@ -203,7 +203,7 @@ export default function HappyToo() {
               iterating based on client feedback.
             </p>
             <div className="iframe-container">
-              <p className="section-label">Prototype</p>
+              <p className="section-label"></p>
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
                 width="800"
@@ -237,51 +237,50 @@ export default function HappyToo() {
         </div>
 
         <div className="case-block">
-          <h2>9. Outcome & Reflections</h2>
+          <h2>9. Outcome </h2>
           <ul>
             <li>Delivered a polished website tailored for SMBs</li>
             <li>Improved project management and design communication skills</li>
             <li>Learned the importance of visual clarity and CTA placement</li>
           </ul>
+        </div>
+        <div className="case-block">
+          <h2>10. Reflection</h2>
+          <p>
+            This project taught me that design isn’t just about creating
+            something visually pleasing—it’s about aligning the user experience
+            with business goals and ensuring brand consistency.
+          </p>
+          <p>
+            As a designer, I strengthened my ability to interpret client needs
+            and translate them into visual solutions that communicate brand
+            identity effectively.
+          </p>
+          <p>
+            Another key insight was recognizing how critical strategic CTA
+            (Call-To-Action) design is in driving user behavior. A client
+            discussion on button interaction logic prompted a deeper exploration
+            into how CTAs support the broader user journey.
+          </p>
+          <p>
+            Rather than treating buttons as simple interface elements, I
+            approached them as intentional touchpoints—evaluating their
+            hierarchy, copy, placement, and animations to create seamless,
+            persuasive user flows. This ensured each interaction had a purpose,
+            whether guiding users to initiate a Kakao chat or converting
+            interest into action.
+          </p>
 
-          <div className="relection-box">
-            <h3>Key Takeaways</h3>
-            <p>
-              This project taught me that design isn’t just about creating
-              something visually pleasing—it’s about aligning the user
-              experience with business goals and ensuring brand consistency.
-            </p>
-            <p>
-              As a designer, I strengthened my ability to interpret client needs
-              and translate them into visual solutions that communicate brand
-              identity effectively.
-            </p>
-            <p>
-              Another key insight was recognizing how critical strategic CTA
-              (Call-To-Action) design is in driving user behavior. A client
-              discussion on button interaction logic prompted a deeper
-              exploration into how CTAs support the broader user journey.
-            </p>
-            <p>
-              Rather than treating buttons as simple interface elements, I
-              approached them as intentional touchpoints—evaluating their
-              hierarchy, copy, placement, and animations to create seamless,
-              persuasive user flows. This ensured each interaction had a
-              purpose, whether guiding users to initiate a Kakao chat or
-              converting interest into action.
-            </p>
-
-            <p>
-              Through this process, I developed a deeper appreciation for the
-              psychology behind interaction design, and the power of thoughtful
-              visual persuasion.
-            </p>
-            <p>
-              Overall, this experience helped me understand how to balance UI
-              and UX effectively while connecting design decisions to business
-              strategy.
-            </p>
-          </div>
+          <p>
+            Through this process, I developed a deeper appreciation for the
+            psychology behind interaction design, and the power of thoughtful
+            visual persuasion.
+          </p>
+          <p>
+            Overall, this experience helped me understand how to balance UI and
+            UX effectively while connecting design decisions to business
+            strategy.
+          </p>
         </div>
         <div className="case-block">
           <h2>8. Links & Resources</h2>
