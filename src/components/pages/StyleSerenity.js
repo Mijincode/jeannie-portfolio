@@ -46,69 +46,108 @@ export default function StyleSerenity() {
         </div>
 
         <div className="case-block">
-          <h2>3. Home Page</h2>
-          <img
-            src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751590814/1_algsti.png"
-            alt="Home Page Screenshot"
-            className="full-img"
-          />
+          <h2>3. Design Process</h2>
           <p>
-            The homepage includes a full-width hero image, clean nav bar, and a
-            grid of product categories. Pink tones and rounded buttons reflect a
-            soft, feminine aesthetic.
+            <strong>1. Empathize:</strong> I began by identifying the target
+            audience: fashion-conscious online shoppers, often browsing on
+            mobile. I reviewed trends in modern eCommerce, conducted light
+            competitor analysis, and noted pain points—such as cluttered
+            layouts, confusing navigation, and poor mobile responsiveness.
+          </p>{" "}
+          <p>
+            <strong>2. Define:</strong> The goal was to design a clean,
+            feminine, and efficient shopping experience. The core needs were: -
+            simple navigation, - quick product comparison, and - a stress-free
+            path to checkout.
+          </p>{" "}
+          <p>
+            <strong>3. Ideate:</strong> I wireframed multiple homepage and
+            product layouts, exploring ways to group categories, display
+            trending items, and keep CTAs prominent. I also planned a minimal
+            admin panel for non-developers to easily manage inventory.
+          </p>{" "}
+          <p>
+            <strong>4. Prototype:</strong> I built high-fidelity mockups using
+            pink tones and soft shapes to reflect a feminine aesthetic. Each
+            section was tested for visual clarity and responsive behavior.
+          </p>{" "}
+          <p>
+            <strong>5. Test & Iterate:</strong> I shared the prototype with
+            peers for feedback. Based on responses, I improved image-to-text
+            balance, clarified product detail layouts, and ensured mobile
+            layouts felt just as intuitive.
+          </p>{" "}
+          <p>
+            This process led to a focused, visually inviting eCommerce
+            experience with clearly segmented product views and simple admin
+            tools.
           </p>
         </div>
 
         <div className="case-block">
-          <h2>4. Product Grid</h2>
-          <img
-            src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751590797/2_wuqftd.png"
-            alt="Product Grid"
-            className="full-img"
-          />
-          <p>
-            Users can browse trending items easily, with sale labels and price
-            comparisons visible. Each product card includes a thumbnail, short
-            description, and "View" button to access details.
-          </p>
-        </div>
+          <h2>4. Low Fidelity Wireframes</h2>
+          <div className="wireframes-grid-styleSerenity">
+            <div>
+              <p className="section-label">Landing Page</p>
+              <img
+                src=" https://res.cloudinary.com/dmvngssd0/image/upload/v1751590748/LandingPage-Desktop_yr4mxv.png"
+                alt="Home Page Screenshot"
+              />
+            </div>
 
-        <div className="case-block">
-          <h2>5. Product Detail Page</h2>
-          <img
-            src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751590808/5_f8hk7w.png"
-            alt="Product Detail Page"
-            className="full-img"
-          />
-          <p>
-            The detail view provides full product specifications, size
-            measurements, stock levels, and purchase options. It's designed to
-            minimize hesitation and maximize clarity before checkout.
-          </p>
+            <div>
+              <p className="section-label">Product Detail Page</p>
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751590754/Productpage_cabsqe.png"
+                alt="Home Page Screenshot"
+              />
+            </div>
+            <div>
+              <p className="section-label">Admin Panel</p>
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751590745/Addproduct_vv13cb.png"
+                alt="Home Page Screenshot"
+              />
+            </div>
+          </div>
         </div>
-
+        {/* 3. Hi-Fi Designs */}
         <div className="case-block">
-          <h2>6. Admin Panel — Add Product</h2>
-          <p>
-            To support product updates without needing a developer, I designed a
-            simple admin panel that allows for adding, updating, and deleting
-            products. The interface includes:
-          </p>
-          <ul>
-            <li>Text inputs for name, category, stock, and price</li>
-            <li>File upload for product image</li>
-            <li>CRUD buttons for create, update, and delete</li>
-          </ul>
-          <p>
-            This made the storefront easier to maintain for non-technical users,
-            enabling fast updates and inventory control without backend
-            complexity.
-          </p>
-          <img
-            src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751591501/9_pl2cd0.png"
-            alt="Add Product Page"
-            className="full-img"
-          />
+          <h2>5. High-Fidelity Designs</h2>
+
+          <div className="wireframes-grid-styleSerenity">
+            <div>
+              <p className="section-label">Homepage</p>
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751590355/1_afvdrf.png"
+                alt="Home Page Screenshot"
+              />
+            </div>
+
+            <div>
+              <p className="section-label">Hompage (Product Grid)</p>
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751590797/2_wuqftd.png"
+                alt="Product Grid"
+              />
+            </div>
+
+            <div>
+              <p className="section-label">Product Detail Page</p>
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751590808/5_f8hk7w.png"
+                alt="Product Detail Page"
+              />
+            </div>
+
+            <div>
+              <p className="section-label">Admin Panel</p>
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751591501/9_pl2cd0.png"
+                alt="Admin Panel"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="case-block">
