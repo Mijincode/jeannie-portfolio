@@ -384,6 +384,7 @@ export default function ChaeulBeauty() {
 
         <div className="case-block">
           <h2>10. Links & Resources</h2>
+          <strong>Figma File:</strong> Available upon request
           <div className="button-group">
             <a
               href={project.githubUrl}
@@ -402,11 +403,6 @@ export default function ChaeulBeauty() {
               Visit Live App
             </a>
           </div>
-          <ul>
-            <li>
-              <strong>Figma File:</strong> Available upon request
-            </li>
-          </ul>
         </div>
       </div>
     </section>

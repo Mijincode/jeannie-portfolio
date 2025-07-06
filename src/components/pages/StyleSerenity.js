@@ -169,6 +169,7 @@ export default function StyleSerenity() {
 
         <div className="case-study-section">
           <h2 className="section-title">8. Demo & Code</h2>
+          <strong>Figma File:</strong> Available upon request
           <div className="video-wrapper">
             <strong>Live Demo:</strong>{" "}
             <iframe

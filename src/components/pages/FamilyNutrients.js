@@ -168,8 +168,8 @@ export default function FamilyNutrients() {
                 title="user-flow"
               ></iframe>
             </div>
+            <p className="section-label">Prototype</p>
             <div className="iframe-container">
-              <p className="section-label">Prototype</p>
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
                 width="800"

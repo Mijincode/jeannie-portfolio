@@ -202,8 +202,8 @@ export default function HappyToo() {
               Created high-fidelity mockups and interactive prototypes in Figma,
               iterating based on client feedback.
             </p>
+            <p className="section-label">Prototype</p>
             <div className="iframe-container">
-              <p className="section-label"></p>
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
                 width="800"
@@ -214,14 +214,13 @@ export default function HappyToo() {
               ></iframe>
             </div>
             <div className="iframe-container">
-              <p className="section-label">Prototype</p>
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
                 width="800"
                 height="450"
                 src="https://embed.figma.com/design/L9vPludzgsSKq5kI5509Oj/Happy-Too?node-id=162-624&embed-host=share"
                 allowFullScreen
-                title="prototype"
+                title="User-flow"
               ></iframe>
             </div>
           </div>
@@ -285,29 +284,25 @@ export default function HappyToo() {
         </div>
         <div className="case-block">
           <h2>8. Links & Resources</h2>
-          <ul>
-            <div className="button-group">
-              <a
-                href={project.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="button"
-              >
-                View GitHub
-              </a>
-              <a
-                href={project.webPage}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="button"
-              >
-                Visit Live App
-              </a>
-            </div>
-            <li>
-              <strong>Figma File:</strong> Available upon request
-            </li>
-          </ul>
+          <strong>Figma File:</strong> Available upon request
+          <div className="button-group">
+            <a
+              href={project.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button"
+            >
+              View GitHub
+            </a>
+            <a
+              href={project.webPage}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button"
+            >
+              Visit Live App
+            </a>
+          </div>
         </div>
       </div>
     </section>
