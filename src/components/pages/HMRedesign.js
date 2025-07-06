@@ -1,12 +1,15 @@
 import React from "react";
+import "./HMRedesign.css";
 
 const HMCaseStudy = () => {
   return (
-    <section className="case-study-section">
+    <section className="case-study-section-hm">
       <div className="case-study-container">
-        <h1 className="case-study-title">H&M App – UX Redesign Case Study</h1>
+        <h1 className="case-study-title-hm">
+          H&M App – UX Redesign Case Study
+        </h1>
 
-        <div className="case-block">
+        <div className="case-block-hm">
           <h2>1. Overview</h2>
           <p>
             <strong>Project Type:</strong> UX Case Study (Self-Initiated)
@@ -28,7 +31,7 @@ const HMCaseStudy = () => {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-hm">
           <h2>2. Empathize – User Research</h2>
           <ul>
             <li>Users struggle with navigation and poor filtering</li>
@@ -45,7 +48,7 @@ const HMCaseStudy = () => {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-hm">
           <h2>3. Define – Problem Statement</h2>
           <p>
             <strong>How might we</strong> help customers trust what they're
@@ -54,7 +57,7 @@ const HMCaseStudy = () => {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-hm">
           <h2>4. Ideate – Proposed Solutions</h2>
           <ul>
             <li>Simplify the homepage and add clear categories</li>
@@ -67,7 +70,7 @@ const HMCaseStudy = () => {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-hm">
           <h2>5. Prototype – Visual Redesign</h2>
           <p>
             🚧 Coming Soon: Full UX breakdown & interactive prototype in
@@ -114,7 +117,7 @@ const HMCaseStudy = () => {
           </p> */}
         </div>
 
-        <div className="case-block">
+        <div className="case-block-hm">
           <h2>8. Disclaimer</h2>
           <p>
             This is a conceptual UX redesign project for educational and

@@ -5,11 +5,13 @@ import projectData from "../ProjectData";
 export default function StyleSerenity() {
   const project = projectData["StyleSerenity"];
   return (
-    <section className="case-study-section">
+    <section className="case-study-section-style">
       <div className="case-study-container">
-        <h1 className="case-study-title">Style Serenity — Fashion eCommerce</h1>
+        <h1 className="case-study-title-style">
+          Style Serenity — Fashion eCommerce
+        </h1>
 
-        <div className="case-block">
+        <div className="case-block-style">
           <h2>1. Project Overview</h2>
           <p>
             <strong>Project:</strong> Style Serenity - Online Clothing &
@@ -32,7 +34,7 @@ export default function StyleSerenity() {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-style">
           <h2>2. Goals & Requirements</h2>
           <ul>
             <li>
@@ -45,7 +47,7 @@ export default function StyleSerenity() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-style">
           <h2>3. Design Process</h2>
           <p>
             <strong>1. Empathize:</strong> I began by identifying the target
@@ -84,7 +86,7 @@ export default function StyleSerenity() {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-style">
           <h2>4. Low Fidelity Wireframes</h2>
           <div className="wireframes-grid-styleSerenity">
             <div>
@@ -112,7 +114,7 @@ export default function StyleSerenity() {
           </div>
         </div>
         {/* 3. Hi-Fi Designs */}
-        <div className="case-block">
+        <div className="case-block-style">
           <h2>5. High-Fidelity Designs</h2>
 
           <div className="wireframes-grid-styleSerenity">
@@ -150,7 +152,7 @@ export default function StyleSerenity() {
           </div>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-style">
           <h2>7. Reflections & Learnings</h2>
           <ul>
             <li>Practiced HTML/CSS layout and card component structure</li>
@@ -167,8 +169,8 @@ export default function StyleSerenity() {
           </p>
         </div>
 
-        <div className="case-study-section">
-          <h2 className="section-title">8. Demo & Code</h2>
+        <div className="case-block-style">
+          <h2>8. Demo & Code</h2>
           <strong>Figma File:</strong> Available upon request
           <div className="video-wrapper">
             <strong>Live Demo:</strong>{" "}
@@ -187,7 +189,7 @@ export default function StyleSerenity() {
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="button"
+              className="button-style"
             >
               View GitHub
             </a>
