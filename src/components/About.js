@@ -37,16 +37,14 @@ export default function About() {
             <p>From Teaching to Tech</p>
           </div>
           <p>
-            With a background in education, I bring both empathy and structured
-            thinking into tech. These skills naturally align with UX design —
-            understanding users, designing with clarity, and creating intuitive
-            journeys — as well as development, where logical thinking,
-            problem-solving, and communication are essential.
+            I began my career as an educator—where I honed empathy, clarity, and
+            structured thinking. These strengths naturally translate into tech:
+            understanding users, planning intuitive experiences, and
+            communicating effectively with teams.
           </p>
           <p>
-            Now, with formal training in web development, I combine structured
-            thinking from my teaching career with creative problem-solving to
-            build meaningful digital solutions.
+            Now, with formal training in web development, I blend my teaching
+            mindset with design and code to solve real-world problems.
           </p>
 
           <div className="sub-title-about">
@@ -54,28 +52,24 @@ export default function About() {
           </div>
 
           <p>
-            As a designer and developer, I bring a unique perspective that
-            blends creative vision with technical execution. With hands-on
-            experience in both front-end development and UX/UI design, I craft
-            solutions that are not only beautiful—but also functional, scalable,
-            and user-focused.
+            With experience in both UX/UI design and front-end development, I
+            don’t just design beautiful interfaces—I build them. I understand
+            how design decisions impact code, and how development constraints
+            shape design.
           </p>
 
           <p>
-            I balance <strong>structured thinking</strong> with a strong sense
-            of <strong>user flow</strong>, always considering both the{" "}
-            <strong>client’s business goals</strong> and the{" "}
-            <strong>user’s perspective</strong>. My approach ensures the designs
-            I create are not only visually engaging, but also easy to build,
-            maintain, and scale in real-world projects.
+            I balance structured thinking with a strong sense of user flow,
+            always considering both the client’s business goals and the user’s
+            perspective. My approach ensures the designs I create are not only
+            visually engaging, but also easy to build, maintain, and scale in
+            real-world projects.
           </p>
 
           <p>
-            Whether I'm wireframing user journeys or coding responsive
-            interfaces, I focus on creating seamless experiences. I often
-            receive feedback such as <em>"detail-oriented"</em> and{" "}
-            <em>"beyond expectations"</em>, which reinforces that my
-            design-to-dev workflow delivers clarity and impact.
+            Whether wireframing a user journey or coding responsive layouts, I
+            focus on clarity, usability, and scalability. Every solution I craft
+            balances business goals with user needs.
           </p>
 
           <div className="sub-title-about">
@@ -95,18 +89,29 @@ export default function About() {
               content structure with precision.
             </li>
             <li>
-              <strong>Client-Centered UX:</strong> My work supports business
-              goals and delivers real value.
+              <strong>Client-Centered UX:</strong> My work aligns with business
+              goals and drives real user value.
             </li>
             <li>
               <strong>Developer Mindset:</strong> I write clean, maintainable
               code to bring interfaces to life.
             </li>
             <li>
-              <strong>Pixel + Logic:</strong> Detail in visuals, and precision
-              in logic.
+              <strong>Pixel + Logic:</strong> I care about visual precision and
+              functionality
             </li>
           </ul>
+          <p
+            style={{
+              fontStyle: "italic",
+              marginTop: "2rem",
+              textAlign: "center",
+              color: "#555",
+            }}
+          >
+            “Detail-oriented and goes beyond expectations” — feedback I’ve
+            consistently received
+          </p>
           {/* </div> */}
         </div>
       </div>
