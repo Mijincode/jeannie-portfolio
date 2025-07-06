@@ -110,6 +110,36 @@
   border-radius: 10px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* .iframe-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+
+.iframe-container iframe {
+  max-width: 100%;
+  height: auto;
+} */
+
+.iframe-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .reference-images {

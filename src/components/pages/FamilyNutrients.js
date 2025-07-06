@@ -12,8 +12,12 @@ export default function FamilyNutrients() {
         <div className="case-block">
           <h2>1. Project Overview</h2>
           <p>
-            <strong>Client:</strong> Healthy Family Nutrients – Family-focused
-            recipe sharing site
+            <strong>Project:</strong> Healthy Family Nutrients — Recipe Sharing
+            Platform
+          </p>
+          <p>
+            <strong>Client:</strong> Personal project by a developer
+            collaborator
           </p>
           <p>
             <strong>Role:</strong> UX/UI Designer
@@ -24,10 +28,20 @@ export default function FamilyNutrients() {
           <p>
             <strong>Duration:</strong> 4 weeks
           </p>
+
           <p>
             <strong>Purpose:</strong> To design an accessible and user-friendly
-            platform for families to browse, share, and submit recipes across
-            generations.
+            platform where families can browse, share, and submit home-cooked
+            recipes—promoting intergenerational food sharing and a sense of
+            community.
+          </p>
+
+          <p>
+            <strong>Collaboration:</strong> I collaborated with a developer who
+            initiated this project as part of their personal portfolio. While
+            they focused on the technical implementation, I led the UX/UI design
+            process, creating intuitive flows, wireframes, and a responsive
+            design system aligned with family-friendly values.
           </p>
         </div>
 
@@ -69,7 +83,7 @@ export default function FamilyNutrients() {
         </div>
 
         <div className="case-block">
-          <h2>4. Design Objectives</h2>
+          <h2>4. Design Process</h2>
           <ul>
             <li>Design a responsive layout accessible on phones and tablets</li>
             <li>
@@ -143,14 +157,27 @@ export default function FamilyNutrients() {
               handoff with documentation, organized components, and design specs
               to front-end developer.
             </p>
-            <iframe
-              style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-              width="800"
-              height="450"
-              src="https://embed.figma.com/design/bliM6ebweIBktbQA6FDPDK/Doig-s-recipe?node-id=0-1&embed-host=share"
-              allowFullScreen
-              title="prototype"
-            ></iframe>
+            <p className="section-label">User Flow Overview</p>
+            <div className="iframe-container">
+              <iframe
+                style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                width="800"
+                height="450"
+                src="https://embed.figma.com/design/bliM6ebweIBktbQA6FDPDK/Doig-s-recipe?node-id=0-1&embed-host=share"
+                allowFullScreen
+                title="user-flow"
+              ></iframe>
+            </div>
+            <div className="iframe-container">
+              <p className="section-label">Prototype</p>
+              <iframe
+                style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                width="800"
+                height="450"
+                src="https://embed.figma.com/proto/bliM6ebweIBktbQA6FDPDK/Doig-s-recipe?page-id=0%3A1&node-id=2-47&viewport=1029%2C155%2C0.65&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A47&embed-host=share"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </div>
 
