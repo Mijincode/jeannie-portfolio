@@ -8,55 +8,47 @@
   }
 }
 
-.case-study-container {
+.case-study-section-lms {
+  /* background-color: #ff6d77; */
   background-color: #ffffff;
-  color: #333;
-  padding-top: 20px;
+  padding: 4rem 2rem;
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  color: #222;
+  line-height: 1.75;
+}
+
+.case-study-container {
   max-width: 1200px;
-  margin: 40px auto;
-  line-height: 1.6;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
-.case-study-header {
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.case-study-title {
+.case-study-title-lms {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 30px;
-  color: #333;
+  color: #0965e8;
   animation: fadeIn 1s ease-in-out;
 }
 
-.case-study-subtitle {
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: #555;
+.case-block-lms {
+  margin-bottom: 3.5rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #f8f8f8;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
 }
 
-.case-study-section {
-  margin-bottom: 40px;
-}
-
-.section-title {
-  margin-top: 60px;
-  margin-bottom: 40px;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
+.case-block-lms h2 {
+  font-size: 1.8rem;
   color: #333;
-  text-align: center;
-}
-
-.portfolio-image {
-  width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
+  margin-bottom: 1rem;
+  border-left: 6px solid #0965e8;
+  padding-left: 1rem;
+  font-weight: 700;
 }
 
 .video-wrapper {
@@ -93,7 +85,7 @@
   flex-wrap: wrap;
 }
 
-.button {
+.button-lms {
   background-color: #4c5fd5;
   color: #fff;
   padding: 12px 24px;
@@ -106,12 +98,12 @@
   box-shadow: 0 4px 10px rgba(76, 95, 213, 0.2);
 }
 
-.button:hover {
+.button-hm :hover {
   background-color: #3b4cc0;
 }
 
 @media (max-width: 768px) {
-  .case-study-title {
+  .case-study-title-hm {
     font-size: 2rem;
   }
 
@@ -124,7 +116,6 @@
     align-items: center;
   }
 
-  .portfolio-image,
   .video-wrapper iframe {
     width: 100%;
   }
