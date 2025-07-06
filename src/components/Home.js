@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import image8 from "./images/8.png";
+import myPhoto from "./images/myPhoto3.jpg";
 import "./css/home.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -47,7 +47,7 @@ export default function Home() {
               {" "}
               <h1 className="greeting">Jeannie Lee</h1>
               <h2 className="greeting-title">
-                A UI/UX Designer & Full-Stack Developer{" "}
+                UI/UX Designer & Full-Stack Developer{" "}
               </h2>
             </div>
             <div>
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
 
           <div className="image-column">
-            <img src={image8} alt="Portrait" className="image-me" />
+            <img src={myPhoto} alt="Portrait" className="image-me" />
           </div>
         </div>
       </div>
