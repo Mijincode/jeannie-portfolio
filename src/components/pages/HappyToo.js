@@ -106,7 +106,7 @@ export default function HappyToo() {
         </div>
 
         <div className="case-block">
-          <h2>4. Objectives</h2>
+          <h2>4. Goals</h2>
           <ul>
             <li>Build a strong brand identity</li>
             <li>Design a responsive, intuitive interface</li>
@@ -202,14 +202,27 @@ export default function HappyToo() {
               Created high-fidelity mockups and interactive prototypes in Figma,
               iterating based on client feedback.
             </p>
-            <iframe
-              style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-              width="800"
-              height="450"
-              src="https://embed.figma.com/design/L9vPludzgsSKq5kI5509Oj/Happy-Too?node-id=162-624&embed-host=share"
-              allowFullScreen
-              title="prototype"
-            ></iframe>
+            <div className="iframe-container">
+              <p className="section-label">Prototype</p>
+              <iframe
+                style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                width="800"
+                height="450"
+                src="https://embed.figma.com/proto/L9vPludzgsSKq5kI5509Oj/Happy-Too?page-id=162%3A624&node-id=162-625&viewport=-534%2C184%2C0.25&scaling=min-zoom&content-scaling=fixed&embed-host=share"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="iframe-container">
+              <p className="section-label">Prototype</p>
+              <iframe
+                style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                width="800"
+                height="450"
+                src="https://embed.figma.com/design/L9vPludzgsSKq5kI5509Oj/Happy-Too?node-id=162-624&embed-host=share"
+                allowFullScreen
+                title="prototype"
+              ></iframe>
+            </div>
           </div>
         </div>
 
