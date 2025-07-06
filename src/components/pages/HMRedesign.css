@@ -42,79 +42,12 @@
   font-weight: 700;
 }
 
-.process-step h3 {
-  font-size: 1.4rem;
-  color: #222;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-}
-
 .section-label {
   font-weight: 600;
   margin: 3rem 0 1rem;
   font-size: 1.1rem;
   color: #333;
   text-align: center;
-}
-
-.cta-btn {
-  display: inline-block;
-  padding: 0.8rem 1.5rem;
-  margin: 0.5rem 1rem 0 0;
-  border-radius: 8px;
-  text-decoration: none;
-  background-color: #e4aa3f;
-  color: #000;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-}
-
-.cta-btn.secondary {
-  background-color: #333;
-  color: #fff;
-}
-
-.cta-btn:hover {
-  background-color: #d3982d;
-}
-
-.reference-images {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.reference-logo {
-  max-width: 180px;
-  height: auto;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-.reference-img {
-  max-width: 400px;
-  height: auto;
-  object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.user-flow-img {
-  width: 100%;
-  max-width: 800px;
-  margin-top: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.wireframes-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  margin-bottom: 2rem;
 }
 
 .wireframes-grid img {
@@ -140,7 +73,7 @@
   margin-top: 1.5rem;
 }
 
-.button {
+.button-hm {
   padding: 0.8rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
@@ -150,41 +83,30 @@
   transition: background-color 0.3s ease;
 }
 
-.button:hover {
+.button-hm :hover {
   background-color: #d3982d;
 }
 
 /* ========== Responsive ========== */
 @media screen and (max-width: 768px) {
-  .case-study-title-happyToo {
+  .case-study-title-hm {
     font-size: 2rem;
   }
 
-  .case-block-happyToo {
+  .case-block-hm {
     padding: 1.2rem;
   }
 
-  .case-block-happyToo h2 {
+  .case-block-hm h2 {
     font-size: 1.4rem;
     padding-left: 0.8rem;
   }
 
-  .wireframes-grid {
+  .wireframes-grid-hm {
     grid-template-columns: 1fr;
   }
 
-  .reference-logo,
-  .reference-img {
-    max-width: 100%;
-  }
-
-  .reference-images {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cta-btn,
-  .button {
+  .button-hm {
     display: block;
     width: 100%;
     margin: 0.75rem 0;
