@@ -176,6 +176,7 @@ export default function FamilyNutrients() {
                 height="450"
                 src="https://embed.figma.com/proto/bliM6ebweIBktbQA6FDPDK/Doig-s-recipe?page-id=0%3A1&node-id=2-47&viewport=1029%2C155%2C0.65&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A47&embed-host=share"
                 allowFullScreen
+                title="prototyping"
               ></iframe>
             </div>
           </div>

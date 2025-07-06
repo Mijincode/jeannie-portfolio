@@ -210,6 +210,7 @@ export default function HappyToo() {
                 height="450"
                 src="https://embed.figma.com/proto/L9vPludzgsSKq5kI5509Oj/Happy-Too?page-id=162%3A624&node-id=162-625&viewport=-534%2C184%2C0.25&scaling=min-zoom&content-scaling=fixed&embed-host=share"
                 allowFullScreen
+                title="user-flow"
               ></iframe>
             </div>
             <div className="iframe-container">
