@@ -1,16 +1,18 @@
 import React from "react";
-import "../pages/ChaeulBeauty.css";
+import "./ChaeulBeauty.css";
 import projectData from "../ProjectData";
 
 export default function ChaeulBeauty() {
   const project = projectData["ChaeulBeauty"];
 
   return (
-    <section className="case-study-section">
+    <section className="case-study-section-chaeul">
       <div className="case-study-container">
-        <h1 className="case-study-title">Chaeul Beauty — Website Evolution</h1>
+        <h1 className="case-study-title-chaeul">
+          Chaeul Beauty — Website Evolution
+        </h1>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>1. Overview</h2>
           <p>
             <strong>Client:</strong> Chaeul Beauty — Cosmetic Tattoo Studio
@@ -25,7 +27,7 @@ export default function ChaeulBeauty() {
             <strong>Timeline:</strong> 8~9 weeks (initial) + redesign phase
           </p>
         </div>
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h3>Summary</h3>
           <ul>
             <li>
@@ -48,7 +50,7 @@ export default function ChaeulBeauty() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>2. Context</h2>
           <p>
             The client, a cosmetic tattoo artist, initially relied solely on
@@ -71,7 +73,7 @@ export default function ChaeulBeauty() {
           </div>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>3. Problems Identified</h2>
           <ul className="problem-bullets">
             <li>
@@ -103,7 +105,7 @@ export default function ChaeulBeauty() {
           </ul>
         </section> */}
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>4. Research Insights</h2>
 
           <div className="insights-summary-grid">
@@ -126,7 +128,7 @@ export default function ChaeulBeauty() {
           </div>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>3. Initial Build (Initial Design)</h2>
           <p>
             The original version included a booking system with date selection,
@@ -187,7 +189,7 @@ export default function ChaeulBeauty() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>5. Design Process</h2>
 
           <p>
@@ -225,7 +227,7 @@ export default function ChaeulBeauty() {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>6. Brand Identity & Logo Design</h2>
           <p>
             In the original version, the logo was provided by the client, and my
@@ -277,7 +279,7 @@ export default function ChaeulBeauty() {
           />
         </div> */}
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>7. Final Design</h2>
           <p>
             The redesigned version emphasizes high-quality visuals, multilingual
@@ -311,7 +313,7 @@ export default function ChaeulBeauty() {
           </div>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>8. Before vs. After Summary</h2>
           <table className="comparison-table">
             <thead>
@@ -346,7 +348,7 @@ export default function ChaeulBeauty() {
           </table>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>8. Impact</h2>
           <div className="impact-stats-grid">
             <div className="impact-card">
@@ -367,7 +369,7 @@ export default function ChaeulBeauty() {
           </div>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>9. Reflection</h2>
           <p>
             This project reminded me that great design isn’t just about visual
@@ -382,7 +384,7 @@ export default function ChaeulBeauty() {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-chaeul">
           <h2>10. Links & Resources</h2>
           <strong>Figma File:</strong> Available upon request
           <div className="button-group">
@@ -390,7 +392,7 @@ export default function ChaeulBeauty() {
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="button"
+              className="button-chaeul"
             >
               View GitHub
             </a>
@@ -398,7 +400,7 @@ export default function ChaeulBeauty() {
               href={project.webPage}
               target="_blank"
               rel="noopener noreferrer"
-              className="button"
+              className="button-chaeul"
             >
               Visit Live App
             </a>

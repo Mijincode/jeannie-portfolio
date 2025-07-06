@@ -1,15 +1,15 @@
 import React from "react";
-import "../pages/FamilyNutrients.css";
+import "./FamilyNutrients.css";
 
 export default function FamilyNutrients() {
   return (
-    <section className="case-study-section">
+    <section className="case-study-section-family">
       <div className="case-study-container">
-        <h1 className="case-study-title">
+        <h1 className="case-study-title-family">
           Healthy Family Nutrients — Recipe Sharing Platform
         </h1>
 
-        <div className="case-block">
+        <div className="case-block-family">
           <h2>1. Project Overview</h2>
           <p>
             <strong>Project:</strong> Healthy Family Nutrients — Recipe Sharing
@@ -45,7 +45,7 @@ export default function FamilyNutrients() {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-family">
           <h2>2. Client Needs</h2>
           <ul>
             <li>
@@ -64,7 +64,7 @@ export default function FamilyNutrients() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-family">
           <h2>3. Research & Brand Direction</h2>
           <ul>
             <li>
@@ -82,7 +82,7 @@ export default function FamilyNutrients() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-family">
           <h2>4. Design Process</h2>
           <ul>
             <li>Design a responsive layout accessible on phones and tablets</li>
@@ -100,7 +100,7 @@ export default function FamilyNutrients() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-family">
           <h2>5. Design Process</h2>
 
           <div className="process-step">
@@ -182,7 +182,7 @@ export default function FamilyNutrients() {
           </div>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-family">
           <h2>6. Outcome</h2>
           <ul>
             <li>Responsive wireframes and high-fidelity designs completed</li>
@@ -194,7 +194,7 @@ export default function FamilyNutrients() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-family">
           <h2>7. Reflections</h2>
           <p>
             This project reinforced the importance of designing for
@@ -206,7 +206,7 @@ export default function FamilyNutrients() {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-family">
           <h2>8. Figma & Resources</h2>
           <ul>
             <li>

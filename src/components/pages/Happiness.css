@@ -1,3 +1,101 @@
-.case-study-header {
-  margin-top: 70px;
+/** Happy Too case study page css */
+.case-study-section-happiness {
+  background-color: #0d6efd;
+  padding: 4rem 2rem;
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  color: #222;
+  line-height: 1.75;
+}
+
+.case-study-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.case-study-title-happiness {
+  font-size: 3rem;
+  color: #014ec2;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.case-block-happiness {
+  margin-bottom: 3.5rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #f8f8f8;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.case-block-happiness h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+  border-left: 6px solid #0d6efd;
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.case-block-happiness h3 {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.iframe-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.button-happiness {
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button-happiness :hover {
+  background-color: #002f76;
+}
+
+/* ========== Responsive ========== */
+@media screen and (max-width: 768px) {
+  .case-study-title-happiness {
+    font-size: 2rem;
+  }
+
+  .case-block-happiness {
+    padding: 1.2rem;
+  }
+
+  .case-block-happiness h2 {
+    font-size: 1.4rem;
+    padding-left: 0.8rem;
+  }
+
+  .button-happiness {
+    display: block;
+    width: 100%;
+    margin: 0.75rem 0;
+    text-align: center;
+  }
 }

@@ -1,7 +1,7 @@
 /** Family Nutrients case study page css*/
 
-.case-study-section {
-  background-color: #fffefc;
+.case-study-section-family {
+  background-color: #467408;
   padding: 5rem 2rem;
   font-family: "Inter", "Helvetica Neue", sans-serif;
   color: #222;
@@ -17,39 +17,39 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
-.case-study-title {
+.case-study-title-family {
   font-size: 3rem;
-  color: #e4aa3f;
+  color: #467408;
   margin-bottom: 2.5rem;
   text-align: center;
   font-weight: 800;
 }
 
-.case-block {
+.case-block-family {
   margin-bottom: 4rem;
   padding: 2rem;
   border-radius: 12px;
-  background: #fdfaf5;
+  background: #f8f8f8;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
 }
 
-.case-block h2 {
+.case-block-family h2 {
   font-size: 2rem;
   color: #333;
   margin-bottom: 1rem;
-  border-left: 6px solid #e4aa3f;
+  border-left: 6px solid #467408;
   padding-left: 1rem;
   font-weight: 700;
 }
 
-.case-block p,
-.case-block li {
+.case-block-family p,
+.case-block-family li {
   font-size: 1.05rem;
   color: #444;
   margin-bottom: 0.75rem;
 }
 
-.case-block ul {
+.case-block-family ul {
   padding-left: 1.5rem;
   list-style-type: disc;
 }
@@ -159,15 +159,15 @@
 }
 
 @media screen and (max-width: 768px) {
-  .case-study-title {
+  .case-study-title-family {
     font-size: 2.25rem;
   }
 
-  .case-block {
+  .case-block-family {
     padding: 1.5rem;
   }
 
-  .case-block h2 {
+  .case-block-family h2 {
     font-size: 1.5rem;
   }
 

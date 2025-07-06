@@ -5,13 +5,13 @@ import projectData from "../ProjectData";
 export default function HappyToo() {
   const project = projectData["HappyToo"];
   return (
-    <section className="case-study-section">
+    <section className="case-study-section-happyToo">
       <div className="case-study-container">
-        <h1 className="case-study-title">
+        <h1 className="case-study-title-happyToo">
           HappyToo — Business Consulting Website
         </h1>
 
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>1. Project Overview</h2>
           <p>
             <strong>Client:</strong> HappyToo - B2B consulting firm for SMBs
@@ -32,7 +32,7 @@ export default function HappyToo() {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>2. Client Needs</h2>
           <ul>
             <li>
@@ -57,7 +57,7 @@ export default function HappyToo() {
             </li>
           </ul>
         </div>
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>3. Design References</h2>
           <p>
             Client provided a logo and image samples to guide visual direction.
@@ -76,7 +76,7 @@ export default function HappyToo() {
           </div>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>3. Background & Challenge</h2>
 
           <p>
@@ -105,7 +105,7 @@ export default function HappyToo() {
           </p>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>4. Goals</h2>
           <ul>
             <li>Build a strong brand identity</li>
@@ -116,7 +116,7 @@ export default function HappyToo() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>5. Research & Discovery</h2>
           <ul>
             <li>Competitive analysis of top consulting websites</li>
@@ -126,7 +126,7 @@ export default function HappyToo() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>6. User Flow</h2>
           <p>
             Based on user needs and goals, I designed a streamlined user journey
@@ -140,7 +140,7 @@ export default function HappyToo() {
             className="user-flow-img"
           />
         </div>
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>7. Design Process</h2>
 
           <div className="process-step">
@@ -150,7 +150,7 @@ export default function HappyToo() {
             </p>
             <div className="wireframes-section">
               <p className="section-label">Low-Fi</p>
-              <div className="wireframes-grid">
+              <div className="wireframes-grid-happyToo">
                 <img
                   src="https://res.cloudinary.com/dmvngssd0/image/upload/v1748740087/Low-fi1_vn0yse.png"
                   alt="Low Fidelity Wireframe 1"
@@ -162,7 +162,7 @@ export default function HappyToo() {
               </div>
 
               <p className="section-label">Mid-Fi</p>
-              <div className="wireframes-grid">
+              <div className="wireframes-grid-happyToo">
                 <img
                   src="https://res.cloudinary.com/dmvngssd0/image/upload/v1748740089/Mid-fidelity_bbxarr.png"
                   alt="Mid Fidelity Wireframe 1"
@@ -174,7 +174,7 @@ export default function HappyToo() {
               </div>
 
               <p className="section-label">Hi-Fi</p>
-              <div className="wireframes-grid">
+              <div className="wireframes-grid-happyToo">
                 <img
                   src="https://res.cloudinary.com/dmvngssd0/image/upload/v1748740095/Hi-Fi_eezgyu.png"
                   alt="Hi Fidelity Wireframe 1"
@@ -187,7 +187,7 @@ export default function HappyToo() {
             </div>
           </div>
 
-          <div className="process-step">
+          <div className="case-block-happyToo">
             <h3>Visual Design</h3>
             <p>
               Defined a dark-themed layout accented with a yellow-centered
@@ -196,7 +196,7 @@ export default function HappyToo() {
             </p>
           </div>
 
-          <div className="process-step">
+          <div className="case-block-happyToo">
             <h3>Prototyping</h3>
             <p>
               Created high-fidelity mockups and interactive prototypes in Figma,
@@ -226,7 +226,7 @@ export default function HappyToo() {
           </div>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>8. Development</h2>
           <ul>
             <li>Built with React for component-based scalability</li>
@@ -236,7 +236,7 @@ export default function HappyToo() {
           </ul>
         </div>
 
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>9. Outcome </h2>
           <ul>
             <li>Delivered a polished website tailored for SMBs</li>
@@ -244,7 +244,7 @@ export default function HappyToo() {
             <li>Learned the importance of visual clarity and CTA placement</li>
           </ul>
         </div>
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>10. Reflection</h2>
           <p>
             This project taught me that design isn’t just about creating
@@ -282,7 +282,7 @@ export default function HappyToo() {
             strategy.
           </p>
         </div>
-        <div className="case-block">
+        <div className="case-block-happyToo">
           <h2>8. Links & Resources</h2>
           <strong>Figma File:</strong> Available upon request
           <div className="button-group">
@@ -298,7 +298,7 @@ export default function HappyToo() {
               href={project.webPage}
               target="_blank"
               rel="noopener noreferrer"
-              className="button"
+              className="button-happyToo"
             >
               Visit Live App
             </a>

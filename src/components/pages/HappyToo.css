@@ -1,6 +1,6 @@
 /** Happy Too case study page css */
-.case-study-section {
-  background-color: #fffefc;
+.case-study-section-happyToo {
+  background-color: #27355c;
   padding: 4rem 2rem;
   font-family: "Inter", "Helvetica Neue", sans-serif;
   color: #222;
@@ -16,23 +16,23 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
-.case-study-title {
+.case-study-title-happyToo {
   font-size: 3rem;
-  color: #e4aa3f;
+  color: #27355c;
   margin-bottom: 2.5rem;
   text-align: center;
   font-weight: 800;
 }
 
-.case-block {
+.case-block-happyToo {
   margin-bottom: 3.5rem;
   padding: 2rem;
   border-radius: 12px;
-  background: #fdfaf5;
+  background: #f8f8f8;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
 }
 
-.case-block h2 {
+.case-block-happyToo h2 {
   font-size: 1.8rem;
   color: #333;
   margin-bottom: 1rem;
@@ -41,7 +41,7 @@
   font-weight: 700;
 }
 
-.process-step h3 {
+.case-block-happyToo h3 {
   font-size: 1.4rem;
   color: #222;
   margin-bottom: 0.5rem;
@@ -49,53 +49,11 @@
 }
 
 .section-label {
-  font-weight: 700;
-  margin: 2rem 0 1rem;
-  font-size: 1.15rem;
-  color: #555;
-  text-align: center;
-}
-
-.cta-btn {
-  display: inline-block;
-  padding: 0.8rem 1.5rem;
-  margin: 0.5rem 1rem 0 0;
-  border-radius: 8px;
-  text-decoration: none;
-  background-color: #e4aa3f;
-  color: #000;
   font-weight: 600;
-  transition: background-color 0.3s ease;
-}
-
-.cta-btn.secondary {
-  background-color: #333;
-  color: #fff;
-}
-
-.cta-btn:hover {
-  background-color: #d3982d;
-}
-
-.reference,
-.user-flow-img {
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-}
-
-.wireframes-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.wireframes-grid img {
-  width: 90%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  object-fit: contain;
+  margin: 3rem 0 1rem;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: center;
 }
 
 .reference-images {
@@ -122,37 +80,74 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.section-label {
-  font-weight: 600;
-  margin: 3rem 0 1rem;
-  font-size: 1.1rem;
-  color: #333;
-  text-align: center;
-}
-
 .user-flow-img {
   width: 100%;
   max-width: 800px;
   margin-top: 1rem;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.wireframes-grid-happyToo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.wireframes-grid-happyToo img {
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
+}
+
+.iframe-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.button-happyToo {
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #e4aa3f;
+  color: #000;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button-style :hover {
+  background-color: #d3982d;
+}
+
+/* ========== Responsive ========== */
 @media screen and (max-width: 768px) {
-  .case-study-title {
+  .case-study-title-happyToo {
     font-size: 2rem;
   }
 
-  .case-block {
+  .case-block-happyToo {
     padding: 1.2rem;
   }
 
-  .case-block h2 {
+  .case-block-happyToo h2 {
     font-size: 1.4rem;
     padding-left: 0.8rem;
   }
 
-  .wireframes-grid {
+  .wireframes-grid-happyToo {
     grid-template-columns: 1fr;
   }
 
@@ -166,7 +161,7 @@
     align-items: center;
   }
 
-  .cta-btn {
+  .button-happyToo {
     display: block;
     width: 100%;
     margin: 0.75rem 0;
