@@ -50,7 +50,7 @@ export default function About() {
           </p>
 
           <div className="sub-title-about">
-            <p>Design Meets Development</p>
+            <p>From Design to Code</p>
           </div>
 
           <p>
