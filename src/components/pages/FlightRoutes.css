@@ -1,0 +1,114 @@
+.case-study-section-flight {
+  background-color: #faf9e5;
+  padding: 4rem 2rem;
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  color: #222;
+  line-height: 1.75;
+}
+
+.case-study-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.case-study-title-flight {
+  font-size: 2.5rem;
+  color: #9a9311;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.case-block-flight {
+  margin-bottom: 3.5rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #f8f8f8;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.case-block-flight h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+  border-left: 6px solid #aba52c;
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.case-block-flight h3 {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.portfolio-image {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem auto;
+  max-width: 100%;
+  display: block;
+}
+
+.iframe-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.button-flight {
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #2cac61;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button-flight :hover {
+  background-color: #002f76;
+}
+
+/* ========== Responsive ========== */
+@media screen and (max-width: 768px) {
+  .case-study-title-flight {
+    font-size: 2rem;
+  }
+
+  .case-block-flight {
+    padding: 1.2rem;
+  }
+
+  .case-block-flight h2 {
+    font-size: 1.4rem;
+    padding-left: 0.8rem;
+  }
+
+  .button-flight {
+    display: block;
+    width: 100%;
+    margin: 0.75rem 0;
+    text-align: center;
+  }
+}
