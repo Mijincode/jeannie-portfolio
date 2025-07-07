@@ -101,43 +101,39 @@ export default function FamilyNutrients() {
         </div>
 
         <div className="case-block-family">
-          <h2>5. Design Process</h2>
+          <h2>5. Wireframing & User Flows</h2>
+          <p>
+            Created low to high-fidelity wireframes for mobile and tablet views.
+            Mapped out user flows for recipe discovery, filtering, viewing, and
+            contribution.
+          </p>
+          <div className="wireframes-section">
+            <p className="section-label">Low-Fi</p>
+            <div className="wireframes-grid">
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751589823/20250701_001301_hclqyx.png"
+                alt="Low Fidelity Wireframe 1"
+              />
+            </div>
 
-          <div className="process-step">
-            <h3>Wireframing & User Flows</h3>
-            <p>
-              Created low to high-fidelity wireframes for mobile and tablet
-              views. Mapped out user flows for recipe discovery, filtering,
-              viewing, and contribution.
-            </p>
-            <div className="wireframes-section">
-              <p className="section-label">Low-Fi</p>
-              <div className="wireframes-grid">
-                <img
-                  src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751589823/20250701_001301_hclqyx.png"
-                  alt="Low Fidelity Wireframe 1"
-                />
-              </div>
-
-              <p className="section-label">Hi-Fi</p>
-              <div className="wireframes-grid">
-                <img
-                  src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495210/Landing_Page_1_xjrt5b.png"
-                  alt="Hi Fidelity Wireframe 1"
-                />
-                <img
-                  src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495207/Recipe_List_Page_1_mxbs4c.png"
-                  alt="Hi Fidelity Wireframe 2"
-                />
-                <img
-                  src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495198/Detail_Recipe_Page_-_Ingredients_-1_mbreze.png"
-                  alt="Hi Fidelity Wireframe 3"
-                />
-                <img
-                  src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495206/Delete_recipe_fp84b4.png"
-                  alt="Hi Fidelity Wireframe 4"
-                />
-              </div>
+            <p className="section-label">Hi-Fi</p>
+            <div className="wireframes-grid">
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495210/Landing_Page_1_xjrt5b.png"
+                alt="Hi Fidelity Wireframe 1"
+              />
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495207/Recipe_List_Page_1_mxbs4c.png"
+                alt="Hi Fidelity Wireframe 2"
+              />
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495198/Detail_Recipe_Page_-_Ingredients_-1_mbreze.png"
+                alt="Hi Fidelity Wireframe 3"
+              />
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495206/Delete_recipe_fp84b4.png"
+                alt="Hi Fidelity Wireframe 4"
+              />
             </div>
           </div>
 

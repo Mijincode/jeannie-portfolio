@@ -10,7 +10,7 @@ export default function StudyPlan() {
     <section className="case-study-section-lms">
       <div className="case-study-container">
         <h1 className="case-study-title-lms">
-          {project.hoverText} — Learning Management System (LMS)
+          Learning Management System (LMS)
         </h1>
 
         <div className="case-block-lms">
@@ -44,7 +44,7 @@ export default function StudyPlan() {
         </div>
 
         <div className="case-block-lms">
-          <h2>2. Problem & Goals</h2>
+          <h2>2. Problems</h2>
           <p>
             Traditional LMS platforms assume linear progression. This approach
             doesn’t work for students who need personalized pacing or
@@ -55,7 +55,10 @@ export default function StudyPlan() {
             <li>Learning ends when the course ends—growth doesn’t continue.</li>
             <li>No structure for individualized learning plans.</li>
           </ul>
-          <h3>Project Goals</h3>
+        </div>
+
+        <div className="case-block-lms">
+          <h2>2. Goals</h2>
           <ul>
             <li>
               Build tools for students to plan and personalize their studies
@@ -68,39 +71,33 @@ export default function StudyPlan() {
         </div>
 
         <div className="case-block-lms">
-          <h2>3. My Contribution</h2>
+          <h2>3. My Role</h2>
           <p>As the student page front-end developer, I was responsible for:</p>
           <ul>
-            <li>Implementing the responsive student dashboard UI</li>
-            <li>
-              Building visual components like progress bars and dynamic
-              timetables
-            </li>
-            <li>Integrating REST API calls for live student plan data</li>
-            <li>
-              Ensuring accessible interactions for desktop and mobile users
-            </li>
-            <li>
-              Collaborating with the back-end team to align on data models
-            </li>
+            <li>Responsive dashboard UI for students</li>
+            <li>Progress bars and visual components for weekly plans</li>
+            <li>REST API integration for live student data</li>
+            <li>Accessible design for mobile & desktop</li>
+            <li>Coordination with back-end to align data structures</li>
           </ul>
         </div>
 
         <div className="case-block-lms">
           <h2>4. Design & Development Process</h2>
-          <h3>Wireframes & UI</h3>
+
+          <h3 className="process-step">Wireframes & UI</h3>
           <p>
             I created wireframes focused on student-centered flows, especially
             for plan creation and weekly schedule management. UI design
             emphasized readability, progress visualization, and modular
             component reuse.
           </p>
-          <h3>Team Collaboration</h3>
+          <h3 className="process-step">Team Collaboration</h3>
           <p>
-            We used Trello and Slack to manage our sprints. I collaborated
-            closely with the back-end developer to ensure real-time sync for
-            student data (plans, tasks, milestones) and worked alongside the
-            second front-end teammate on layout consistency.
+            We used Miro, Slack and Azure DevOps to manage our sprints. I
+            collaborated closely with the back-end developer to ensure real-time
+            sync for student data (plans, tasks, milestones) and worked
+            alongside the second front-end teammate on layout consistency.
           </p>
         </div>
 
