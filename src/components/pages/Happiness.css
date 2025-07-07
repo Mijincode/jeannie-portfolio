@@ -17,11 +17,17 @@
 }
 
 .case-study-title-happiness {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #014ec2;
   margin-bottom: 2.5rem;
   text-align: center;
   font-weight: 800;
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .case-block-happiness {
@@ -46,6 +52,14 @@
   color: #222;
   margin-bottom: 0.5rem;
   font-weight: 600;
+}
+
+.portfolio-image {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem auto;
+  max-width: 100%;
+  display: block;
 }
 
 .iframe-container {

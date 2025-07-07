@@ -18,11 +18,17 @@
 }
 
 .case-study-title-hm {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #e4000f;
   margin-bottom: 2.5rem;
   text-align: center;
   font-weight: 800;
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .case-block-hm {

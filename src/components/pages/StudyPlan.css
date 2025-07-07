@@ -27,11 +27,17 @@
 }
 
 .case-study-title-lms {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
+  margin-top: 50px;
   margin-bottom: 30px;
   color: #0965e8;
   animation: fadeIn 1s ease-in-out;
+  text-align: center;
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .case-block-lms {
@@ -49,6 +55,13 @@
   border-left: 6px solid #0965e8;
   padding-left: 1rem;
   font-weight: 700;
+}
+
+.process-step {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
 }
 
 .video-wrapper {

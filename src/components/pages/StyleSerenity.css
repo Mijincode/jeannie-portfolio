@@ -33,10 +33,16 @@
 }
 
 .case-study-title-style {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   color: #d04e7e;
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .case-study-subtitle {
