@@ -81,14 +81,6 @@ export default function Happiness() {
             >
               View GitHub
             </a>
-            <a
-              href={project.webPage}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="button-happiness"
-            >
-              Visit Live App
-            </a>
           </div>
         </div>
       </div>
