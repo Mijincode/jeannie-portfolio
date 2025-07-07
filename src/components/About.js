@@ -50,26 +50,37 @@ export default function About() {
           <div className="sub-title-about">
             <p>From Design to Code</p>
           </div>
-
           <p>
-            With experience in both UX/UI design and front-end development, I
-            don’t just design beautiful interfaces—I build them. I understand
-            how design decisions impact code, and how development constraints
-            shape design.
+            I first discovered UX/UI design while studying full-stack
+            development. As I built more front-end features, I found myself
+            constantly asking: "Would this feel intuitive for the user?" or "Is
+            this the clearest path to the goal?" This curiosity led me to
+            explore UX principles on my own—like usability, accessibility, and
+            user-centered design.
           </p>
 
           <p>
-            I balance structured thinking with a strong sense of user flow,
-            always considering both the client’s business goals and the user’s
-            perspective. My approach ensures the designs I create are not only
-            visually engaging, but also easy to build, maintain, and scale in
-            real-world projects.
+            What started as a developer's mindset gradually evolved into a
+            designer's lens. I began designing wireframes and user journeys not
+            just to prototype features, but to understand how real people would
+            interact with them. I realized that I care deeply about clarity,
+            flow, and reducing cognitive load—cornerstones of good UX.
           </p>
 
           <p>
-            Whether wireframing a user journey or coding responsive layouts, I
-            focus on clarity, usability, and scalability. Every solution I craft
-            balances business goals with user needs.
+            I found myself genuinely excited about every project I worked on. I
+            wanted to keep learning, keep building, and create products that
+            feel meaningful and seamless. Design wasn't separate from
+            development anymore—it was part of how I thought through problems.
+          </p>
+
+          <p>
+            Today, I bridge both worlds. I don't just design beautiful
+            interfaces—I build them. I understand how layout, hierarchy, and
+            micro-interactions shape the user experience, and how technical
+            decisions affect usability. My goal is always to align business
+            needs with user goals—to craft products that are both practical and
+            delightful.
           </p>
 
           <div className="sub-title-about">
@@ -85,20 +96,25 @@ export default function About() {
               skipping it entirely by building it myself.
             </li>
             <li>
-              <strong>Structured Thinking:</strong> I plan user journeys and
-              content structure with precision.
+              <strong>Structured Thinking:</strong> I map out user journeys and
+              content hierarchies with clarity and intention, ensuring intuitive
+              flow and accessibility.
+            </li>
+
+            <li>
+              <strong>Client-Centered UX:</strong> I create solutions that
+              support business goals while solving real user problems—balancing
+              usability with measurable impact.
             </li>
             <li>
-              <strong>Client-Centered UX:</strong> My work aligns with business
-              goals and drives real user value.
+              <strong>Developer Mindset:</strong> With a background in
+              full-stack development, I write clean, scalable code and
+              collaborate effectively with developers.
             </li>
             <li>
-              <strong>Developer Mindset:</strong> I write clean, maintainable
-              code to bring interfaces to life.
-            </li>
-            <li>
-              <strong>Pixel + Logic:</strong> I care about visual precision and
-              functionality
+              <strong>Pixel + Logic:</strong> I pay close attention to
+              detail—down to the last pixel—while ensuring the product functions
+              beautifully across devices.
             </li>
           </ul>
           <p
