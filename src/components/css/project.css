@@ -80,10 +80,10 @@
 
 .laptop-frame {
   position: relative;
-  width: 570px;
-  height: auto;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 570px;
   aspect-ratio: 570 / 370;
+  margin: 0 auto;
 }
 
 .frame-img {
@@ -95,7 +95,18 @@
   pointer-events: none;
 }
 
-.project-video {
+.video-wrapper-inside-laptop {
+  position: absolute;
+  top: 13%;
+  left: 12.6%;
+  width: 75%;
+  height: 70%;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+/* .project-video {
   position: absolute;
   top: 13%;
   left: 12.6%;
@@ -104,6 +115,14 @@
   border: none;
   object-fit: cover;
   z-index: 1;
+  border-radius: 4px;
+} */
+
+.project-video {
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover;
   border-radius: 4px;
 }
 
@@ -115,5 +134,23 @@
 
   .project-image {
     max-height: 150px;
+  }
+
+  .laptop-frame {
+    width: 100%;
+  }
+  .frame-img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .video-wrapper-inside-laptop {
+    top: 13%;
+    left: 28%;
+    width: 60%;
+    height: 60%;
   }
 }

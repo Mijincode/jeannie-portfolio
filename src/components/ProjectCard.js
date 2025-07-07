@@ -23,12 +23,14 @@ const ProjectCard = ({ project }) => {
         ) : project.videoSrc ? (
           <div className="laptop-frame">
             <img src={LaptopFrame} alt="Laptop Frame" className="frame-img" />
-            <iframe
-              src={project.videoSrc}
-              title={project.title || "Video Project"}
-              className="project-video"
-              allowFullScreen
-            />
+            <div className="video-wrapper-inside-laptop">
+              <iframe
+                src={project.videoSrc}
+                title={project.title || "Video Project"}
+                className="project-video"
+                allowFullScreen
+              />
+            </div>
           </div>
         ) : null}
 
