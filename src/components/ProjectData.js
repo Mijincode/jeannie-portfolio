@@ -4,6 +4,8 @@ import LmsImg from "./images/LMS/Frame6.png";
 import HappyTooImg from "./images/happyToo/Frame5.png";
 import Happiness from "./images/happiness.png";
 import HMImg from "./images/hm.png";
+import Flight from "./images/Flight.png";
+import Movie from "./images/movie.png";
 
 const projectData = {
   ChaeulBeauty: {
@@ -74,16 +76,20 @@ const projectData = {
   },
 
   FlightRoutes: {
+    hoverText: "Flight Routes and Airports",
     title: "Flight Routes and Airports",
     videoSrc: "https://www.youtube.com/embed/n7On5x0mXxo",
+    img: Flight,
     description:
       "This interactive platform allows users to explore flight routes and airport information across Australia.",
     githubUrl: "https://github.com/Mijincode/FlightRoutes",
   },
 
   MovieApp: {
+    hoverText: "Movie Search",
     title: "Movie Search",
     videoSrc: "https://www.youtube.com/embed/kMa4L73EOr8",
+    img: Movie,
     description:
       "A movie search app that features user authentication, movie detail lookups via IMDb, and image upload for movie posters.",
     githubUrl: "https://github.com/Mijincode/MovieApp",
