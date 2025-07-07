@@ -83,16 +83,18 @@ const projectData = {
     description:
       "This interactive platform allows users to explore flight routes and airport information across Australia.",
     githubUrl: "https://github.com/Mijincode/FlightRoutes",
+    link: "/projects/flight-routes",
   },
 
-  MovieApp: {
+  MovieSearch: {
     hoverText: "Movie Search",
     title: "Movie Search",
-    videoSrc: "https://www.youtube.com/embed/kMa4L73EOr8",
     img: Movie,
+    videoSrc: "https://www.youtube.com/embed/kMa4L73EOr8",
     description:
       "A movie search app that features user authentication, movie detail lookups via IMDb, and image upload for movie posters.",
     githubUrl: "https://github.com/Mijincode/MovieApp",
+    link: "/projects/movie-search",
   },
 };
 export default projectData;

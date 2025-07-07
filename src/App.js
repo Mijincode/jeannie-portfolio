@@ -14,9 +14,10 @@ import HMRedesign from "./components/pages/HMRedesign";
 import FamilyNutrients from "./components/pages/FamilyNutrients";
 import Happiness from "./components/pages/Happiness";
 import ScrollToTop from "./components/ScrollToTop";
+import MovieSearch from "./components/pages/MovieSearch";
+import FlightRoutes from "./components/pages/FlightRoutes";
 
 function App() {
-  // Test commit
   return (
     <Router>
       <ScrollToTop />
@@ -46,6 +47,8 @@ function App() {
           element={<FamilyNutrients />}
         />
         <Route path="/projects/happiness" element={<Happiness />} />
+        <Route path="/projects/movie-search" element={<MovieSearch />} />
+        <Route path="/projects/flight-routes" element={<FlightRoutes />} />
       </Routes>
     </Router>
   );
