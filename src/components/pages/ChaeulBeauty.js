@@ -381,7 +381,7 @@ export default function ChaeulBeauty() {
 
           <div className="impact-graph">
             <img
-              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1752154935/userEngagment_aq4xid.png"
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1752156293/Screenshot_2025-07-11_at_12.04.36_am_ft4rji.png"
               alt="User Engagement Analytics Chart"
               className="analytics-image"
             />
