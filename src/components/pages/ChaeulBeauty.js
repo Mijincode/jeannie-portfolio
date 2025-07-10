@@ -87,43 +87,42 @@ export default function ChaeulBeauty() {
           </ul>
         </div>
 
-        {/* <section className="case-block">
-          <h2>Research Insights</h2>
-          <div className="section-summary">
-            <h4>Quick Summary:</h4>
-
-            <ul>
-              <li>5 user interviews + 18 survey responses</li>
-              <li>Users wanted clean portfolio & clear pricing</li>
-              <li>Trust and simplicity were top priorities</li>
-            </ul>
-          </div>
-          <ul>
-            <li>83% of users prioritize a clean portfolio</li>
-            <li>72% say trust is #1 decision factor</li>
-            <li>Booking through Instagram is confusing</li>
-          </ul>
-        </section> */}
-
         <div className="case-block-chaeul">
           <h2>4. Research Insights</h2>
+          <div className="insights-summary">
+            <div className="insight-card">
+              <h3> - Client-side insight & Remote Observation</h3>
+              <p>
+                With the client in South Korea and myself in Australia, I
+                conducted lightweight remote research. Insights were gathered
+                from the client's ongoing Instagram conversations,
+                consultations, and FAQs from her audience.
+              </p>
+            </div>
+            <div className="insight-card">
+              <h3> - Visual Priority</h3>
+              <p>
+                {" "}
+                To improve clarity and professionalism, the redesigned landing
+                page showcases post-treatment results by category (e.g., brows,
+                lips, eyeliner). This structure allows users to quickly find
+                relevant examples and encourages them to take the next step.
+              </p>
+            </div>
+            <div className="insight-card">
+              <h3> - Trust Matters Most</h3>
+              <p>
+                Choosing a cosmetic tattoo artist was an emotional decision.
+                Users valued personal consultation and warmth more than price or
+                speed.
+              </p>
+            </div>
 
-          <div className="insights-summary-grid">
             <div className="insight-card">
-              <h3> Interviews & Survey</h3>
-              <p>5 user interviews, 18 survey responses</p>
-            </div>
-            <div className="insight-card">
-              <h3>Visual Priority</h3>
-              <p>83% prioritize a clean portfolio</p>
-            </div>
-            <div className="insight-card">
-              <h3>Trust Matters Most</h3>
-              <p>72% say trust is the #1 decision factor</p>
-            </div>
-            <div className="insight-card">
-              <h3>💬 Booking Confusion</h3>
-              <p>Instagram DMs felt unclear and slow</p>
+              <h3> - Booking Confusion</h3>
+              Instagram DMs felt unclear. KakaoTalk, the trusted messenger in
+              Korea, was a natural choice for bookings—familiar, fast, and
+              user-preferred.
             </div>
           </div>
         </div>
@@ -212,10 +211,9 @@ export default function ChaeulBeauty() {
           </p>
 
           <p>
-            I also redesigned the landing page to reflect Chaeul Beauty’s tone:
-            calm, elegant, and service-oriented. Instead of generic images, the
-            new layout shows categorized post-treatment results, helping users
-            explore by their needs.
+            I redesigned the landing page to align with Chaeul Beauty’s calm and
+            elegant brand. The new layout highlights treatment categories,
+            letting users easily browse results based on their needs
           </p>
 
           <p>
@@ -350,25 +348,54 @@ export default function ChaeulBeauty() {
 
         <div className="case-block-chaeul">
           <h2>8. Impact</h2>
-          <div className="impact-stats-grid">
-            <div className="impact-card">
-              <h3>📉</h3>
-              <h4>-60%</h4>
-              <p>No-show Rate</p>
-            </div>
-            <div className="impact-card">
-              <h3>⏱️</h3>
-              <h4>+40%</h4>
-              <p>Time on Site</p>
-            </div>
-            <div className="impact-card">
-              <h3>💬</h3>
-              <h4>1.5×</h4>
-              <p>KakaoTalk Inquiries</p>
-            </div>
+          <ul className="impact-metrics">
+            <li>
+              <strong>No-show Rate ↓</strong>
+              <p>
+                Clients reported fewer missed bookings after the site redesign
+                and improved scheduling flow.
+              </p>
+            </li>
+            <li>
+              <strong>⏱Average Session Duration</strong>
+              <p>
+                Increased to <strong>1m 44s</strong>, indicating users were more
+                engaged with the content.
+              </p>
+            </li>
+            <li>
+              <strong>KakaoTalk Inquiries</strong>
+              <p>
+                Client observed a rise in direct messages via KakaoTalk after
+                CTA was added. More intuitive for Korean users.
+              </p>
+            </li>
+            <li>
+              <strong>Engagement Spike</strong>
+              <p>
+                On July 10, engagement events surged past <strong>10+</strong>{" "}
+                after redesign launch.
+              </p>
+            </li>
+          </ul>
+
+          <div className="impact-graph">
+            <img
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1752154935/userEngagment_aq4xid.png"
+              alt="User Engagement Analytics Chart"
+              className="analytics-image"
+            />
+            <img
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1752155050/overview_gmzyc5.png"
+              alt="overview"
+              className="analytics-image"
+            />
+            <p className="caption">
+              Google Analytics: Event Count & User Engagement Trend (Jun 13 –
+              Jul 10, 2025)
+            </p>
           </div>
         </div>
-
         <div className="case-block-chaeul">
           <h2>9. Reflection</h2>
           <p>
