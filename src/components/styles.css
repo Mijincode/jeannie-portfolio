@@ -39,12 +39,12 @@ header.sticky {
 
 /* Navbar Brand */
 .navbar-brand {
-  color: #ffffff;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
   white-space: nowrap; /* Don't break into two lines */
 }
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -71,9 +71,9 @@ header.sticky {
 .nav-link {
   background: none;
   border: none;
-  color: #ffffff;
+  color: black !important;
   font-size: 1.2rem;
-  font-family: inherit;
+  font-family: sans-serif;
   cursor: pointer;
   text-decoration: none;
   padding: 0;
