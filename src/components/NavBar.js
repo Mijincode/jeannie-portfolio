@@ -58,7 +58,7 @@ export default function Navbar() {
           </button>
 
           <div className={`navbar-links ${menuOpen ? "open" : ""}`}>
-            {["home", "about", "skills", "projects", "contact"].map(
+            {["home", "projects", "skills", "about", "contact"].map(
               (section) => (
                 <button
                   key={section}

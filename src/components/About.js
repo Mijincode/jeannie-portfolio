@@ -83,12 +83,11 @@ export default function About() {
             delightful.
           </p>
 
-          <div className="sub-title-about">
+          {/* <div className="sub-title-about">
             <p>My Approach</p>
-          </div>
+          </div> */}
           {/* 
-          <div className="key-points-box">
-            <h3 className="key-heading">My Approach</h3> */}
+       
           <ul className="key-points-list">
             <li>
               <strong>Design × Code Synergy:</strong> I design with

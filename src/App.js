@@ -28,9 +28,9 @@ function App() {
           element={
             <main id="main-wrapper">
               <Home />
-              <About />
-              <Skills />
               <Projects />
+              <Skills />
+              <About />
               <Contact />
             </main>
           }
