@@ -14,7 +14,7 @@ export default function StudyPlan() {
         </h1>
 
         <div className="case-block-lms">
-          <h2 className="section-title">1. Project Overview</h2>
+          <h2>1. Project Overview</h2>
           <p>
             <strong>Client:</strong> Future Leaders Network (FNs Network)
           </p>

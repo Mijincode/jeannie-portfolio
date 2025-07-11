@@ -290,7 +290,7 @@ export default function HappyToo() {
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="button"
+              className="button-happyToo"
             >
               View GitHub
             </a>

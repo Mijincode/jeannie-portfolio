@@ -243,7 +243,7 @@ export default function ChaeulBeauty() {
             The Chaeul Beauty logo is inspired by the Chinese character ‘美
             (Mi)’, meaning beauty, reimagined in the abstract form of a
             blossoming flower. Flowers are a timeless symbol of beauty, and
-            here, the flower sits at the center of the design to represent
+            here, the -flower sits at the center of the design to represent
             elegance and harmony. The surrounding circular frame reflects the
             word ‘Chaeul (채울)’, which means "to fill" or "to complete" in
             Korean. Together, the logo conveys the philosophy of filling life
@@ -313,37 +313,39 @@ export default function ChaeulBeauty() {
 
         <div className="case-block-chaeul">
           <h2>8. Before vs. After Summary</h2>
-          <table className="comparison-table">
-            <thead>
-              <tr>
-                <th>Feature</th>
-                <th>Before (Original)</th>
-                <th>After (Redesign)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Booking</td>
-                <td>On-site booking calendar</td>
-                <td>Replaced with KakaoTalk chat link</td>
-              </tr>
-              <tr>
-                <td>Conversion Goal</td>
-                <td>Online scheduling</td>
-                <td>Trust & consultation</td>
-              </tr>
-              <tr>
-                <td>Visual Tone</td>
-                <td>Functional and transactional</td>
-                <td>Elegant, minimalist, emotional</td>
-              </tr>
-              <tr>
-                <td>Client Feedback</td>
-                <td>"Too many no-shows"</td>
-                <td>"Now I can talk to each client before confirming"</td>
-              </tr>
-            </tbody>
-          </table>
+          <div className="table-wrapper">
+            <table className="comparison-table">
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>Before (Original)</th>
+                  <th>After (Redesign)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Booking</td>
+                  <td>On-site booking calendar</td>
+                  <td>Replaced with KakaoTalk chat link</td>
+                </tr>
+                <tr>
+                  <td>Conversion Goal</td>
+                  <td>Online scheduling</td>
+                  <td>Trust & consultation</td>
+                </tr>
+                <tr>
+                  <td>Visual Tone</td>
+                  <td>Functional and transactional</td>
+                  <td>Elegant, minimalist, emotional</td>
+                </tr>
+                <tr>
+                  <td>Client Feedback</td>
+                  <td>"Too many no-shows"</td>
+                  <td>"Now I can talk to each client before confirming"</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div className="case-block-chaeul">
