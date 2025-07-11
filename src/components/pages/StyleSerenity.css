@@ -28,18 +28,15 @@
 }
 
 .case-study-title-style {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 1rem;
+  color: #d04e7e;
   text-align: center;
   animation: fadeIn 1s ease-in-out;
-}
-
-.case-study-title-style {
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 2.5rem;
-  color: #d04e7e;
-  margin-top: 50px;
-  display: block;
   text-align: center;
+  display: block;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -59,7 +56,7 @@
 }
 
 .case-block-style h2 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: #333;
@@ -74,7 +71,7 @@
 
 .case-block-style li,
 .case-block-style p {
-  font-size: 1.05rem;
+  font-size: 0.955rem;
   margin-bottom: 0.75rem;
 }
 
@@ -138,13 +135,32 @@
 }
 
 @media (max-width: 768px) {
+  .case-study-container {
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+  }
+
   .case-study-title-style {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   .case-block-style {
-    padding: 1.5rem;
+    padding: 1.25rem 1rem;
+    margin: 1.5rem 0;
   }
+
+  .case-block-style h2 {
+    font-size: 1.3rem;
+    padding-left: 0.75rem;
+  }
+
+  .case-block-style li,
+  .case-block-style p {
+    font-size: 0.95rem;
+  }
+
   .wireframes-grid-styleSerenity {
     grid-template-columns: 1fr;
   }

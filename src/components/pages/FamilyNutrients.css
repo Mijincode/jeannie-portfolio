@@ -2,7 +2,7 @@
 
 .case-study-section-family {
   background-color: #467408;
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   font-family: "Inter", "Helvetica Neue", sans-serif;
   color: #222;
   line-height: 1.75;
@@ -10,17 +10,17 @@
 
 .case-study-container {
   max-width: 1200px;
+  padding: 40px 20px;
   margin: 0 auto;
-  padding: 2rem;
   background: #ffffff;
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
 .case-study-title-family {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   color: #467408;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   font-weight: 800;
   margin-top: 50px;
@@ -32,7 +32,7 @@
 }
 
 .case-block-family {
-  margin-bottom: 4rem;
+  margin: 3rem 0;
   padding: 2rem;
   border-radius: 12px;
   background: #f8f8f8;
@@ -40,7 +40,7 @@
 }
 
 .case-block-family h2 {
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: #333;
   margin-bottom: 1rem;
   border-left: 6px solid #467408;
@@ -48,16 +48,16 @@
   font-weight: 700;
 }
 
-.case-block-family p,
-.case-block-family li {
-  font-size: 1.05rem;
-  color: #444;
-  margin-bottom: 0.75rem;
-}
-
 .case-block-family ul {
   padding-left: 1.5rem;
   list-style-type: disc;
+}
+
+.case-block-family p,
+.case-block-family li {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.75rem;
 }
 
 .process-step h3 {
@@ -73,27 +73,6 @@
   font-size: 1.25rem;
   color: #555;
   text-align: center;
-}
-
-.cta-btn {
-  display: inline-block;
-  padding: 0.85rem 1.6rem;
-  margin: 0.5rem 1rem 0 0;
-  border-radius: 10px;
-  text-decoration: none;
-  background-color: #e4aa3f;
-  color: #000;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-}
-
-.cta-btn.secondary {
-  background-color: #333;
-  color: #fff;
-}
-
-.cta-btn:hover {
-  background-color: #d3982d;
 }
 
 .reference,
@@ -120,21 +99,9 @@
   margin: 0 auto;
 }
 
-/* .iframe-container {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-  overflow-x: auto;
-}
-
-.iframe-container iframe {
-  max-width: 100%;
-  height: auto;
-} */
-
 .iframe-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 ratio */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   margin: 2rem 0;
@@ -165,16 +132,30 @@
 }
 
 @media screen and (max-width: 768px) {
+  .case-study-container {
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+  }
+
   .case-study-title-family {
-    font-size: 2.25rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   .case-block-family {
-    padding: 1.5rem;
+    padding: 1.25rem 1rem;
+    margin: 1.5rem 0;
   }
 
   .case-block-family h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    padding-left: 0.75rem;
+  }
+
+  .case-block-family li,
+  .case-block-family p {
+    font-size: 0.95rem;
   }
 
   .wireframes-grid {

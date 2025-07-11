@@ -3,25 +3,16 @@
   padding: 4rem 2rem;
   font-family: "Inter", "Helvetica Neue", sans-serif;
   color: #222;
-  line-height: 1.75;
-}
-
-.case-study-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  line-height: 1.7;
 }
 
 .case-study-title-movie {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
+  font-weight: bold;
   color: #2cac61;
   margin-bottom: 2.5rem;
   text-align: center;
-  font-weight: 800;
-  margin-top: 50px;
+  margin-top: 40px;
   display: block;
   text-align: center;
   width: 90%;
@@ -30,7 +21,7 @@
 }
 
 .case-block-movie {
-  margin-bottom: 3.5rem;
+  margin: 3rem 0;
   padding: 2rem;
   border-radius: 12px;
   background: #f8f8f8;
@@ -38,7 +29,7 @@
 }
 
 .case-block-movie h2 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: #333;
   margin-bottom: 1rem;
   border-left: 6px solid #2cac61;
@@ -47,10 +38,21 @@
 }
 
 .case-block-movie h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #222;
   margin-bottom: 0.5rem;
   font-weight: 600;
+}
+
+.case-block-movie ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.case-block-movie li,
+.case-block-movie p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
 }
 
 .portfolio-image {
@@ -92,17 +94,30 @@
 
 /* ========== Responsive ========== */
 @media screen and (max-width: 768px) {
+  .case-study-container {
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+  }
+
   .case-study-title-movie {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   .case-block-movie {
-    padding: 1.2rem;
+    padding: 1.25rem 1rem;
+    margin: 1.5rem 0;
   }
 
   .case-block-movie h2 {
-    font-size: 1.4rem;
-    padding-left: 0.8rem;
+    font-size: 1.3rem;
+    padding-left: 0.75rem;
+  }
+
+  .case-block-movie li,
+  .case-block-movie p {
+    font-size: 0.95rem;
   }
 
   .button-movie {

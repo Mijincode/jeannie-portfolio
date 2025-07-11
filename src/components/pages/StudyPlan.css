@@ -18,19 +18,21 @@
 }
 
 .case-study-container {
+  padding: 40px 20px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   background: #ffffff;
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  line-height: 1.6;
 }
 
 .case-study-title-lms {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: bold;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 1rem;
   color: #0965e8;
   animation: fadeIn 1s ease-in-out;
   text-align: center;
@@ -41,7 +43,7 @@
 }
 
 .case-block-lms {
-  margin-bottom: 3.5rem;
+  margin: 3rem 0;
   padding: 2rem;
   border-radius: 12px;
   background: #f8f8f8;
@@ -49,12 +51,23 @@
 }
 
 .case-block-lms h2 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: #333;
   margin-bottom: 1rem;
   border-left: 6px solid #0965e8;
   padding-left: 1rem;
   font-weight: 700;
+}
+
+.case-block-lms ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.case-block-lmj li,
+.case-block-lmj p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
 }
 
 .process-step {
@@ -116,12 +129,30 @@
 }
 
 @media (max-width: 768px) {
-  .case-study-title-hm {
-    font-size: 2rem;
+  .case-study-container {
+    padding: 1.5rem 1rem;
+    margin: 1rem;
   }
 
-  .section-title {
-    font-size: 1.5rem;
+  .case-study-title-lms {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .case-block-lms {
+    padding: 1.25rem 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .case-block-lms h2 {
+    font-size: 1.3rem;
+    padding-left: 0.75rem;
+  }
+
+  .case-block-lms li,
+  .case-block-lms p {
+    font-size: 0.95rem;
   }
 
   .button-group {

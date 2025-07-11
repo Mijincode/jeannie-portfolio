@@ -13,17 +13,17 @@
   margin: 0 auto;
   padding: 2rem;
   background: #ffffff;
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
 .case-study-title-hm {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   color: #e4000f;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   font-weight: 800;
-  margin-top: 50px;
+  margin-top: 40px;
   display: block;
   text-align: center;
   width: 90%;
@@ -32,7 +32,7 @@
 }
 
 .case-block-hm {
-  margin-bottom: 3.5rem;
+  margin: 3rem 0;
   padding: 2rem;
   border-radius: 12px;
   background: #f8f8f8;
@@ -40,12 +40,23 @@
 }
 
 .case-block-hm h2 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: #333;
   margin-bottom: 1rem;
   border-left: 6px solid #e4000f;
   padding-left: 1rem;
   font-weight: 700;
+}
+
+.case-block-hm ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.case-block-hm li,
+.case-block-hm p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
 }
 
 .section-label {
@@ -95,17 +106,30 @@
 
 /* ========== Responsive ========== */
 @media screen and (max-width: 768px) {
+  .case-study-container {
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+  }
+
   .case-study-title-hm {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   .case-block-hm {
-    padding: 1.2rem;
+    padding: 1.25rem 1rem;
+    margin: 1.5rem 0;
   }
 
   .case-block-hm h2 {
-    font-size: 1.4rem;
-    padding-left: 0.8rem;
+    font-size: 1.3rem;
+    padding-left: 0.75rem;
+  }
+
+  .case-block-hm li,
+  .case-block-hm p {
+    font-size: 0.95rem;
   }
 
   .wireframes-grid-hm {
