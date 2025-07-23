@@ -55,9 +55,9 @@ export default function ChaeulBeauty() {
           <p>
             The client, a cosmetic tattoo artist, initially relied solely on
             Instagram DMs to manage bookings. To improve professionalism and
-            accessibility, I designed a website with multilingual support and
-            calendar-based booking. However, real-world usage revealed
-            unexpected friction.
+            accessibility, I designed a responsive website with multilingual
+            support and calendar-based booking. However, real-world usage
+            revealed unexpected friction.
           </p>
 
           <div className="timeline-flow">
@@ -149,7 +149,7 @@ export default function ChaeulBeauty() {
           </div>
 
           {/* Landing Page Walkthrough */}
-          <p className="video-title"> Landing Page Walkthrough</p>
+          <p className="video-title"> Landing Page Walkthrough(Web)</p>
           <video
             width="100%"
             height="auto"
@@ -166,7 +166,7 @@ export default function ChaeulBeauty() {
           </video>
 
           {/* Booking Flow Video */}
-          <p className="video-title">Booking Flow</p>
+          <p className="video-title">Booking Flow (Web)</p>
           <video
             width="100%"
             height="auto"
@@ -192,9 +192,9 @@ export default function ChaeulBeauty() {
           <h2>5. Design Process</h2>
 
           <p>
-            I began with a booking-first flow: clients could choose a date,
-            select services, and confirm via calendar. It seemed efficient — but
-            real users wanted something different.
+            I began with a booking-first flow: users could choose a date, select
+            services, and confirm via calendar. It seemed efficient — but real
+            users wanted something different.
           </p>
 
           <p>
@@ -290,7 +290,7 @@ export default function ChaeulBeauty() {
             <div className="image-label-group">
               <span className="image-label">After (Redesigned Landing)</span>
               <img
-                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1749014868/Screenshot_2025-06-04_at_3.27.30_pm_veuj0y.png"
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1753229052/screencapture-localhost-3001-home-2025-07-23-10_03_16_yhggyr.png"
                 alt="New Landing Page"
                 className="comparison-img"
               />
