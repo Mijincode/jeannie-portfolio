@@ -57,7 +57,7 @@ const projectData = {
 
   StudyPlan: {
     hoverText: "Learning Management System",
-    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753241438/hand_ft8ubt.png",
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753240923/Flying_Macbook_Air_2022_Perspective_Mockup_lzahcq.png",
     role: "UX/UI Design, Front-End Development",
     description:
       "A Learning Management System designed for customizable study plans. Built with adaptability in mind, enabling personalized learning journeys through modular components and user-led workflows.",
