@@ -290,13 +290,13 @@ export default function ChaeulBeauty() {
             <div className="image-label-group">
               <span className="image-label">After (Redesigned Landing)</span>
               <img
-                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1753229052/screencapture-localhost-3001-home-2025-07-23-10_03_16_yhggyr.png"
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1753243104/landingFullPage_xivrda.png"
                 alt="New Landing Page"
                 className="comparison-img"
               />
             </div>
           </div>
-
+          <hr className="section-divider" />
           <div className="image-label-group">
             <span className="image-label">About page (New): </span>
             <p>
@@ -304,7 +304,7 @@ export default function ChaeulBeauty() {
               clearly, freeing the homepage to focus on services and results.
             </p>
             <img
-              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751549583/Screenshot_2025-07-03_at_11.24.13_pm_u0uvip.png"
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1753243124/screencapture-localhost-3001-about-us-2025-07-23-13_58_20_i962su.png"
               alt="About Page"
               className="comparison-img"
             />

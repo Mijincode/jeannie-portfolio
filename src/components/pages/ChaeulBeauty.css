@@ -183,6 +183,10 @@ body {
   display: block;
 }
 
+.image-label-group p {
+  margin-bottom: 60px;
+}
+
 .logo-image {
   max-width: 20%;
   height: auto;
