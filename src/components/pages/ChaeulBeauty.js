@@ -280,10 +280,11 @@ export default function ChaeulBeauty() {
         <div className="case-block-chaeul">
           <h2>7. Final Design</h2>
           <p>
-            The redesigned version emphasizes high-quality visuals, multilingual
-            access, and a CTA leading to KakaoTalk. This allowed the artist to
-            pre-screen clients and reduce no-shows while creating a more elegant
-            and trustworthy impression.
+            The redesigned version emphasizes high-quality visuals that align
+            with Chaul Beauty's brand and identity and removed the calendar
+            booking system. This allowed the artist to pre-screen clients and
+            reduce no-shows while creating a more elegant and trustworthy
+            impression.
           </p>
 
           <div className="side-by-side">
