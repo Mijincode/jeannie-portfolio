@@ -1,67 +1,60 @@
-import React, { useEffect, useRef } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React from "react";
 import { Link } from "react-router-dom";
-import ProjectCard from "./ProjectCard";
 import projectData from "./ProjectData";
 import "./css/project.css";
-import gsap from "gsap";
-
-gsap.registerPlugin(ScrollTrigger);
 
 export default function Projects() {
-  const sectionRef = useRef();
-
-  useEffect(() => {
-    const trigger = ScrollTrigger.create({
-      trigger: sectionRef.current,
-      start: "top center",
-      end: "bottom center",
-      onEnter: () => {
-        gsap.to("body", {
-          backgroundColor: "#4224D2",
-          color: "#FFFFFF",
-          duration: 0.5,
-        });
-        gsap.to(" h1,h2,p, text", {
-          color: "#FFFFFF",
-          duration: 0.5,
-        });
-      },
-      onEnterBack: () => {
-        gsap.to("body", {
-          backgroundColor: "#4224D2",
-          color: "#FFFFFF",
-          duration: 0.5,
-        });
-        gsap.to("h1, h2, p, .text", {
-          color: "#FFFFFF",
-          duration: 0.5,
-        });
-      },
-    });
-
-    return () => {
-      trigger.kill();
-    };
-  }, []);
-
   return (
-    <section id="projects" ref={sectionRef}>
-      {/* <section id="projects" className="projects"> */}
+    <section id="projects">
       <div className="project-container">
         <h2 className="project-heading">Projects</h2>
-        <div className="card-container">
+        <div className="project-list">
           {Object.keys(projectData).map((projectKey) => {
             const project = projectData[projectKey];
             return (
               <div className="project-wrapper" key={projectKey}>
-                {project.link ? (
-                  <Link to={project.link}>
-                    <ProjectCard project={project} />
-                  </Link>
-                ) : (
-                  <ProjectCard project={project} />
-                )}
+                <div className="project-card vertical-layout">
+                  <div className="image-container">
+                    {project.img && (
+                      <img
+                        src={project.img}
+                        alt={project.title || project.hoverText || project.role}
+                        className={`project-image ${
+                          project.hoverText === "Chaeul-Beauty"
+                            ? "large-image"
+                            : ""
+                        }`}
+                      />
+                    )}
+                  </div>
+
+                  <div className="project-info">
+                    <h3 className="project-title">
+                      {project.title || project.hoverText || project.role}
+                    </h3>
+                    {project.role && (
+                      <p className="project-role">
+                        <strong>Role:</strong> {project.role}
+                      </p>
+                    )}
+                    <p className="project-description">{project.description}</p>
+                    {project.link && (
+                      <Link to={project.link} className="project-button">
+                        View case study
+                      </Link>
+                    )}
+                    {project.webPage && (
+                      <a
+                        href={project.webPage}
+                        className="project-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Live Site
+                      </a>
+                    )}
+                  </div>
+                </div>
               </div>
             );
           })}

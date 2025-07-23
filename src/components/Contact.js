@@ -1,38 +1,40 @@
-import React, { useEffect, useRef } from "react";
+// import React, { useEffect, useRef } from "react";
+import React from "react";
 import { AiOutlineMail, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import gsap from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./css/contact.css";
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 export default function Contact() {
-  const sectionRef = useRef();
+  // const sectionRef = useRef();
 
-  useEffect(() => {
-    const el = sectionRef.current;
+  // useEffect(() => {
+  //   const el = sectionRef.current;
 
-    const scrollTrigger = ScrollTrigger.create({
-      trigger: el,
-      start: "top center",
-      end: "bottom center",
-      onEnter: () => {
-        gsap.to("body", { backgroundColor: "#DB7A00", duration: 0.5 });
-        gsap.to("body", { color: "#FFFFFF", duration: 0.5 });
-      },
-      onEnterBack: () => {
-        gsap.to("body", { backgroundColor: "#DB7A00", duration: 0.5 });
-        gsap.to("body", { color: "#FFFFFF", duration: 0.5 });
-      },
-    });
+  //   const scrollTrigger = ScrollTrigger.create({
+  //     trigger: el,
+  //     start: "top center",
+  //     end: "bottom center",
+  //     onEnter: () => {
+  //       gsap.to("body", { backgroundColor: "#DB7A00", duration: 0.5 });
+  //       gsap.to("body", { color: "#FFFFFF", duration: 0.5 });
+  //     },
+  //     onEnterBack: () => {
+  //       gsap.to("body", { backgroundColor: "#DB7A00", duration: 0.5 });
+  //       gsap.to("body", { color: "#FFFFFF", duration: 0.5 });
+  //     },
+  //   });
 
-    return () => {
-      scrollTrigger.kill();
-    };
-  }, []);
+  //   return () => {
+  //     scrollTrigger.kill();
+  //   };
+  // }, []);
 
   return (
-    <section id="contact" ref={sectionRef} className="contact-section">
+    // <section id="contact" ref={sectionRef} className="contact-section">
+    <section id="contact" className="contact-section">
       <div className="contact-content">
         <h1 className="contact-heading">Contact me</h1>
         <div className="contact-links">

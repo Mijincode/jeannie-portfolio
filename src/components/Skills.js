@@ -1,6 +1,4 @@
-import React, { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React from "react";
 import "./css/skills.css";
 import figma from "./images/figma.png";
 import javaScript from "./images/javaScript.png";
@@ -9,8 +7,6 @@ import css from "./images/css.png";
 import react from "./images/react.png";
 import mySQL from "./images/mySQL.png";
 import nodeJS from "./images/nodeJS.png";
-
-gsap.registerPlugin(ScrollTrigger);
 
 const skillsData = [
   { name: "HTML5", icon: html },
@@ -23,37 +19,6 @@ const skillsData = [
 ];
 
 export default function Skills() {
-  const sectionRef = useRef();
-
-  useEffect(() => {
-    const el = sectionRef.current;
-
-    const scrollTriggerInstance = ScrollTrigger.create({
-      trigger: el,
-      start: "top center",
-      end: "bottom center",
-      onEnter: () => {
-        gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
-        gsap.to("h1, h2", {
-          color: "#FFFFFF",
-          duration: 0.5,
-        });
-      },
-      onEnterBack: () => {
-        gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
-        gsap.to("h1, h2", {
-          color: "#FFFFFF",
-          duration: 0.5,
-        });
-      },
-    });
-
-    return () => {
-      if (scrollTriggerInstance) {
-        scrollTriggerInstance.kill();
-      }
-    };
-  }, []);
   return (
     <section id="skills">
       <div className="skills-container">

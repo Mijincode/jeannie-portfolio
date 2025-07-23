@@ -1,31 +1,32 @@
-import React, { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import React, { useEffect, useRef } from "react";
+// import gsap from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React from "react";
 import "./css/about.css";
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
-  const sectionRef = useRef();
+  // const sectionRef = useRef();
 
-  useEffect(() => {
-    const el = sectionRef.current;
+  // useEffect(() => {
+  //   const el = sectionRef.current;
 
-    const trigger = ScrollTrigger.create({
-      trigger: el,
-      start: "top center",
-      end: "bottom center",
-      onEnter: () => applyTheme(),
-      onEnterBack: () => applyTheme(),
-    });
+  //   const trigger = ScrollTrigger.create({
+  //     trigger: el,
+  //     start: "top center",
+  //     end: "bottom center",
+  //     onEnter: () => applyTheme(),
+  //     onEnterBack: () => applyTheme(),
+  //   });
 
-    function applyTheme() {
-      gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
-      gsap.to("h1, h2, p, li", { color: "#F9F9F6", duration: 0.5 });
-    }
+  //   function applyTheme() {
+  //     gsap.to("body", { backgroundColor: "#617864", duration: 0.5 });
+  //     gsap.to("h1, h2, p, li", { color: "#F9F9F6", duration: 0.5 });
+  //   }
 
-    return () => trigger.kill();
-  }, []);
+  //   return () => trigger.kill();
+  // }, []);
 
   return (
     // <section id="about" ref={sectionRef}>
