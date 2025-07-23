@@ -1,64 +1,66 @@
-import chaeumImg from "./images/chaeulBeauty/chaeTwo.png";
-import SerenityImg from "./images/styleSerenity/styleSerenity.png";
-import LmsImg from "./images/LMS/Frame6.png";
-import HappyTooImg from "./images/happyToo/Frame5.png";
 import Happiness from "./images/happiness.png";
-import HMImg from "./images/hm.png";
 import Flight from "./images/Flight.png";
 import Movie from "./images/movie.png";
 
 const projectData = {
   ChaeulBeauty: {
     hoverText: "Chaeul-Beauty",
-    img: chaeumImg,
+    role: "UX/UI Design, Full-Stack Development",
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1748740072/Instagram_sihuqg.png",
     webPage: "https://chaeul-mi.com/",
     description:
-      "A beauty tattoo web application for my client in South Korea to enhance customer engagement and operational efficiency.",
+      "A responsive beauty studio website designed for a Korean client, focused on modern aesthetics, intuitive navigation, and mobile-first usability to improve client engagement and service bookings.",
     link: "/projects/chaeul-beauty",
     githubUrl: "https://github.com/Mijincode/Chaeul_mi",
   },
 
   HappyToo: {
     hoverText: "Happy Too",
-    img: HappyTooImg,
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753236628/Frame_1_tsp0uk.png",
+    role: "UX/UI Design, Front-End Development",
     description:
-      "A Busniess Consulting web application designed for a small and medium business",
+      " SaaS-based business consulting platform designed during an interview project to showcase scalable UX for SMEs. Focused on clarity, onboarding flow, and modular service cards with responsive design for cross-device usability.",
     webPage: "http://happytoo.netlify.app",
     githubUrl: "https://github.com/Mijincode/HappyToo",
     link: "/projects/happy-too",
   },
 
-  HMCaseStudy: {
-    hoverText: "H&M UX Redesign",
-    img: HMImg,
-    description:
-      "A UX redesign concept based on user pain points from the existing H&M site.",
-    link: "/projects/hm-redesign",
-  },
-
   FamilyNutrients: {
     hoverText: "Family Nutrients",
-    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1751495722/Landing_Page_wx5hi5.png",
-    description: "Family recipe ",
+    role: "UX/UI Design",
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753239744/Frame_4_wcopiw.png",
+    description:
+      "Focused on simplifying healthy meal planning with intuitive navigation and visual clarity.",
 
     link: "/projects/family-nutrients",
   },
 
   StyleSerenity: {
     hoverText: "Style Serenity",
-    img: SerenityImg,
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753240162/MacBook_Pro_16-inch_Space_Gray_Mockup_bxuict.png",
+    role: "UX/UI Design, Front-End Development",
     description:
-      "A fashion e-commerce web application designed for a seamless shopping experience.",
+      "A fashion e-commerce platform built to streamline product discovery and checkout. Prioritized visual hierarchy, minimal UI, and smooth browsing interactions to support conversion and ease of use.",
     link: "/projects/style-serenity",
     videoSrc: "https://youtube.com/embed/fN1HkiEuzVA",
     githubUrl: "https://github.com/Mijincode/StyleSerenity",
   },
 
+  HMCaseStudy: {
+    hoverText: "H&M UX Redesign",
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753236922/Frame_8_vqrdqq.png",
+    role: "UX/UI Design",
+    description:
+      "A case study exploring pain points and reimagining the H&M e-commerce experience for clarity and flow.",
+    link: "/projects/hm-redesign",
+  },
+
   StudyPlan: {
     hoverText: "Learning Management System",
-    img: LmsImg,
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753241438/hand_ft8ubt.png",
+    role: "UX/UI Design, Front-End Development",
     description:
-      "Many students struggle to find personalized educational tools thatadapt to their pace and goals. The project was initiated in response to challenges observed by Scott Ko (FNs Network), who noted how rigid, standardized learning structures fail to serve students with varied learning journeys. This LMS addresses that gap through customizable learning plans.",
+      "A Learning Management System designed for customizable study plans. Built with adaptability in mind, enabling personalized learning journeys through modular components and user-led workflows.",
     videoSrc: "https://youtube.com/embed/Ub5G4wQfq_M",
     githubUrl: "https://github.com/Mijincode/LearningManagementSystem",
     link: "/projects/study-plan",
@@ -68,9 +70,10 @@ const projectData = {
     hoverText: "Happiness Ranking",
     title: "Happiness Ranking",
     img: Happiness,
+    role: "Full-Stack Development",
     videoSrc: "https://www.youtube.com/embed/U-Vrown8XYM",
     description:
-      "A React-based web application for analyzing happiness survey data, enabling users to filter and visualize information across demographics.",
+      "A data visualization tool for global happiness metrics. Prioritized clarity in charts and filters, with responsive UI and intuitive interaction for data exploration.",
     githubUrl: "https://github.com/Mijincode/HappinessApp",
     link: "/projects/happiness",
   },
@@ -79,9 +82,10 @@ const projectData = {
     hoverText: "Flight Routes and Airports",
     title: "Flight Routes and Airports",
     videoSrc: "https://www.youtube.com/embed/n7On5x0mXxo",
+    role: "Full-Stack Development",
     img: Flight,
     description:
-      "This interactive platform allows users to explore flight routes and airport information across Australia.",
+      "This interactive platform allows users to explore flight routes and airport information across Australia. Interactive web application integrating map APIs to display real-time Australian flight routes and airport data. Emphasized performance optimization and usability across devices.",
     githubUrl: "https://github.com/Mijincode/FlightRoutes",
     link: "/projects/flight-routes",
   },
@@ -91,6 +95,7 @@ const projectData = {
     title: "Movie Search",
     img: Movie,
     videoSrc: "https://www.youtube.com/embed/kMa4L73EOr8",
+    role: "Full-Stack Development",
     description:
       "A movie search app that features user authentication, movie detail lookups via IMDb, and image upload for movie posters.",
     githubUrl: "https://github.com/Mijincode/MovieApp",

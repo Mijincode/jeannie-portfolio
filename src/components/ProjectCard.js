@@ -10,15 +10,21 @@ const ProjectCard = ({ project }) => {
             <img
               key={index}
               src={imgSrc}
-              alt={`${project.title || project.hoverText} ${index + 1}`}
-              className="project-image"
+              alt={`${project.title || project.hoverText || project.role}  ${
+                index + 1
+              }`}
+              className={`project-image ${
+                project.hoverText === "Chaeul-Beauty" ? "large-image" : ""
+              }`}
             />
           ))
         ) : project.img ? (
           <img
             src={project.img}
-            alt={project.title || project.hoverText}
-            className="project-image"
+            alt={project.title || project.hoverText || project.role}
+            className={`project-image ${
+              project.hoverText === "Chaeul-Beauty" ? "large-image" : ""
+            }`}
           />
         ) : project.videoSrc ? (
           <div className="laptop-frame">
@@ -33,16 +39,14 @@ const ProjectCard = ({ project }) => {
             </div>
           </div>
         ) : null}
-
-        <div className="overlay-text">
-          <p style={{ color: "black" }}>{project.hoverText}</p>
-        </div>
       </div>
 
-      {/*
-      <Card.Text style={{ textDecoration: "none" }}>
-        {project.description}
-      </Card.Text> */}
+      <div className="project-info">
+        <h3 className="project-title">{project.title}</h3>
+        {project.description && (
+          <p className="project-description">{project.description}</p>
+        )}
+      </div>
     </div>
   );
 };
