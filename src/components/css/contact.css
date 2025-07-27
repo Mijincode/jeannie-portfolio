@@ -1,6 +1,6 @@
-* #contact {
+/* * #contact {
   background-color: black;
-}
+} */
 
 .contact-section {
   padding: 80px 20px;
@@ -19,7 +19,6 @@
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  color: white;
 }
 
 .contact-links {
@@ -32,13 +31,12 @@
 
 .contact-link {
   font-size: 1.2rem;
-  color: white;
+  color: black;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .contact-link:hover {
-  color: white;
   text-decoration: underline;
 }
 

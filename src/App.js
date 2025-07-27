@@ -28,15 +28,15 @@ function App() {
           element={
             <main id="main-wrapper">
               <Home />
-              {/* <hr className="section-divider" /> */}
+              <hr className="section-divider" />
 
               <Projects />
-              {/* <hr className="section-divider" /> */}
+              <hr className="section-divider" />
               <Skills />
-              {/* <hr className="section-divider" /> */}
+              <hr className="section-divider" />
               <About />
+              <hr className="section-divider" />
               <Contact />
-              {/* <hr className="section-divider" /> */}
             </main>
           }
         />

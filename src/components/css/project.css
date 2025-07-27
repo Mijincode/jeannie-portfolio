@@ -1,7 +1,7 @@
-* #projects {
+/* * #projects {
   padding: 30px 80px;
   background-color: black;
-}
+} */
 
 .project-heading {
   font-size: 2rem;
@@ -10,15 +10,24 @@
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  color: white;
 }
-
+.project-title {
+  color: black;
+}
 .project-list {
   display: flex;
   flex-direction: column;
   gap: 4rem;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.project-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Show only 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .project-role {
@@ -38,22 +47,6 @@
   opacity: 1;
   transform: translateY(0);
 }
-
-/* .project-card {
-  background-color: #fefefe;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  padding: 40px;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25), 0 16px 32px rgba(0, 0, 0, 0.2);
-
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-bottom: 80px;
-}
-
-.project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35), 0 20px 50px rgba(0, 0, 0, 0.3);
-} */
 
 .project-card {
   background: rgba(255, 255, 255, 0.08);
@@ -106,7 +99,7 @@
 .project-description {
   font-size: 1rem;
   margin-bottom: 1rem;
-  color: white;
+  color: black;
 }
 
 .project-button {
