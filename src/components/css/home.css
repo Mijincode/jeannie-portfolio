@@ -1,3 +1,8 @@
+* #home {
+  background-color: black;
+  padding: 30px 80px;
+}
+
 .home-container {
   max-width: 1400px;
   margin: 80px auto 0 auto;
@@ -29,12 +34,13 @@
   font-weight: bold;
   margin-bottom: 1rem;
   font-family: sans-serif;
+  color: white;
 }
 
 .greeting-title {
   font-size: 1.5rem;
   font-weight: 500;
-  color: #555;
+  color: white;
   width: 100%;
   font-family: sans-serif;
   display: flex;
@@ -74,7 +80,7 @@
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.5;
-  color: #333;
+  color: white;
   text-transform: uppercase;
 }
 

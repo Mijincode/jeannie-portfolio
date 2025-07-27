@@ -1,3 +1,7 @@
+* #contact {
+  background-color: black;
+}
+
 .contact-section {
   padding: 80px 20px;
   text-align: center;
@@ -15,6 +19,7 @@
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: white;
 }
 
 .contact-links {
