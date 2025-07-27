@@ -1,6 +1,6 @@
 * #projects {
   padding: 30px 80px;
-  background-color: transparent;
+  background-color: black;
 }
 
 .project-heading {
@@ -10,6 +10,7 @@
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  color: white;
 }
 
 .project-list {
@@ -26,12 +27,49 @@
   margin-bottom: 8px;
 }
 
-.project-card {
-  background-color: #fff;
+.project-wrapper {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  will-change: opacity, transform;
+}
+
+.project-wrapper.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* .project-card {
+  background-color: #fefefe;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   padding: 40px;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25), 0 16px 32px rgba(0, 0, 0, 0.2);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 80px;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35), 0 20px 50px rgba(0, 0, 0, 0.3);
+} */
+
+.project-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
 }
 
 .project-card.vertical-layout {
@@ -68,6 +106,7 @@
 .project-description {
   font-size: 1rem;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .project-button {
