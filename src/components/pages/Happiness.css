@@ -104,6 +104,9 @@
 
 /* ========== Responsive ========== */
 @media screen and (max-width: 768px) {
+  .case-study-section-happiness {
+    padding: 0rem 0rem;
+  }
   .case-study-container {
     padding: 1.5rem 1rem;
     margin: 1rem;

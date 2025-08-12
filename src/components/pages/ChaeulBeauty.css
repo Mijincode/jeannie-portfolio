@@ -278,9 +278,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  .case-study-section-chaeul {
+    padding: 0rem 0rem;
+  }
   .case-study-container {
-    padding: 1.5rem 1rem;
-    margin: 1rem;
+    margin-top: 1.5rem;
   }
 
   .case-study-title-chaeul {
@@ -290,8 +292,7 @@ body {
   }
 
   .case-block-chaeul {
-    padding: 1.25rem 1rem;
-    margin: 1.5rem 0;
+    padding: 1rem 1rem;
   }
 
   .case-block-chaeul h2 {
