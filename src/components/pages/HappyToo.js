@@ -214,7 +214,7 @@ export default function HappyToo() {
                 title="user-flow"
               ></iframe>
             </div>
-            <div className="iframe-container">
+            {/* <div className="iframe-container">
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
                 width="800"
@@ -223,7 +223,7 @@ export default function HappyToo() {
                 allowFullScreen
                 title="User-flow"
               ></iframe>
-            </div>
+            </div> */}
           </div>
         </div>
 
