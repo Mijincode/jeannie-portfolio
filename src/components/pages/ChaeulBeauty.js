@@ -128,7 +128,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>3. Initial Build (Initial Design)</h2>
+          <h2>5. Initial Build (Initial Design)</h2>
           <p>
             The original version included a booking system with date selection,
             service breakdown, and confirmation flows. It aimed to help clients
@@ -189,7 +189,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>5. Design Process</h2>
+          <h2>6. Redesign Process</h2>
 
           <p>
             I began with a booking-first flow: users could choose a date, select
@@ -226,12 +226,12 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>6. Brand Identity & Logo Design</h2>
+          <h2>7. Brand Identity & Logo Design</h2>
           <p>
-            In the original version, the logo was provided by the client, and my
-            focus remained on layout and user flow. However, during the
-            redesign, I took the opportunity to elevate the brand by creating a
-            new logo that better reflects the studio’s values and aesthetic.
+            In the original version, the logo was provided by the client,
+            however, during the redesign, I took the opportunity to elevate the
+            brand by creating a new logo that better reflects the studio’s
+            values and aesthetic.
           </p>
 
           <img
@@ -240,51 +240,27 @@ export default function ChaeulBeauty() {
             className="logo-image"
           />
           <p className="logo-description">
-            The Chaeul Beauty logo is inspired by the Chinese character ‘美
-            (Mi)’, meaning beauty, reimagined in the abstract form of a
-            blossoming flower. Flowers are a timeless symbol of beauty, and
-            here, the -flower sits at the center of the design to represent
-            elegance and harmony. The surrounding circular frame reflects the
-            word ‘Chaeul (채울)’, which means "to fill" or "to complete" in
-            Korean. Together, the logo conveys the philosophy of filling life
-            with beauty, both inside and out. This elegant and minimal design
-            captures the essence of refined natural beauty, aligning with the
-            brand’s identify and the brand name.
+            The Chaeul Beauty logo is inspired by the original logo ‘美 (Mi)’,
+            meaning beauty, reimagined in the abstract form of a blossoming
+            flower. Flowers are a timeless symbol of beauty, and here, the
+            -flower sits at the center of the design to represent elegance and
+            harmony. The surrounding circular frame reflects the word ‘Chaeul
+            (채울)’, which means "to fill" or "to complete" in Korean. Together,
+            the logo conveys the philosophy of filling life with beauty, both
+            inside and out. This elegant and minimal design captures the essence
+            of refined natural beauty, aligning with the brand’s identify and
+            the brand name.
           </p>
         </div>
 
-        {/* <div className="case-block">
-          <h2>7. Final Design</h2>
-          <p>
-            The redesigned version emphasizes high-quality visuals, multilingual
-            access, and a CTA leading to KakaoTalk. This allowed the artist to
-            pre-screen clients and reduce no-shows while creating a more elegant
-            and trustworthy impression. This version emphasizes emotional
-            resonance over functionality, aligned more closely with the client's
-            evolved goals.
-          </p>
-          <h4>Landing Page</h4>
-          <img
-            src="https://res.cloudinary.com/dmvngssd0/image/upload/v1749014868/Screenshot_2025-06-04_at_3.27.30_pm_veuj0y.png"
-            alt="New Landing Page"
-            className="comparison-img"
-          />
-          <h4>About page</h4>
-          <img
-            src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751549583/Screenshot_2025-07-03_at_11.24.13_pm_u0uvip.png"
-            alt="New Landing Page"
-            className="comparison-img"
-          />
-        </div> */}
-
         <div className="case-block-chaeul">
-          <h2>7. Final Design</h2>
+          <h2>8. Final Design</h2>
           <p>
             The redesigned version emphasizes high-quality visuals that align
-            with Chaul Beauty's brand and identity and removed the calendar
-            booking system. This allowed the artist to pre-screen clients and
-            reduce no-shows while creating a more elegant and trustworthy
-            impression.
+            with Chaeul Beauty's brand and identity, featuring an
+            easy-to-navigate homepage that showcases post-treatment results. The
+            calendar booking system was removed to streamline the user
+            experience.
           </p>
 
           <div className="side-by-side">
@@ -313,7 +289,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>8. Before vs. After Summary</h2>
+          <h2>9. Before vs. After Summary</h2>
           <div className="table-wrapper">
             <table className="comparison-table">
               <thead>
@@ -350,7 +326,49 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>8. Impact</h2>
+          <h2>10. User Testing</h2>
+          <p>
+            After launching the redesigned website, I conducted 2 remote and 3
+            moderated usability tests with 5 participants (mix of existing and
+            potential clients). The aim was to measure booking flow
+            discoverability, ease of navigation, and content engagement.
+          </p>
+          <ul className="user-testing-bullets">
+            <li>
+              <strong>Fast CTA Recognition</strong> All participants were able
+              to locate the consultation CTA within 2 seconds.
+            </li>
+            <li>
+              <strong>Clear Preference for KakaoTalk:</strong> 4 out of 5
+              participants explicitly said they preferred contacting the artist
+              through KakaoTalk rather than using a booking calendar, citing
+              “more trust,” “easier conversation,” and “personal connection” as
+              key reasons.
+            </li>
+            <li>
+              <strong>Bookiing Anxiety</strong>
+              espite quick findability, some participants hesitated to book
+              immediately, citing the need for personal trust and the
+              seriousness of committing to a semi-permanent facial tattoo. This
+              reinforced the importance of building trust and having a personal
+              consultation before confirming.
+            </li>
+            <li>
+              <strong>Visual Priorities:</strong> Participants spent most of
+              their time browsing the post-treatment “after” images. The gallery
+              proved to be the primary driver of confidence and trust in the
+              artist’s skill.
+            </li>
+            <li>
+              <strong>Navigation Efficiency:</strong> All participants could
+              reach the treatment category they wanted in under 10 seconds,
+              indicating that the new structure improved information
+              accessibility.
+            </li>
+          </ul>
+        </div>
+        <div className="case-block-chaeul">
+          <h2>11. Impact</h2>
           <ul className="impact-metrics">
             <li>
               <strong>No-show Rate ↓</strong>
@@ -400,22 +418,32 @@ export default function ChaeulBeauty() {
           </div>
         </div>
         <div className="case-block-chaeul">
-          <h2>9. Reflection</h2>
+          <h2>12. Reflection</h2>
           <p>
             This project reminded me that great design isn’t just about visual
-            polish — it’s about aligning with real user behavior. My initial
-            assumptions led to friction, but through research and iteration, I
-            shifted the UX toward something far more personal and effective.
+            polish — it’s about deeply understanding and aligning with real user
+            behavior. My initial “booking-first” assumption created unnecessary
+            friction, but through observation, user testing, and iteration, I
+            shifted the UX toward something far more personal and trust-based.
           </p>
           <p>
-            The final product wasn’t just more beautiful — it felt natural and
-            intuitive to the client and her users. That shift, from automation
-            to trust, was the core of the project’s success.
+            The final product wasn’t just more beautiful — it felt natural,
+            intuitive, and aligned with how the client and her audience already
+            preferred to interact. This transformation from automation to
+            relationship-focused interaction became the true measure of success.
+          </p>
+          <p>
+            The user testing findings reinforced the decision to replace the
+            booking calendar with a KakaoTalk consultation flow. By embracing
+            the trust-building process and acknowledging the high-consideration
+            nature of cosmetic tattoo decisions, the redesigned site now mirrors
+            the way clients naturally choose their artist — through
+            conversation, reassurance, and personal connection.
           </p>
         </div>
 
         <div className="case-block-chaeul">
-          <h2>10. Links & Resources</h2>
+          <h2>13. Links & Resources</h2>
           <strong>Figma File:</strong> Available upon request
           <div className="button-group">
             <a
