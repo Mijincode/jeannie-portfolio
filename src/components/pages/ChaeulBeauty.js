@@ -62,14 +62,14 @@ export default function ChaeulBeauty() {
           </p>
 
           <div className="timeline-flow">
-            <div className="timeline-step">📸 Instagram DMs</div>
-            <div className="timeline-arrow">→</div>
-            <div className="timeline-step">📅 Booking-first Website</div>
-            <div className="timeline-arrow">→</div>
+            <div className="timeline-step">Instagram DMs</div>
+            <div className="timeline-arrow"></div>
+            <div className="timeline-step">Booking-first Website</div>
+            <div className="timeline-arrow"></div>
             <div className="timeline-step">❌ No-shows & Friction</div>
-            <div className="timeline-arrow">→</div>
-            <div className="timeline-step">💬 Pivot to KakaoTalk</div>
-            <div className="timeline-arrow">→</div>
+            <div className="timeline-arrow"></div>
+            <div className="timeline-step">Pivot to KakaoTalk</div>
+            <div className="timeline-arrow"></div>
             <div className="timeline-step">✅ Trust-based UX</div>
           </div>
         </div>
