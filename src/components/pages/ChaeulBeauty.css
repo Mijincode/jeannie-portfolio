@@ -25,7 +25,6 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   line-height: 1.7;
   color: #222;
-  margin-bottom: 60px;
 }
 
 .case-study-container {
@@ -279,10 +278,7 @@ body {
 
 @media (max-width: 768px) {
   .case-study-section-chaeul {
-    padding: 0rem 0rem;
-  }
-  .case-study-container {
-    margin-top: 1.5rem;
+    padding: 2.5rem 0rem;
   }
 
   .case-study-title-chaeul {
