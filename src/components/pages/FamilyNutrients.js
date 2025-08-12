@@ -1,5 +1,6 @@
 import React from "react";
 import "./FamilyNutrients.css";
+import ProjectNav from "../ProjectNav";
 
 export default function FamilyNutrients() {
   return (
@@ -213,6 +214,7 @@ export default function FamilyNutrients() {
             </li>
           </ul>
         </div>
+        <ProjectNav />
       </div>
     </section>
   );

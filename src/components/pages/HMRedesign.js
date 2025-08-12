@@ -1,5 +1,6 @@
 import React from "react";
 import "./HMRedesign.css";
+import ProjectNav from "../ProjectNav";
 
 const HMCaseStudy = () => {
   return (
@@ -125,6 +126,7 @@ const HMCaseStudy = () => {
             affiliated with H&M.
           </p>
         </div>
+        <ProjectNav />
       </div>
     </section>
   );

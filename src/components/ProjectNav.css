@@ -1,0 +1,36 @@
+.project-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #eee;
+  gap: 1rem;
+}
+
+.nav-arrow {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #865c49;
+  text-decoration: none;
+  background: #f8f4f2;
+  padding: 0.7rem 1.1rem;
+  border-radius: 6px;
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.nav-arrow:hover {
+  background: #865c49;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .project-nav {
+    flex-direction: column;
+  }
+  .nav-arrow {
+    width: 100%;
+    text-align: center;
+  }
+}

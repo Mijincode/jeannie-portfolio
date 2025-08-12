@@ -1,6 +1,7 @@
 import React from "react";
 import "./StyleSerenity.css";
 import projectData from "../ProjectData";
+import ProjectNav from "../ProjectNav";
 
 export default function StyleSerenity() {
   const project = projectData["StyleSerenity"];
@@ -195,6 +196,7 @@ export default function StyleSerenity() {
             </a>
           </div>
         </div>
+        <ProjectNav />
       </div>
     </section>
   );

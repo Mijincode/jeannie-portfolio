@@ -1,6 +1,7 @@
 import React from "react";
 import projectData from "../ProjectData";
 import "./Happiness.css";
+import ProjectNav from "../ProjectNav";
 
 export default function Happiness() {
   const project = projectData["Happiness"];
@@ -83,6 +84,7 @@ export default function Happiness() {
             </a>
           </div>
         </div>
+        <ProjectNav />
       </div>
     </section>
   );

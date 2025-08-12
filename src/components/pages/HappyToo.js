@@ -1,6 +1,7 @@
 import React from "react";
 import "./HappyToo.css";
 import projectData from "../ProjectData";
+import ProjectNav from "../ProjectNav";
 
 export default function HappyToo() {
   const project = projectData["HappyToo"];
@@ -304,6 +305,7 @@ export default function HappyToo() {
             </a>
           </div>
         </div>
+        <ProjectNav />
       </div>
     </section>
   );

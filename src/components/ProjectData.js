@@ -2,6 +2,18 @@ import Happiness from "./images/happiness.png";
 import Flight from "./images/Flight.png";
 import Movie from "./images/movie.png";
 
+export const projectOrder = [
+  "ChaeulBeauty",
+  "HappyToo",
+  "FamilyNutrients",
+  "StyleSerenity",
+  "HMCaseStudy",
+  "StudyPlan",
+  "Happiness",
+  "FlightRoutes",
+  "MovieSearch",
+];
+
 const projectData = {
   ChaeulBeauty: {
     hoverText: "Chaeul-Beauty",

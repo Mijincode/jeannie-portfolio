@@ -2,6 +2,7 @@ import React from "react";
 import "./StudyPlan.css";
 
 import projectData from "../ProjectData";
+import ProjectNav from "../ProjectNav";
 
 export default function StudyPlan() {
   const project = projectData["StudyPlan"];
@@ -171,6 +172,7 @@ export default function StudyPlan() {
             </a>
           </div>
         </div>
+        <ProjectNav />
       </div>
     </section>
   );

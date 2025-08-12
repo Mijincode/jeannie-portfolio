@@ -1,6 +1,7 @@
 import React from "react";
 import projectData from "../ProjectData";
 import "./MovieSearch.css";
+import ProjectNav from "../ProjectNav";
 
 export default function MovieSearch() {
   const project = projectData["MovieSearch"];
@@ -146,6 +147,7 @@ export default function MovieSearch() {
             </a>
           </div>
         </div>
+        <ProjectNav />
       </div>
     </section>
   );

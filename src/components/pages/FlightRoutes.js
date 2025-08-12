@@ -1,6 +1,7 @@
 import React from "react";
 import projectData from "../ProjectData";
 import "./FlightRoutes.css";
+import ProjectNav from "../ProjectNav";
 
 export default function FlightRoutes() {
   const project = projectData["FlightRoutes"];
@@ -141,6 +142,7 @@ export default function FlightRoutes() {
             </a>
           </div>
         </div>
+        <ProjectNav />
       </div>
     </section>
   );

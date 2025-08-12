@@ -1,6 +1,7 @@
 import React from "react";
 import "./ChaeulBeauty.css";
 import projectData from "../ProjectData";
+import ProjectNav from "../ProjectNav";
 
 export default function ChaeulBeauty() {
   const project = projectData["ChaeulBeauty"];
@@ -248,7 +249,7 @@ export default function ChaeulBeauty() {
             (채울)’, which means "to fill" or "to complete" in Korean. Together,
             the logo conveys the philosophy of filling life with beauty, both
             inside and out. This elegant and minimal design captures the essence
-            of refined natural beauty, aligning with the brand’s identify and
+            of refined natural beauty, aligning with the brand’s identity and
             the brand name.
           </p>
         </div>
@@ -346,8 +347,8 @@ export default function ChaeulBeauty() {
               key reasons.
             </li>
             <li>
-              <strong>Bookiing Anxiety</strong>
-              espite quick findability, some participants hesitated to book
+              <strong>Booking Anxiety</strong>
+              Despite quick findability, some participants hesitated to book
               immediately, citing the need for personal trust and the
               seriousness of committing to a semi-permanent facial tattoo. This
               reinforced the importance of building trust and having a personal
@@ -378,7 +379,7 @@ export default function ChaeulBeauty() {
               </p>
             </li>
             <li>
-              <strong>⏱Average Session Duration</strong>
+              <strong>Average Session Duration</strong>
               <p>
                 Increased to <strong>1m 44s</strong>, indicating users were more
                 engaged with the content.
@@ -464,6 +465,7 @@ export default function ChaeulBeauty() {
             </a>
           </div>
         </div>
+        <ProjectNav />
       </div>
     </section>
   );
