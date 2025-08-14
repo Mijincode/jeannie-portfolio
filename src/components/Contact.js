@@ -7,7 +7,7 @@ export default function Contact() {
     // <section id="contact" ref={sectionRef} className="contact-section">
     <section id="contact" className="contact-section">
       <div className="contact-content">
-        <h1 className="contact-heading">Contact me</h1>
+        <h1 className="contact-heading">Contact Me</h1>
         <div className="contact-links">
           <a href="mailto:jeanniedoig@hotmail.com" className="contact-link">
             <AiOutlineMail className="contact-icon" /> Email
