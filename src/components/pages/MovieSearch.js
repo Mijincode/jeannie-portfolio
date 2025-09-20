@@ -106,7 +106,7 @@ export default function MovieSearch() {
           </ul>
         </div>
 
-        <div className="case-block-lms">
+        <div className="case-block-movie">
           <h2>7. Outcomes & Reflections</h2>
           <ul>
             <li>
