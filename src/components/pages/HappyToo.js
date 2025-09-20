@@ -107,7 +107,7 @@ export default function HappyToo() {
         </div>
 
         <div className="case-block-happyToo">
-          <h2>4. Goals</h2>
+          <h2>4. Business Goals</h2>
           <ul>
             <li>Build a strong brand identity</li>
             <li>Design a responsive, intuitive interface</li>
