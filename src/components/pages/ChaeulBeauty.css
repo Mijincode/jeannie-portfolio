@@ -144,7 +144,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 2rem;
   position: relative;
@@ -165,7 +165,7 @@ body {
 }
 
 .timeline-arrow {
-  width: 40px;
+  width: 20px;
   height: 2px;
   background: #865c49;
   position: relative;

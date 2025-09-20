@@ -75,7 +75,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>3. Problems Identified</h2>
+          <h2>3. Problem Statement</h2>
           <ul className="problem-bullets">
             <li>
               Instagram DMs lacked clarity, professionalism, and structure
@@ -89,7 +89,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>4. Research Insights</h2>
+          <h2>4. User Research Findings</h2>
           <div className="insights-summary">
             <div className="insight-card">
               <h3> - Client-side insight & Remote Observation</h3>
