@@ -11,15 +11,17 @@ export default function Home() {
             <div>
               {" "}
               <h1 className="greeting">Jeannie Lee</h1>
-              <h2 className="greeting-title">
-                UI/UX Designer & Full-Stack Developer{" "}
-              </h2>
             </div>
             <div>
               <p className="description">
-                Driven by empathy, simplicity, and curiosity
+                As a UX/UI designer with a keen eye for structure and usability,
+                I bridge the gap between business goals and real user needs. My
+                process combines research, strategy, and design craft to create
+                platforms that are not only beautiful, but purposeful and
+                scalable.
               </p>
             </div>
+            <h2 className="greeting-subtitle">UI/UX Designer with Web Dev </h2>
           </div>
 
           <div className="image-column">
