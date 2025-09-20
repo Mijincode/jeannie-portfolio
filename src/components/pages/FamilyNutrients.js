@@ -56,7 +56,10 @@ export default function FamilyNutrients() {
               Ensure accessibility across age groups and digital familiarity
               levels
             </li>
-            <li>Support browsing, viewing, and submitting recipes easily</li>
+            <li>
+              Support browsing, viewing, submitting, editing and deleting
+              recipes easily
+            </li>
             <li>Develop a warm, trustworthy, nature-inspired visual brand</li>
             <li>
               Facilitate future development with a clean, handoff-ready design
