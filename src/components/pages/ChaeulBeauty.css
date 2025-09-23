@@ -81,6 +81,23 @@ body {
   margin-bottom: 0.75rem;
 }
 
+.stat-number {
+  color: #d32f2f;
+  font-size: 1.75em;
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.blink {
+  animation: frutia-blink 280ms step-end infinite;
+}
+@keyframes frutia-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 .button-chaeul {
   display: inline-block;
   padding: 10px 20px;

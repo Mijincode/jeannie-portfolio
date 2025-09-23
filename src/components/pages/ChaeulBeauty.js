@@ -2,6 +2,7 @@ import React from "react";
 import "./ChaeulBeauty.css";
 import projectData from "../ProjectData";
 import ProjectNav from "../ProjectNav";
+import Counter from "./Counter";
 
 export default function ChaeulBeauty() {
   const project = projectData["ChaeulBeauty"];
@@ -45,8 +46,20 @@ export default function ChaeulBeauty() {
               with KakaoTalk consults
             </li>
             <li>
-              Outcome: -60% no-shows, improved user trust, better alignment with
-              real client workflow
+              Outcome:{" "}
+              <strong>
+                <Counter
+                  to={60}
+                  prefix="-"
+                  suffix="%"
+                  hold={800}
+                  blinkDuration={1200}
+                  pauseAfterBlink={2000} // ← extra pause after the blink
+                  className="stat-number"
+                />{" "}
+              </strong>{" "}
+              no-shows, improved user trust, better alignment with real client
+              workflow
             </li>
           </ul>
         </div>
@@ -485,7 +498,17 @@ export default function ChaeulBeauty() {
           <h2>11. Impact</h2>
           <ul className="impact-metrics">
             <li>
-              <strong>No-show Rate ↓</strong>
+              <strong>
+                <Counter
+                  to={60}
+                  prefix="-"
+                  suffix="%"
+                  hold={800}
+                  blinkDuration={1200}
+                  pauseAfterBlink={2000} // ← extra pause after the blink
+                  className="stat-number"
+                />{" "}
+              </strong>
               <p>
                 Clients reported fewer missed bookings after the site redesign
                 and improved scheduling flow.
