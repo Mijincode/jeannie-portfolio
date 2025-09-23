@@ -29,7 +29,7 @@ export default function ChaeulBeauty() {
           </p>
         </div>
         <div className="case-block-chaeul">
-          <h3>Summary</h3>
+          <h2>2. Summary</h2>
           <ul>
             <li>
               Goal: Build an elegant, multilingual and responsive website for
@@ -52,7 +52,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>2. Context</h2>
+          <h2>3. Context</h2>
           <p>
             The client, a cosmetic tattoo artist, initially relied solely on
             Instagram DMs to manage bookings. To improve professionalism and
@@ -75,7 +75,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>3. Problem Statement</h2>
+          <h2>4. Problem Statement</h2>
           <ul className="problem-bullets">
             <li>
               Instagram DMs lacked clarity, professionalism, and structure
@@ -89,7 +89,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul">
-          <h2>4. User Research Findings</h2>
+          <h2>5. User Research Findings</h2>
           <div className="insights-summary">
             <div className="insight-card">
               <h3> - Client-side insight & Remote Observation</h3>
@@ -126,6 +126,119 @@ export default function ChaeulBeauty() {
               user-preferred.
             </div>
           </div>
+        </div>
+
+        <div className="case-block-chaeul">
+          <h2>5. User Research Findings</h2>
+          <section className="persona persona--client">
+            <section className="persona__profile">
+              <h3 className="persona__name">Eunji Park</h3>
+              <h3 className="persona__name">( First-time Client )</h3>
+
+              <div className="persona__avatar">
+                <img
+                  src="https://images.unsplash.com/photo-1621390842036-f01b53d9cbfd?q=80&w=600&auto=format&fit=crop"
+                  alt="Portrait placeholder for Eunji Park"
+                />
+              </div>
+
+              <dl className="persona__facts">
+                <div>
+                  <dt>Age</dt>
+                  <dd>27</dd>
+                </div>
+                <div>
+                  <dt>Status</dt>
+                  <dd>Office Worker</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Seoul</dd>
+                </div>
+                <div>
+                  <dt>Experience</dt>
+                  <dd>Never had cosmetic tattoo</dd>
+                </div>
+                <div>
+                  <dt>Channel</dt>
+                  <dd>KakaoTalk, Instagram</dd>
+                </div>
+              </dl>
+
+              <figure className="persona__quote">
+                <blockquote>
+                  I want natural-looking brows, but I’m nervous about safety and
+                  how long it lasts.
+                </blockquote>
+                <figcaption className="persona_caption">— Eunji</figcaption>
+              </figure>
+            </section>
+
+            <section className="persona__details">
+              <div className="persona__panel">
+                <h3>Bio</h3>
+                <p>
+                  Young professional considering eyebrow tattoos for the first
+                  time. Seeks convenience in daily routine but is anxious about
+                  the procedure’s permanence and hygiene.
+                </p>
+              </div>
+
+              <div className="persona__panel">
+                <h3>Core Needs</h3>
+                <ul className="bullets">
+                  <li>Before/after photos to visualize results</li>
+                  <li>Clear info about healing & aftercare</li>
+                  <li>
+                    Trust signals: sanitation, reviews, real client stories
+                  </li>
+                  <li>Friendly consultation before committing</li>
+                </ul>
+              </div>
+
+              <div className="persona__panel">
+                <h3>Frustrations</h3>
+                <ul className="bullets">
+                  <li>Unclear booking flows</li>
+                  <li>Fear of unnatural or mismatched results</li>
+                  <li>Anxiety about pain, healing time, and regret</li>
+                </ul>
+              </div>
+
+              <div className="persona__grid-2">
+                <div className="persona__panel">
+                  <h3>Decision Drivers</h3>
+                  <div className="chips">
+                    <span className="chip">Trust</span>
+                    <span className="chip">Safety</span>
+                    <span className="chip">Natural Look</span>
+                  </div>
+                </div>
+                <div className="persona__panel">
+                  <h3>Platforms</h3>
+                  <div className="iconline">
+                    <span>Mobile-first, quick actions</span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="persona__panel">
+                  <h3>Success Metric</h3>
+                  <div className="iconline">
+                    <img
+                      src="https://res.cloudinary.com/dmvngssd0/image/upload/v1758352459/Huge-icon_omurnd.png"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <span>
+                      Leaves consultation reassured → books confidently →
+                      satisfied with natural result.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
         </div>
 
         <div className="case-block-chaeul">
