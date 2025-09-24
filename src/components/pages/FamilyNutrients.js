@@ -149,19 +149,20 @@ export default function FamilyNutrients() {
             <p className="section-label">Hi-Fi</p>
             <div className="wireframes-grid">
               <img
-                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495210/Landing_Page_1_xjrt5b.png"
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1758678803/Landing_Page_eeszpf.png"
                 alt="Hi Fidelity Wireframe 1"
               />
               <img
-                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495207/Recipe_List_Page_1_mxbs4c.png"
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1758685337/Recipe_List_Page_1_qdcziz.png"
                 alt="Hi Fidelity Wireframe 2"
               />
+
               <img
-                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495198/Detail_Recipe_Page_-_Ingredients_-1_mbreze.png"
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1758685338/Detail_Recipe_Page_-_Ingredients_-1_e1r7ny.png"
                 alt="Hi Fidelity Wireframe 3"
               />
               <img
-                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751495206/Delete_recipe_fp84b4.png"
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1758685338/Delete_recipe_gysgwx.png"
                 alt="Hi Fidelity Wireframe 4"
               />
             </div>
@@ -183,8 +184,8 @@ export default function FamilyNutrients() {
                 line-height.
               </li>
               <li>
-                <strong>Componentized UI:</strong> Cards, chips, lists, and step
-                blocks built as tokens → faster developer handoff.
+                <strong>Consistent UI patterns</strong> Cards, chips, lists, and
+                step blocks built as tokens → faster developer handoff.
               </li>
             </ul>
           </div>
