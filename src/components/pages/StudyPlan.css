@@ -17,17 +17,6 @@
   line-height: 1.75;
 }
 
-.case-study-container {
-  padding: 40px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-  line-height: 1.6;
-}
-
 .case-study-title-lms {
   font-size: 1.75rem;
   font-weight: bold;

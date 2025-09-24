@@ -7,15 +7,6 @@
   line-height: 1.75;
 }
 
-.case-study-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-}
-
 .case-study-title-happyToo {
   font-size: 1.75rem;
   color: #27355c;
