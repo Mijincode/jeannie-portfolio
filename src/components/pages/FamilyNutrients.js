@@ -138,7 +138,7 @@ export default function FamilyNutrients() {
             contribution.
           </p>
           <div className="wireframes-section">
-            <p className="section-label">Low-Fi</p>
+            <div className="section-label">Low-Fi</div>
             <div className="wireframes-grid">
               <img
                 src="https://res.cloudinary.com/dmvngssd0/image/upload/v1751589823/20250701_001301_hclqyx.png"
@@ -146,7 +146,7 @@ export default function FamilyNutrients() {
               />
             </div>
             <hr className="section-divider" />
-            <p className="section-label">Hi-Fi</p>
+            <div className="section-label">Hi-Fi</div>
             <div className="wireframes-grid">
               <img
                 src="https://res.cloudinary.com/dmvngssd0/image/upload/v1758678803/Landing_Page_eeszpf.png"
@@ -225,7 +225,7 @@ export default function FamilyNutrients() {
                 title="user-flow"
               ></iframe>
             </div> */}
-            <p className="section-label">Prototype</p>
+            <div className="section-label">Prototype</div>
             <div className="iframe-container">
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}

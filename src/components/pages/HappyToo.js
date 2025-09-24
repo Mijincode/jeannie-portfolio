@@ -150,7 +150,7 @@ export default function HappyToo() {
               Developed wireframes to establish content structure and layout.
             </p>
             <div className="wireframes-section">
-              <p className="section-label">Low-Fi</p>
+              <div className="section-label">Low-Fi</div>
               <div className="wireframes-grid-happyToo">
                 <img
                   src="https://res.cloudinary.com/dmvngssd0/image/upload/v1748740087/Low-fi1_vn0yse.png"
@@ -162,7 +162,7 @@ export default function HappyToo() {
                 />
               </div>
 
-              <p className="section-label">Mid-Fi</p>
+              <div className="section-label">Mid-Fi</div>
               <div className="wireframes-grid-happyToo">
                 <img
                   src="https://res.cloudinary.com/dmvngssd0/image/upload/v1748740089/Mid-fidelity_bbxarr.png"
@@ -174,7 +174,7 @@ export default function HappyToo() {
                 />
               </div>
 
-              <p className="section-label">Hi-Fi</p>
+              <div className="section-label">Hi-Fi</div>
               <div className="wireframes-grid-happyToo">
                 <img
                   src="https://res.cloudinary.com/dmvngssd0/image/upload/v1748740095/Hi-Fi_eezgyu.png"
@@ -203,7 +203,7 @@ export default function HappyToo() {
               Created high-fidelity mockups and interactive prototypes in Figma,
               iterating based on client feedback.
             </p>
-            <p className="section-label">Prototype</p>
+            <div className="section-label">Prototype</div>
             <div className="iframe-container">
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
