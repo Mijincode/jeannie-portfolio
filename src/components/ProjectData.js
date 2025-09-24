@@ -4,8 +4,8 @@ import Movie from "./images/movie.png";
 
 export const projectOrder = [
   "ChaeulBeauty",
-  "HappyToo",
   "FamilyNutrients",
+  "HappyToo",
   "StyleSerenity",
   "HMCaseStudy",
   "StudyPlan",
@@ -21,9 +21,19 @@ const projectData = {
     img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1748740072/Instagram_sihuqg.png",
     webPage: "https://chaeul-mi.com/",
     description:
-      "A responsive beauty studio website designed for a Korean client, focused on modern aesthetics, intuitive navigation, and mobile-first usability to improve client engagement and service bookings.",
+      "Led the design, redesign, and development of a cosmetic tattoo studio website, creating a seamless, elegant, and trustworthy digital experience.",
     link: "/projects/chaeul-beauty",
     githubUrl: "https://github.com/Mijincode/Chaeul_mi",
+  },
+
+  FamilyNutrients: {
+    hoverText: "Family Nutrients",
+    role: "UX/UI Design",
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1758686774/triple_iPhone_16_Pro_mockup_black_titanium_ohebhr.png",
+    description:
+      "Designed a family-focused nutrition app that simplifies meal planning and builds healthier eating habits through intuitive UX flows.",
+
+    link: "/projects/family-nutrients",
   },
 
   HappyToo: {
@@ -35,16 +45,6 @@ const projectData = {
     webPage: "http://happytoo.netlify.app",
     githubUrl: "https://github.com/Mijincode/HappyToo",
     link: "/projects/happy-too",
-  },
-
-  FamilyNutrients: {
-    hoverText: "Family Nutrients",
-    role: "UX/UI Design",
-    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753239744/Frame_4_wcopiw.png",
-    description:
-      "Focused on simplifying healthy meal planning with intuitive navigation and visual clarity.",
-
-    link: "/projects/family-nutrients",
   },
 
   StyleSerenity: {
