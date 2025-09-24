@@ -42,15 +42,18 @@ function App() {
         />
 
         {/* Project case study page */}
+
         <Route path="/projects/chaeul-beauty" element={<ChaeulBeauty />} />
-        <Route path="/projects/style-serenity" element={<StyleSerenity />} />
-        <Route path="/projects/study-plan" element={<StudyPlan />} />
-        <Route path="/projects/happy-too" element={<HappyToo />} />
-        <Route path="/projects/hm-redesign" element={<HMRedesign />} />
         <Route
           path="/projects/family-nutrients"
           element={<FamilyNutrients />}
         />
+        <Route path="/projects/happy-too" element={<HappyToo />} />
+        <Route path="/projects/style-serenity" element={<StyleSerenity />} />
+        <Route path="/projects/study-plan" element={<StudyPlan />} />
+
+        <Route path="/projects/hm-redesign" element={<HMRedesign />} />
+
         <Route path="/projects/happiness" element={<Happiness />} />
         <Route path="/projects/movie-search" element={<MovieSearch />} />
         <Route path="/projects/flight-routes" element={<FlightRoutes />} />
