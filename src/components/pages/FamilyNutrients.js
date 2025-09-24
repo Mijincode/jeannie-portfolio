@@ -13,102 +13,128 @@ export default function FamilyNutrients() {
         <div className="case-block-family">
           <h2>1. Project Overview</h2>
           <p>
-            <strong>Project:</strong> Healthy Family Nutrients — Recipe Sharing
-            Platform
+            <strong>Role:</strong> UX/UI Designer (solo design)
           </p>
           <p>
-            <strong>Client:</strong> Personal project by a developer
+            <strong>Time:</strong> 4 weeks · <strong>Team:</strong> 1 developer
             collaborator
           </p>
           <p>
-            <strong>Role:</strong> UX/UI Designer
+            <strong>Challenge:</strong> Most recipe apps bury essentials behind
+            blog intros and endless scrolls. In real “dinner o’clock” moments,
+            families need ingredients and steps <em>immediately</em>.
           </p>
           <p>
-            <strong>Tools:</strong> Figma
-          </p>
-          <p>
-            <strong>Duration:</strong> 4 weeks
-          </p>
-
-          <p>
-            <strong>Purpose:</strong> To design an accessible and user-friendly
-            platform where families can browse, share, and submit home-cooked
-            recipes—promoting intergenerational food sharing and a sense of
-            community.
-          </p>
-
-          <p>
-            <strong>Collaboration:</strong> I collaborated with a developer who
-            initiated this project as part of their personal portfolio. While
-            they focused on the technical implementation, I led the UX/UI design
-            process, creating intuitive flows, wireframes, and a responsive
-            design system aligned with family-friendly values.
+            <strong>Outcome:</strong> A mobile-first recipe platform where a
+            single tap opens
+            <em>ingredients and instructions at the top</em>—optimized for all
+            ages in a household.
           </p>
         </div>
 
         <div className="case-block-family">
-          <h2>2. Client Needs</h2>
+          <h2>2. Goals & Constraints</h2>
           <ul>
             <li>
-              Create a mobile-first recipe platform with intuitive user flows
+              <strong>Speed to action:</strong> ingredients visible in &lt;3s;
+              start cooking in &lt;30s
             </li>
             <li>
-              Ensure accessibility across age groups and digital familiarity
-              levels
+              <strong>Mobile-first ergonomics:</strong> one-hand use, 44px+
+              targets
             </li>
             <li>
-              Support browsing, viewing, submitting, editing and deleting
-              recipes easily
+              <strong>All-ages accessibility:</strong> clear type, high
+              contrast, consistent patterns
             </li>
-            <li>Develop a warm, trustworthy, nature-inspired visual brand</li>
             <li>
-              Facilitate future development with a clean, handoff-ready design
-              system
+              <strong>Fast discovery:</strong> category chips + ingredient
+              search
+            </li>
+            <li>
+              <strong>Simple contribution:</strong> add/edit/delete with
+              forgiving error states
+            </li>
+            <li>
+              <strong>Handoff-ready:</strong> tokens + reusable components
             </li>
           </ul>
         </div>
 
         <div className="case-block-family">
-          <h2>3. Research & Brand Direction</h2>
-          <ul>
-            <li>
-              Analyzed recipe app competitors with a focus on accessibility and
-              family engagement
-            </li>
-            <li>
-              Interviewed sample users (ages 15–65) to understand content
-              expectations and navigation patterns
-            </li>
-            <li>
-              Created moodboards and visual direction inspired by nature,
-              warmth, and tradition
-            </li>
-          </ul>
-        </div>
-
-        <div className="case-block-family">
-          <h2>4. Design Process</h2>
-          <ul>
-            <li>Design a responsive layout accessible on phones and tablets</li>
-            <li>
-              Enable quick recipe discovery and easy browsing by category or
-              ingredients
-            </li>
-            <li>
-              Streamline the recipe submission process for non-technical users
-            </li>
-            <li>
-              Create a reusable component library to support developer
-              implementation
-            </li>
-          </ul>
-        </div>
-
-        <div className="case-block-family">
-          <h2>5. Wireframing & User Flows</h2>
+          <h2>3. Problem Statement</h2>
           <p>
-            Created low to high-fidelity wireframes for mobile and tablet views.
-            Mapped out user flows for recipe discovery, filtering, viewing, and
+            Families using mainstream recipe apps struggle to turn what’s
+            on-screen into action during busy moments. Essential info
+            (ingredients & steps) is buried behind long scrolls, blog intros,
+            and clutter—slowing everyone down.
+          </p>
+          <ul className="problem-bullets">
+            <li>
+              Ingredients and instructions are hidden at the end of long pages.
+            </li>
+            <li>
+              Inconsistent formats (intros, ads, pop-ups) increase cognitive
+              load.
+            </li>
+            <li>
+              Small tap targets and dense text hinder older/younger family
+              members.
+            </li>
+            <li>Sharing/saving recipes across family members is fragmented.</li>
+          </ul>
+        </div>
+
+        <div className="case-block-family">
+          <h2>4. Research & Brand Direction</h2>
+          <ul>
+            <li>
+              Competitive scan focused on accessibility, scannability, and
+              contribution flows
+            </li>
+            <li>
+              Lightweight interviews (ages 15–65): “Show me ingredients first.
+              Don’t make me scroll.”
+            </li>
+            <li>
+              Warm, nature-inspired visual language to feel familiar and
+              welcoming
+            </li>
+          </ul>
+          <p className="hmw">
+            <strong>How might we</strong> surface the essentials in a single
+            tap—no endless scrolling— with a consistent, shareable format that
+            works for all ages?
+          </p>
+        </div>
+
+        <div className="case-block-family">
+          <h2>5. Solution Overview</h2>
+          <ul>
+            <li>
+              <strong>One-tap detail:</strong> open → ingredients & instructions
+              immediately visible.
+            </li>
+            <li>
+              <strong>Fast discovery:</strong> category chips
+              (breakfast/lunch/dinner/desserts) + ingredient search
+            </li>
+            <li>
+              <strong>Recipe cards:</strong> prep time, servings,
+              difficulty—decide from the list
+            </li>
+            <li>
+              <strong>Share & Save:</strong> simple, consistent affordances for
+              family circulation
+            </li>
+          </ul>
+        </div>
+
+        <div className="case-block-family">
+          <h2>6. Wireframes</h2>
+          <p>
+            Created low to high-fidelity wireframes for mobile view. Mapped out
+            user flows for recipe discovery, filtering, viewing, and
             contribution.
           </p>
           <div className="wireframes-section">
@@ -140,24 +166,54 @@ export default function FamilyNutrients() {
               />
             </div>
           </div>
-
-          <div className="process-step">
-            <h3>Visual Design</h3>
-            <p>
-              Developed a nature-inspired design system: warm color palette,
-              friendly icons, and soft typography. Built UI components with
-              accessibility and generational usability in mind.
-            </p>
+          <div className="case-block-family">
+            <h2>7. Design Decisions & Trade-offs</h2>
+            <ul>
+              <li>
+                <strong>Task over article:</strong> detail screen is
+                purpose-built for cooking—no long-form story.
+              </li>
+              <li>
+                <strong>Sticky essentials:</strong> ingredients/instructions
+                headers remain in view to reduce context loss.
+              </li>
+              <li>
+                <strong>Tap targets ≥ 44px:</strong> Comfortable for kids and
+                grandparents; paired with high contrast and generous
+                line-height.
+              </li>
+              <li>
+                <strong>Componentized UI:</strong> Cards, chips, lists, and step
+                blocks built as tokens → faster developer handoff.
+              </li>
+            </ul>
           </div>
 
+          <div className="case-block-family">
+            <h2>8. Accessibility & Design System</h2>
+            <ul>
+              <li>
+                WCAG-minded color palette (AA contrast), scalable type, and
+                tabular numerals for stable measurements.
+              </li>
+              <li>
+                Tokens for color, spacing, radius, and elevation; reusable
+                components (Card, Chip, Step, Input).
+              </li>
+              <li>
+                Keyboard focus states and large tap targets for
+                multi-generational use.
+              </li>
+            </ul>
+          </div>
           <div className="process-step">
-            <h3>Prototyping & Handoff</h3>
+            <h3>9. Prototype & Handoff</h3>
             <p>
               Created clickable prototypes in Figma. Delivered structured
-              handoff with documentation, organized components, and design specs
-              to front-end developer.
+              handoff included component specs, redlines, tokens, and usage
+              notes.
             </p>
-            <p className="section-label">User Flow Overview</p>
+            {/* <p className="section-label">User Flow Overview</p>
             <div className="iframe-container">
               <iframe
                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
@@ -167,7 +223,7 @@ export default function FamilyNutrients() {
                 allowFullScreen
                 title="user-flow"
               ></iframe>
-            </div>
+            </div> */}
             <p className="section-label">Prototype</p>
             <div className="iframe-container">
               <iframe
@@ -183,14 +239,26 @@ export default function FamilyNutrients() {
         </div>
 
         <div className="case-block-family">
-          <h2>6. Outcome</h2>
-          <ul>
-            <li>Responsive wireframes and high-fidelity designs completed</li>
-            <li>Nature-themed branding aligned with target audience values</li>
+          <h2>10. Validation & Outcomes</h2>
+          <ul className="success-criteria">
             <li>
-              Developer handoff supported with detailed assets and QA support
+              <strong>Targets:</strong> ingredients visible in &lt;3s after tap;
+              start cooking in &lt;30s from list
             </li>
-            <li>Design phase complete; platform currently under development</li>
+            <li>
+              <strong>Smoke tests (n=5):</strong> all located the Ingredients
+              tab instantly; chips understood without guidance
+            </li>
+          </ul>
+          <ul>
+            <li>Mobile-first UI delivered with a reusable component library</li>
+            <li>
+              “Essentials-first” detail view reduces reading burden across ages
+            </li>
+            <li>
+              Build in progress with developer collaborator; <em>Next:</em>{" "}
+              instrument time-to-ingredients in production
+            </li>
           </ul>
         </div>
 
@@ -213,7 +281,7 @@ export default function FamilyNutrients() {
               <strong>Figma File:</strong> Available upon request
             </li>
             <li>
-              <strong>Status:</strong> In development by front-end developer
+              <strong>Status:</strong> In development
             </li>
           </ul>
         </div>
