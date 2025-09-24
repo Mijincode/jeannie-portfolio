@@ -145,7 +145,7 @@ export default function FamilyNutrients() {
                 alt="Low Fidelity Wireframe 1"
               />
             </div>
-
+            <hr className="section-divider" />
             <p className="section-label">Hi-Fi</p>
             <div className="wireframes-grid">
               <img

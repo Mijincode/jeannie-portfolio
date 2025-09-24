@@ -116,11 +116,21 @@ body {
 
 .mockup-images {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
 
+.mockup {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin: 12px auto 28px;
+  max-width: 1200px;
+}
 .mockup-design {
   max-width: 300px;
   height: auto;
@@ -184,6 +194,7 @@ body {
   padding: 2rem;
   font-family: "Inter", sans-serif;
   color: #222;
+  max-width: 1200px;
 }
 
 .persona__profile {
@@ -363,8 +374,8 @@ body {
 .image-label {
   font-weight: bold;
   margin-bottom: 20px;
-  font-size: 14px;
-  color: #666;
+  font-size: 22px;
+  font-weight: 600;
   display: block;
 }
 
@@ -450,16 +461,15 @@ body {
   margin-top: 0.5rem;
 }
 
-.video-title {
-  margin-top: 2rem;
-  text-align: center;
-}
-
 .case-video {
   width: 100%;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 1.5rem auto;
   display: block;
+  margin-bottom: 4rem;
+}
+.impact-graph {
+  max-width: 1200px;
 }
 
 @media (max-width: 768px) {
@@ -517,6 +527,7 @@ body {
   .mockup-images {
     flex-direction: column;
     align-items: center;
+    max-width: 800px;
   }
 
   .mockup-design {

@@ -63,7 +63,7 @@ export default function HappyToo() {
           <p>
             Client provided a logo and image samples to guide visual direction.
           </p>
-          <div className="reference-images">
+          <div className="reference-images-happy">
             <img
               src="https://res.cloudinary.com/dmvngssd0/image/upload/v1749015906/HappyToo_LOGO_2024_Business_2_iezlqm.png"
               alt="Design Logo"

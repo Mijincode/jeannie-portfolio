@@ -1,7 +1,7 @@
 /** Happy Too case study page css */
 .case-study-section-hm {
   /* background-color: #ff6d77; */
-  background-color: #ffffff;
+  background-color: #f4545f;
   padding: 4rem 2rem;
   font-family: "Inter", "Helvetica Neue", sans-serif;
   color: #222;
@@ -48,14 +48,6 @@
 .case-block-hm p {
   font-size: 0.95rem;
   margin-bottom: 0.75rem;
-}
-
-.section-label {
-  font-weight: 600;
-  margin: 3rem 0 1rem;
-  font-size: 1.1rem;
-  color: #333;
-  text-align: center;
 }
 
 .wireframes-grid img {

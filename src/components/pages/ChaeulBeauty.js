@@ -261,60 +261,69 @@ export default function ChaeulBeauty() {
             service breakdown, and confirmation flows. It aimed to help clients
             reserve appointments directly through the site.
           </p>
-
-          <div className="mockup-images">
-            <img
-              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1749010559/iphone13_x5dne8.png"
-              alt="Mobile Mockup"
-              className="mockup-design"
-            />
-            <img
-              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1749010549/Booking_o5de1t.png"
-              alt="Booking Screen"
-              className="mockup-design"
-            />
-          </div>
-
-          {/* Landing Page Walkthrough */}
-          <p className="video-title"> Landing Page Walkthrough(Web)</p>
-          <video
-            width="100%"
-            height="auto"
-            controls
-            muted
-            playsInline
-            className="case-video"
-          >
-            <source
-              src="https://res.cloudinary.com/dmvngssd0/video/upload/v1749016854/LandingPage_xndgvc.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-
-          {/* Booking Flow Video */}
-          <p className="video-title">Booking Flow (Web)</p>
-          <video
-            width="100%"
-            height="auto"
-            controls
-            muted
-            playsInline
-            className="case-video"
-          >
-            <source
-              src="https://res.cloudinary.com/dmvngssd0/video/upload/v1749016438/Booking_rxg9g4.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
           <ul>
             <li>Multistep booking flow</li>
             <li>Calendar integration</li>
             <li>Call-to-actions focused on appointment conversion</li>
           </ul>
-        </div>
 
+          <div className="mockup-images">
+            <div className="section-label">
+              {" "}
+              Mobile - Landing Page & Booking Page{" "}
+            </div>
+            <div className="mockup">
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1749010559/iphone13_x5dne8.png"
+                alt="Mobile Mockup"
+                className="mockup-design"
+              />
+
+              <img
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1749010549/Booking_o5de1t.png"
+                alt="Booking Screen"
+                className="mockup-design"
+              />
+            </div>
+          </div>
+          <hr className="section-divider" />
+          <div className="image-label-group">
+            {/* Landing Page Walkthrough */}
+            <div className="section-label">Desktop - Landing Page</div>
+            <video
+              width="100%"
+              height="auto"
+              controls
+              muted
+              playsInline
+              className="case-video"
+            >
+              <source
+                src="https://res.cloudinary.com/dmvngssd0/video/upload/v1749016854/LandingPage_xndgvc.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <hr className="section-divider" />
+            {/* Booking Flow Video */}
+            <div className="section-label">Desktop - Booking Flow</div>
+
+            <video
+              width="100%"
+              height="auto"
+              controls
+              muted
+              playsInline
+              className="case-video"
+            >
+              <source
+                src="https://res.cloudinary.com/dmvngssd0/video/upload/v1749016438/Booking_rxg9g4.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
         <div className="case-block-chaeul">
           <h2>6. Redesign Process</h2>
 
@@ -543,6 +552,7 @@ export default function ChaeulBeauty() {
               alt="User Engagement Analytics Chart"
               className="analytics-image"
             />
+            <hr className="section-divider" />
             <img
               src="https://res.cloudinary.com/dmvngssd0/image/upload/v1752155050/overview_gmzyc5.png"
               alt="overview"
