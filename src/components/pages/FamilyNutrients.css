@@ -8,6 +8,16 @@
   line-height: 1.75;
 }
 
+.case-study-container {
+  background-color: #fff;
+  color: #333;
+  padding: 40px 20px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
 .case-study-title-family {
   font-size: 1.75rem;
   color: #467408;
@@ -26,7 +36,7 @@
   margin: 3rem 0;
   padding: 2rem;
   border-radius: 12px;
-  background: #f8f8f8;
+  background: #fff;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
 }
 

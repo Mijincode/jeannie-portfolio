@@ -15,17 +15,6 @@
   background-color: #f8e8ee;
 }
 
-.case-study-container {
-  background-color: #fff;
-  color: #333;
-  padding: 40px 20px;
-  max-width: 1800px;
-  margin: 0 auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  line-height: 1.6;
-}
-
 .case-study-title-style {
   font-size: 1.75rem;
   font-weight: bold;
