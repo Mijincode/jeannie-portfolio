@@ -403,7 +403,7 @@ export default function ChaeulBeauty() {
             <div className="image-label-group">
               <span className="image-label">After (Redesigned Landing)</span>
               <img
-                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759555527/screencapture-chaeul-mi-netlify-app-home-2025-10-04-15_24_57_ynk6sx.png"
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759588277/screencapture-chaeul-mi-netlify-app-home-2025-10-05-00_30_05_i6ozxa.png"
                 alt="New Landing Page"
                 className="comparison-img"
               />
@@ -417,7 +417,7 @@ export default function ChaeulBeauty() {
               clearly, freeing the homepage to focus on services and results.
             </p>
             <img
-              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759578056/screencapture-localhost-3000-about-us-2025-10-04-21_40_02_kkbel7.png"
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759589765/screencapture-localhost-3000-about-us-2025-10-05-00_55_31_wov2nm.png"
               alt="About Page"
               className="comparison-img"
             />
