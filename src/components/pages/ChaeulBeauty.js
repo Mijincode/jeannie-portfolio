@@ -417,7 +417,7 @@ export default function ChaeulBeauty() {
               clearly, freeing the homepage to focus on services and results.
             </p>
             <img
-              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759555902/screencapture-chaeul-mi-netlify-app-about-us-2025-10-04-15_31_16_tijvuj.png"
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759578056/screencapture-localhost-3000-about-us-2025-10-04-21_40_02_kkbel7.png"
               alt="About Page"
               className="comparison-img"
             />
