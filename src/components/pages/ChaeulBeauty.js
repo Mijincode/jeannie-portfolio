@@ -195,20 +195,9 @@ export default function ChaeulBeauty() {
 
         <div className="case-block-chaeul" id="initial">
           <h2>5. Initial Build (Initial Design)</h2>
-          <p>
-            Multistep booking, calendar integration, conversion-focused CTAs.
-          </p>
-          <ul>
-            <li>Multistep booking flow</li>
-            <li>Calendar integration</li>
-            <li>Call-to-actions focused on appointment conversion</li>
-          </ul>
 
           <div className="mockup-images">
-            <div className="section-label">
-              {" "}
-              Mobile - Landing Page & Booking Page{" "}
-            </div>
+            <div className="section-label"> Mobile</div>
             <div className="mockup mockup--5up">
               {/* <img
                 src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759663874/phoneMockup_bujwcd.png"
@@ -231,7 +220,7 @@ export default function ChaeulBeauty() {
                 className="mockup-design"
               />
               <img
-                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759673469/review_kafqz9.png"
+                src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759674206/review_tsruwa.png"
                 alt="Mobile Mockup"
                 className="mockup-design"
               />
@@ -241,7 +230,14 @@ export default function ChaeulBeauty() {
                 className="mockup-design"
               />
             </div>
+            <h5> Landing & Booking page</h5>
+            <ul>
+              <li>Multistep booking flow</li>
+              <li>Calendar integration</li>
+              <li>Call-to-actions focused on appointment conversion</li>
+            </ul>
             <figcaption>
+              <h5> Friction</h5>
               <ul className="callouts">
                 <li>
                   <strong>1 —</strong> Above-the-fold visual focus helped
