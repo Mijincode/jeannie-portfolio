@@ -5,9 +5,20 @@ header.sticky {
   left: 0;
   right: 0;
   z-index: 999;
-  background-color: white;
-  animation: fadeInDown 0.3s ease-in-out;
+  background: #fff;
   width: 100%;
+  transform: translateY(0);
+  transition: transform 0.24s ease; /* 부드럽게 */
+  will-change: transform;
+}
+
+header.sticky.hide {
+  transform: translateY(-100%);
+}
+
+/* 사용자가 헤더 위에 올리면 즉시 노출 (마우스로 hover해도 복귀) */
+header.sticky:hover {
+  transform: translateY(0);
 }
 
 /* Navbar Container */
@@ -15,7 +26,7 @@ header.sticky {
   max-width: 1200px;
   margin: 1rem auto;
   padding: 1rem 1rem;
-  height: 4rem;
+  height: 3rem;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -88,7 +99,7 @@ header.sticky {
 .section-divider {
   border: none;
   border-top: 1px solid #ccc;
-  margin: 80px auto 40px;
+  margin: 60px auto 30px;
   width: 80%;
   max-width: 1200px;
   opacity: 0.6;
@@ -100,9 +111,39 @@ header.sticky {
     gap: 1rem;
   }
 
+  .hamburger {
+    display: flex;
+  }
+
   .navbar-links {
+    display: none;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    position: absolute;
     gap: 1rem;
+    top: 4rem;
+    right: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 998;
+    border-radius: 8px;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .navbar-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    color: #000;
+  }
+
+  .section-divider {
+    margin: 20px auto 20px;
   }
 }
