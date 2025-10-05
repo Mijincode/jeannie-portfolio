@@ -417,7 +417,7 @@ export default function ChaeulBeauty() {
               clearly, freeing the homepage to focus on services and results.
             </p>
             <img
-              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759589765/screencapture-localhost-3000-about-us-2025-10-05-00_55_31_wov2nm.png"
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1759657982/screencapture-localhost-3000-about-us-2025-10-05-19_52_26_eodekn.png"
               alt="About Page"
               className="comparison-img"
             />

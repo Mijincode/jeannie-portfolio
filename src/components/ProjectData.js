@@ -3,6 +3,7 @@ import Flight from "./images/Flight.png";
 import Movie from "./images/movie.png";
 
 export const projectOrder = [
+  // "ModelsMagazine",
   "ChaeulBeauty",
   "FamilyNutrients",
   "HappyToo",
@@ -15,10 +16,20 @@ export const projectOrder = [
 ];
 
 const projectData = {
+  // ModelsMagazine: {
+  //   hoverText: "Models The Magazine",
+  //   role: "UX/UI Design, Research, Interactive Prototype",
+  //   img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1758072224/MacBook_Pro_and_iPhone_15_Pro_Mockup_n8q67i.png",
+  //   webPage: "#", // optional: add live link if available
+  //   description:
+  //     "Redesigned a legacy modeling site into a scalable, trust-building platform—competitions, portfolio uploads, and advanced discovery. Delivered 56+ responsive screens and an interactive prototype.",
+  //   link: "/projects/models-magazine",
+  // },
+
   ChaeulBeauty: {
     hoverText: "Chaeul-Beauty",
     role: "UX/UI Design, Full-Stack Development",
-    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1748740072/Instagram_sihuqg.png",
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1759659997/RedesignMockup_ukwzdn.png",
     webPage: "https://chaeul-mi.com/",
     description:
       "Led the design, redesign, and development of a cosmetic tattoo studio website, creating a seamless, elegant, and trustworthy digital experience.",
