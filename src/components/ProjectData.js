@@ -1,18 +1,18 @@
-import Happiness from "./images/happiness.png";
-import Flight from "./images/Flight.png";
-import Movie from "./images/movie.png";
+// import Happiness from "./images/happiness.png";
+// import Flight from "./images/Flight.png";
+// import Movie from "./images/movie.png";
 
 export const projectOrder = [
   // "ModelsMagazine",
   "ChaeulBeauty",
   "FamilyNutrients",
   "HappyToo",
-  "StyleSerenity",
   "HMCaseStudy",
   "StudyPlan",
-  "Happiness",
-  "FlightRoutes",
-  "MovieSearch",
+  "StyleSerenity",
+  // "Happiness",
+  // "FlightRoutes",
+  // "MovieSearch",
 ];
 
 const projectData = {
@@ -58,17 +58,6 @@ const projectData = {
     link: "/projects/happy-too",
   },
 
-  StyleSerenity: {
-    hoverText: "Style Serenity",
-    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753240162/MacBook_Pro_16-inch_Space_Gray_Mockup_bxuict.png",
-    role: "UX/UI Design, Front-End Development",
-    description:
-      "A fashion e-commerce platform built to streamline product discovery and checkout. Prioritized visual hierarchy, minimal UI, and smooth browsing interactions to support conversion and ease of use.",
-    link: "/projects/style-serenity",
-    videoSrc: "https://youtube.com/embed/fN1HkiEuzVA",
-    githubUrl: "https://github.com/Mijincode/StyleSerenity",
-  },
-
   HMCaseStudy: {
     hoverText: "H&M UX Redesign",
     img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753236922/Frame_8_vqrdqq.png",
@@ -88,41 +77,51 @@ const projectData = {
     githubUrl: "https://github.com/Mijincode/LearningManagementSystem",
     link: "/projects/study-plan",
   },
-
-  Happiness: {
-    hoverText: "Happiness Ranking",
-    title: "Happiness Ranking",
-    img: Happiness,
-    role: "Full-Stack Development",
-    videoSrc: "https://www.youtube.com/embed/U-Vrown8XYM",
+  StyleSerenity: {
+    hoverText: "Style Serenity",
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1753240162/MacBook_Pro_16-inch_Space_Gray_Mockup_bxuict.png",
+    role: "UX/UI Design, Front-End Development",
     description:
-      "A data visualization tool for global happiness metrics. Prioritized clarity in charts and filters, with responsive UI and intuitive interaction for data exploration.",
-    githubUrl: "https://github.com/Mijincode/HappinessApp",
-    link: "/projects/happiness",
+      "A fashion e-commerce platform built to streamline product discovery and checkout. Prioritized visual hierarchy, minimal UI, and smooth browsing interactions to support conversion and ease of use.",
+    link: "/projects/style-serenity",
+    videoSrc: "https://youtube.com/embed/fN1HkiEuzVA",
+    githubUrl: "https://github.com/Mijincode/StyleSerenity",
   },
 
-  FlightRoutes: {
-    hoverText: "Flight Routes and Airports",
-    title: "Flight Routes and Airports",
-    videoSrc: "https://www.youtube.com/embed/n7On5x0mXxo",
-    role: "Full-Stack Development",
-    img: Flight,
-    description:
-      "This interactive platform allows users to explore flight routes and airport information across Australia. Interactive web application integrating map APIs to display real-time Australian flight routes and airport data. Emphasized performance optimization and usability across devices.",
-    githubUrl: "https://github.com/Mijincode/FlightRoutes",
-    link: "/projects/flight-routes",
-  },
+  // Happiness: {
+  //   hoverText: "Happiness Ranking",
+  //   title: "Happiness Ranking",
+  //   img: Happiness,
+  //   role: "Full-Stack Development",
+  //   videoSrc: "https://www.youtube.com/embed/U-Vrown8XYM",
+  //   description:
+  //     "A data visualization tool for global happiness metrics. Prioritized clarity in charts and filters, with responsive UI and intuitive interaction for data exploration.",
+  //   githubUrl: "https://github.com/Mijincode/HappinessApp",
+  //   link: "/projects/happiness",
+  // },
 
-  MovieSearch: {
-    hoverText: "Movie Search",
-    title: "Movie Search",
-    img: Movie,
-    videoSrc: "https://www.youtube.com/embed/kMa4L73EOr8",
-    role: "Full-Stack Development",
-    description:
-      "A movie search app that features user authentication, movie detail lookups via IMDb, and image upload for movie posters.",
-    githubUrl: "https://github.com/Mijincode/MovieApp",
-    link: "/projects/movie-search",
-  },
+  // FlightRoutes: {
+  //   hoverText: "Flight Routes and Airports",
+  //   title: "Flight Routes and Airports",
+  //   videoSrc: "https://www.youtube.com/embed/n7On5x0mXxo",
+  //   role: "Full-Stack Development",
+  //   img: Flight,
+  //   description:
+  //     "This interactive platform allows users to explore flight routes and airport information across Australia. Interactive web application integrating map APIs to display real-time Australian flight routes and airport data. Emphasized performance optimization and usability across devices.",
+  //   githubUrl: "https://github.com/Mijincode/FlightRoutes",
+  //   link: "/projects/flight-routes",
+  // },
+
+  // MovieSearch: {
+  //   hoverText: "Movie Search",
+  //   title: "Movie Search",
+  //   img: Movie,
+  //   videoSrc: "https://www.youtube.com/embed/kMa4L73EOr8",
+  //   role: "Full-Stack Development",
+  //   description:
+  //     "A movie search app that features user authentication, movie detail lookups via IMDb, and image upload for movie posters.",
+  //   githubUrl: "https://github.com/Mijincode/MovieApp",
+  //   link: "/projects/movie-search",
+  // },
 };
 export default projectData;
