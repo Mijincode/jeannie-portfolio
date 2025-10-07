@@ -3,6 +3,7 @@ import "./ChaeulBeauty.css";
 import projectData from "../ProjectData";
 import ProjectNav from "../ProjectNav";
 import Counter from "./Counter";
+import JourneyMap from "./JourneyMap";
 
 function QuickNav() {
   const items = [
@@ -468,7 +469,7 @@ export default function ChaeulBeauty() {
             brand story and introduces the space more intentionally.
           </p>
         </div>
-
+        <JourneyMap />
         <div className="case-block-chaeul" id="brand">
           <h2>8. Brand Identity & Logo Design</h2>
           <p>
