@@ -514,12 +514,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .case-study-section-models {
-    padding: 3rem 0rem;
-  }
-  .case-study-container {
-    padding: 1.5rem 1rem;
-    margin: 1rem;
+  .case-study-section-conf {
+    padding: 2.5rem 0rem;
   }
 
   .case-study-title-models {
@@ -529,7 +525,7 @@
   }
 
   .case-block-models {
-    padding: 1.25rem 1rem;
+    /* padding: 1.25rem 1rem; */
     margin: 1.5rem 0;
   }
 
