@@ -2,14 +2,14 @@ import React from "react";
 import "./ConfidentialFashionTech.css";
 import ProjectNav from "../ProjectNav";
 
-function AnonymisedFrame({ label = "Anonymised wireframe" }) {
-  return (
-    <figure className="anon-frame" aria-label={label}>
-      <div className="anon-skeleton" />
-      <figcaption className="anon-caption">{label}</figcaption>
-    </figure>
-  );
-}
+// function AnonymisedFrame({ label = "Anonymised wireframe" }) {
+//   return (
+//     <figure className="anon-frame" aria-label={label}>
+//       <div className="anon-skeleton" />
+//       <figcaption className="anon-caption">{label}</figcaption>
+//     </figure>
+//   );
+// }
 
 function ConfidentialCTA() {
   return (
