@@ -114,7 +114,7 @@ body {
   border-radius: 10px;
   border: 1px solid #cfa43a;
   background: transparent;
-  color: #4a3a12;
+  color: #100f0f;
   text-decoration: none;
   font-weight: 600;
 }
@@ -266,8 +266,8 @@ body {
   font-weight: 600;
   text-decoration: none;
   border-radius: 8px;
-  background-color: #eab648;
-  color: rgb(55, 54, 54);
+  background-color: #dfa932;
+  color: #100f0f;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 

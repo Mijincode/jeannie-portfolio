@@ -760,7 +760,7 @@ export default function ChaeulBeauty() {
 
         {/* ===== 13. A11y & i18n ===== */}
         <div className="case-block-chaeul anchor" id="a11y">
-          <h2>13. Accessibility & i18n</h2>
+          <h2>12. Accessibility & i18n</h2>
           <table className="a11y-table">
             <tbody>
               <tr>
@@ -783,13 +783,13 @@ export default function ChaeulBeauty() {
 
         {/* ===== 14. Design system snapshot ===== */}
         <div className="case-block-chaeul anchor" id="system">
-          <h2>14. Design System (snapshot)</h2>
+          <h2>13. Design System (snapshot)</h2>
           <div className="system-row">
-            <div className="swatch" style={{ "--c": "#E3AD39" }}>
-              <span>#E3AD39</span>
+            <div className="swatch" style={{ "--c": "#dfa932" }}>
+              <span>#dfa932</span>
             </div>
             <div className="swatch" style={{ "--c": "#131212" }}>
-              <span>#131212</span>
+              <span>#100f0f</span>
             </div>
             <div className="swatch" style={{ "--c": "#FFFFFF" }}>
               <span>#FFFFFF</span>
@@ -799,13 +799,7 @@ export default function ChaeulBeauty() {
             {/* <div className="h1-sample">H1 / 28–36</div>
             <div className="h2-sample">H2 / 20–24</div>
             <div className="body-sample">Body / 16–18</div> */}
-            <a
-              className="button-chaeul"
-              href="#"
-              onClick={(e) => e.preventDefault()}
-            >
-              Primary Button
-            </a>
+            <button className="button-chaeul"> Primary Button</button>
             <button className="button-ghost" disabled>
               Ghost / Disabled
             </button>
@@ -813,7 +807,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul" id="reflection">
-          <h2>12. Reflection</h2>
+          <h2>14. Reflection</h2>
           <p>
             This project reminded me that great design isn’t just about visual
             polish — it’s about deeply understanding and aligning with real user
@@ -838,7 +832,7 @@ export default function ChaeulBeauty() {
         </div>
 
         <div className="case-block-chaeul" id="links">
-          <h2>13. Links & Resources</h2>
+          <h2>15. Links & Resources</h2>
           <strong>Figma File:</strong> Available upon request
           <div className="button-group">
             <a
