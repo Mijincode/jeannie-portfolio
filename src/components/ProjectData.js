@@ -4,6 +4,7 @@
 
 export const projectOrder = [
   // "ModelsMagazine",
+  "ConfidentialFashionTech",
   "ChaeulBeauty",
   "FamilyNutrients",
   "HappyToo",
@@ -25,6 +26,17 @@ const projectData = {
   //     "Redesigned a legacy modeling site into a scalable, trust-building platform—competitions, portfolio uploads, and advanced discovery. Delivered 56+ responsive screens and an interactive prototype.",
   //   link: "/projects/models-magazine",
   // },
+
+  ConfidentialFashionTech: {
+    hoverText: "Confidential FashionTech (NDA)",
+    role: "UX/UI Lead, Design System",
+    img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1760080696/iPhone_17_Pro_deep_blue_front_lwdhc8.png",
+    webPage: null,
+    description:
+      "An anonymised, NDA-safe case study of a pre-launch fashion/model platform: discovery → IA → 56+ responsive screens, consent flows, and a WCAG-aligned design system.",
+    link: "/projects/confidential-fashiontech",
+    githubUrl: null,
+  },
 
   ChaeulBeauty: {
     hoverText: "Chaeul-Beauty",

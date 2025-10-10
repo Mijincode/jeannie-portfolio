@@ -16,6 +16,7 @@ import Happiness from "./components/pages/Happiness";
 import ScrollToTop from "./components/ScrollToTop";
 import MovieSearch from "./components/pages/MovieSearch";
 import FlightRoutes from "./components/pages/FlightRoutes";
+import ConfidentialFashionTech from "./components/pages/ConfidentialFashionTech";
 
 function App() {
   return (
@@ -42,6 +43,10 @@ function App() {
         />
 
         {/* Project case study page */}
+        <Route
+          path="/projects/confidential-fashiontech"
+          element={<ConfidentialFashionTech />}
+        />
 
         <Route path="/projects/chaeul-beauty" element={<ChaeulBeauty />} />
         <Route
@@ -51,9 +56,7 @@ function App() {
         <Route path="/projects/happy-too" element={<HappyToo />} />
         <Route path="/projects/style-serenity" element={<StyleSerenity />} />
         <Route path="/projects/study-plan" element={<StudyPlan />} />
-
         <Route path="/projects/hm-redesign" element={<HMRedesign />} />
-
         <Route path="/projects/happiness" element={<Happiness />} />
         <Route path="/projects/movie-search" element={<MovieSearch />} />
         <Route path="/projects/flight-routes" element={<FlightRoutes />} />
