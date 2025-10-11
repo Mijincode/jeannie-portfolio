@@ -11,30 +11,6 @@ import ProjectNav from "../ProjectNav";
 //   );
 // }
 
-function ConfidentialCTA() {
-  return (
-    <div
-      className="conf-cta"
-      role="region"
-      aria-label="Request private walkthrough"
-    >
-      <div>
-        <strong>Confidential FashionTech Platform (NDA)</strong>
-        <p className="conf-cta__text">
-          Public visuals are recreated/anonymised. I can provide a brief private
-          walkthrough on request.
-        </p>
-      </div>
-      <a
-        className="conf-cta__btn"
-        href={`mailto:jeannieuxdesign@gmail.com?subject=Private%20walkthrough%20request%20(Confidential%20FashionTech)&body=Hi%20Jeannie%2C%0A%0AI%27d%20love%20a%20short%20walkthrough%20of%20your%20FashionTech%20project.%0A%0AThanks!`}
-      >
-        Request access
-      </a>
-    </div>
-  );
-}
-
 export default function ConfidentialFashionTech() {
   return (
     <section className="case-study-section-conf">
@@ -243,7 +219,7 @@ export default function ConfidentialFashionTech() {
         </div>
 
         <div className="case-block-models">
-          <h2>7. Ideation</h2>
+          <h2>6. Ideation</h2>
           <p>
             Based on the research findings, I brainstormed ways to transform the
             original 5-page concept (received from my client) into a scalable
@@ -272,7 +248,7 @@ export default function ConfidentialFashionTech() {
         </div>
 
         <div className="case-block-models">
-          <h2>8. Solution</h2>
+          <h2>7. Solution</h2>
           <p>
             The old site was outdated, lacked essential functionality, and did
             not meet the needs of users. For the redesign, the client requested
@@ -314,20 +290,42 @@ export default function ConfidentialFashionTech() {
         </div>
 
         <div className="case-block-models">
-          <h2>9. User Flow</h2>
-
+          <h2>8. User Flow</h2>
           <p>
-            The competition journey was restructured into a clear flow (overview
-            → rules → entry form → consent → legal). Breaking the process into
-            smaller steps reduced confusion, improved readability, and made the
-            experience more approachable for both models and parents.
+            The user flow was designed around three personas —{" "}
+            <strong>Models</strong>, <strong>Creatives</strong>, and{" "}
+            <strong>Branding / Agencies</strong>. Each follows a clear path from
+            the <strong>Landing page</strong> to achieve their goals: models
+            build portfolios, find creatives, or join competitions; creatives
+            showcase work or collaborate; and branding users search and connect
+            with talent.
           </p>
 
-          <h3 className="Userflow-Competition">
-            User Flow — Competition Entry
-          </h3>
+          <p>
+            For models and creatives, portfolio creation includes form
+            completion, uploads, and payment before publishing in the directory.
+            The competition flow is structured as{" "}
+            <strong>
+              Overview → Rules → Entry Form → Guardian Consent (if under 18) →
+              Legal Confirmation
+            </strong>
+            , ensuring a safe, transparent process.
+          </p>
+
+          <p>
+            This streamlined design keeps navigation consistent across all
+            users, supports monetization from the start, and allows for easy
+            scaling as more features are added.
+          </p>
+
+          <h3 className="Userflow-Competition">User Flow</h3>
           <div className="user-flow-diagram">
-            <div className="flow-steps">
+            <img
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1760143129/unified_purpose_flow_lanes_with_competition_shg7u9.png"
+              alt="User Flow"
+              className="user-flow"
+            />
+            {/* <div className="flow-steps">
               <span className="flow-step">Competition Overview</span>
               <span className="flow-arrow"></span>
               <span className="flow-step">Rules</span>
@@ -337,9 +335,9 @@ export default function ConfidentialFashionTech() {
               <span className="flow-step">Guardian Consent</span>
               <span className="flow-arrow"></span>
               <span className="flow-step">Legal Information</span>
-            </div>
+            </div> */}
           </div>
-          <ul className="flow-insights">
+          {/* <ul className="flow-insights">
             <li>
               <strong>Breaking into steps:</strong> Instead of one overwhelming
               page, the competition was split into 5 steps. This improved
@@ -353,11 +351,11 @@ export default function ConfidentialFashionTech() {
               <strong>Legal confirmation:</strong> Final stage ensures
               transparency and reduces risk of disputes for the agency.
             </li>
-          </ul>
+          </ul> */}
         </div>
 
         <div className="case-block-models">
-          <h2>10. Outcome</h2>
+          <h2>9. Outcome</h2>
           <p>
             What began as a request for a simple 5-page website grew into a
             comprehensive digital platform with{" "}
@@ -386,7 +384,7 @@ export default function ConfidentialFashionTech() {
         </div>
 
         <div className="case-block-models">
-          <h2>11. Testimonial</h2>
+          <h2>10. Testimonial</h2>
           <div className="testimonial-card">
             <p className="testimonial-text">
               “Jeannie, firstly I want to offer you my congratulations and the
@@ -408,7 +406,25 @@ export default function ConfidentialFashionTech() {
           </ul>
         </div>
 
-        <ConfidentialCTA />
+        <div
+          className="conf-cta"
+          role="region"
+          aria-label="Request private walkthrough"
+        >
+          <div>
+            <strong>Confidential FashionTech Platform (NDA)</strong>
+            <p className="conf-cta__text">
+              Public visuals are recreated/anonymised. I can provide a brief
+              private walkthrough on request.
+            </p>
+          </div>
+          <a
+            className="conf-cta__btn"
+            href={`mailto:jeannieuxdesign@gmail.com?subject=Private%20walkthrough%20request%20(Confidential%20FashionTech)&body=Hi%20Jeannie%2C%0A%0AI%27d%20love%20a%20short%20walkthrough%20of%20your%20FashionTech%20project.%0A%0AThanks!`}
+          >
+            Request access
+          </a>
+        </div>
       </div>
       <ProjectNav />
     </section>
