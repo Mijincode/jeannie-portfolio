@@ -12,14 +12,12 @@ export default function Contact() {
           <a href="mailto:jeanniedoig@hotmail.com" className="contact-link">
             <AiOutlineMail className="contact-icon" /> Email
           </a>
-
           <a
             href="https://www.linkedin.com/in/mijin-lee-35b09b1b7/"
             className="contact-link"
           >
             <AiFillLinkedin className="contact-icon" /> LinkedIn
           </a>
-
           <a href="https://github.com/Mijincode" className="contact-link">
             <AiFillGithub className="contact-icon" /> GitHub
           </a>
