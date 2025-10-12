@@ -3,6 +3,12 @@
   background-color: black;
 } */
 
+.project-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .project-heading {
   font-size: 2rem;
   font-family: sans-serif;
@@ -68,20 +74,32 @@
 .project-card.vertical-layout {
   display: flex;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: stretch;
   flex-wrap: wrap;
 }
-
+/* 
 .image-container {
   flex: 1 1 40%;
 }
 
 .project-info {
   flex: 1 1 55%;
+} */
+
+.image-container {
+  flex: 1 1 40%;
+  min-width: 280px;
+}
+.project-info {
+  flex: 1 1 55%;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-image {
   width: 100%;
+  height: auto;
   max-height: 350px;
   object-fit: contain;
   border-radius: 10px;
@@ -109,11 +127,11 @@
   flex-wrap: wrap;
 }
 
-.project-info {
+/* .project-info {
   flex: 1 1 55%;
   display: flex;
   flex-direction: column;
-}
+} */
 
 .project-actions {
   margin-top: auto;
@@ -140,4 +158,69 @@
 .project-button:hover {
   background-color: black;
   color: white;
+}
+
+/* Mobile / tablet */
+@media (max-width: 900px) {
+  .project-card {
+    padding: 28px;
+  }
+  .project-card.vertical-layout {
+    flex-direction: column; /* stack */
+    align-items: stretch;
+  }
+  .image-container,
+  .project-info {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+  .project-image {
+    max-height: 300px;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .project-heading {
+    font-size: 1.6rem;
+    margin: 2.5rem 0;
+  }
+  .project-card {
+    padding: 20px;
+    border-radius: 12px;
+  }
+  .project-title {
+    font-size: 1.4rem;
+  }
+  .project-description {
+    font-size: 0.95rem;
+  }
+  .project-actions .project-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+/* Fix the typo so rules apply on mobile */
+@media (max-width: 768px) {
+  .project-container {
+    margin-bottom: 80px;
+  } /* previously .projet-container */
+}
+
+/* Optional: pause animations for reduced motion users */
+@media (prefers-reduced-motion: reduce) {
+  .project-wrapper {
+    transition: none;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .projet-container {
+    margin-bottom: 90px;
+  }
 }
