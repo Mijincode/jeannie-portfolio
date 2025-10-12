@@ -2,15 +2,6 @@ import React from "react";
 import "./ConfidentialFashionTech.css";
 import ProjectNav from "../ProjectNav";
 
-// function AnonymisedFrame({ label = "Anonymised wireframe" }) {
-//   return (
-//     <figure className="anon-frame" aria-label={label}>
-//       <div className="anon-skeleton" />
-//       <figcaption className="anon-caption">{label}</figcaption>
-//     </figure>
-//   );
-// }
-
 export default function ConfidentialFashionTech() {
   return (
     <section className="case-study-section-conf">
@@ -18,11 +9,6 @@ export default function ConfidentialFashionTech() {
         <h1 className="case-study-title-conf">
           Confidential FashionTech Platform — UX/UI Lead (NDA)
         </h1>
-
-        {/* <p className="disclaimer">
-          All visuals are recreated/anonymised to protect client
-          confidentiality. No proprietary assets, data, or branding are shown.
-        </p> */}
 
         <div className="case-block-conf">
           <h2>1. Overview</h2>
@@ -158,7 +144,7 @@ export default function ConfidentialFashionTech() {
                 <li>Overloaded with dropdowns and checkboxes</li>
                 <li>Lacked hierarchy or progressive filtering</li>
                 <li>Failed to visually highlight key content</li>
-                <li>=inconsistent control styling that reduced trust</li>
+                <li>inconsistent control styling that reduced trust</li>
               </ul>
             </li>
           </ol>
@@ -271,6 +257,12 @@ export default function ConfidentialFashionTech() {
 
         <div className="case-block-models">
           <h2>8. User Flow</h2>
+          <figcaption className="caption">
+            An anonymized user-flow diagram (recreated for portfolio). It
+            illustrates generalized journeys for different user groups:
+            onboarding, discovery/search, and a consent-aware participation
+            flow. No client assets or proprietary details are shown.
+          </figcaption>
           <div className="user-flow-diagram">
             <img
               src="https://res.cloudinary.com/dmvngssd0/image/upload/v1760252526/userFlow_yb5u7t.png"
@@ -279,12 +271,6 @@ export default function ConfidentialFashionTech() {
               loading="lazy"
               decoding="async"
             />
-            <figcaption className="caption">
-              *An anonymized user flow diagram illustrating generalized user
-              journeys for different personas. This visual is recreated for
-              portfolio purposes and does not contain client assets or
-              proprietary details.*
-            </figcaption>
           </div>
 
           <div className="case-block-models">

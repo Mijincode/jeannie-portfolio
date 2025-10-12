@@ -45,6 +45,12 @@
   border-left: 6px solid #be7177;
   color: #333;
 }
+
+.case-block-models ol li::marker {
+  font-weight: 700;
+  color: #111;
+}
+
 .caption {
   text-align: left;
   margin-top: 20px;
