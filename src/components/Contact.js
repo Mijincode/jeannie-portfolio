@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="contact-content">
         <h1 className="contact-heading">Contact Me</h1>
         <div className="contact-links">
-          <a href="mailto:jeanniedoig@hotmail.com" className="contact-link">
+          <a href="mailto:jeannieuxdesign@gmail.com" className="contact-link">
             <AiOutlineMail className="contact-icon" /> Email
           </a>
           <a
