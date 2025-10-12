@@ -57,16 +57,15 @@ export default function ConfidentialFashionTech() {
             users or the client’s business goals.
           </p>
           <p>
-            Users faced overwhelming content and cluttered filters without clear
-            guidance, leading to frustration and drop-off. At the same time, the
-            client wanted a high-end look that could build trust and position
-            the brand for growth in the modeling industry.
+            Users faced information overload and confusing filters without clear
+            guidance, leading to frustration and high drop-off rates. Meanwhile,
+            the client sought a modern, high-end digital experience that could
+            build trust and position the brand for future expansion.
           </p>
           <p>
-            The challenge was to bridge the gap between the client’s vision of a
-            minimal website and the users’ need for a robust, trustworthy
-            platform — designing a scalable system that balanced business
-            objectives with real-world usability.
+            The challenge was to bridge the gap between a minimalist vision and
+            the need for a scalable, user-centered platform — balancing business
+            objectives with practical usability.
           </p>
         </div>
 
@@ -77,32 +76,31 @@ export default function ConfidentialFashionTech() {
               <h3> - Modernize the Brand:</h3>
               <p>
                 Transform an outdated, low-traffic site into a premium, high-end
-                digital platform that builds credibility with clients and users.
+                digital platform that builds credibility with users and clients.
               </p>
             </div>
             <div className="insight-card">
               <h3> - Enable Growth:</h3>
               <p>
-                Add essential features such as competition entry, portfolio
-                uploads, and structured parental consent for under-18 applicants
-                — creating revenue and engagement opportunities.
+                Add essential features such as structured participation flows,
+                portfolio uploads, and consent processes for under-18 users —
+                creating opportunities for engagement and revenue.
               </p>
             </div>
 
             <div className="insight-card">
-              <h3> - Guide Aspiring Models</h3>
+              <h3> - Guide Aspiring Users</h3>
               <p>
-                Launch the new Start Modelling page to provide step-by-step
-                training, industry knowledge, and career pathways — addressing a
-                major gap in the old site where no beginner guidance existed.
+                Launch an onboarding page to provide step-by-step learning,
+                industry insight, and clear career pathways.
               </p>
             </div>
 
             <div className="insight-card">
               <h3> - Support Industry Professionals</h3>
               <p>
-                Build advanced search and filtering tools so casting directors
-                and agencies can quickly discover relevant talent.
+                Build advanced search and filtering tools to help professionals
+                quickly discover relevant talent.
               </p>
             </div>
 
@@ -116,52 +114,33 @@ export default function ConfidentialFashionTech() {
           </div>
         </div>
 
-        {/* <div className="case-block-conf">
-          <h2>Process Snapshot</h2>
-          <div className="anon-grid">
-            <AnonymisedFrame label="Entry flow (5 steps, consent built-in)" />
-            <AnonymisedFrame label="Responsive nav & IA" />
-            <AnonymisedFrame label="Portfolio upload & validation" />
-            <AnonymisedFrame label="Discovery filters & shortlist" />
-            <AnonymisedFrame label="Component tokens & patterns" />
-          </div>
-        </div>
-
-        <div className="case-block-conf">
-          <h2>Outcomes (public-safe)</h2>
-          <ul className="bullets">
-            <li>Reduced steps to first meaningful action by ~30–40%</li>
-            <li>
-              Defined scalable component set (inputs, filters, cards, modals)
-            </li>
-            <li>Usability feedback (target users): improved clarity & trust</li>
-          </ul>
-          <p className="caption">
-            Exact metrics and branded screens available in a private
-            walkthrough.
-          </p>
-        </div> */}
         <div className="case-block-models">
           <h2>4. Existing Site Analysis </h2>
           <p>
-            I audited the client’s existing site to understand why users were
-            struggling. The evaluation revealed structural and visual issues
-            that reduced trust and discoverability.
+            I conducted a UX audit of the client’s legacy website to identify
+            pain points and usability barriers. The evaluation revealed several
+            structural and visual issues that reduced trust and discoverability.
           </p>
 
           <ol className="analysis-points">
             <li>
               <strong>Poor Navigation</strong>
               <ul>
-                <li>Cluttered menus created confusion</li>
+                <li>
+                  Cluttered menus and unclear hierarchy created confusion.
+                </li>
               </ul>
             </li>
 
             <li>
               <strong>Outdated Visuals</strong>
               <ul>
-                <li>Dated typography, weak spacing, poor hierarchy</li>
-                <li>Undermined credibility for a premium agency</li>
+                <li>
+                  Inconsistent typography, weak spacing, and poor hierarchy.
+                </li>
+                <li>
+                  Undermined credibility for a high-end digital experience.
+                </li>
               </ul>
             </li>
 
@@ -169,7 +148,7 @@ export default function ConfidentialFashionTech() {
               <strong>Low Engagement</strong>
               <ul>
                 <li>Long text blocks caused scanning fatigue</li>
-                <li>Minimal interactivity led to user drop-off</li>
+                <li>Minimal interactivity led to early user drop-off</li>
               </ul>
             </li>
 
@@ -178,10 +157,7 @@ export default function ConfidentialFashionTech() {
               <ul>
                 <li>Overloaded with dropdowns and checkboxes</li>
                 <li>Lacked hierarchy or progressive filtering</li>
-                <li>
-                  Failed to visually showcase talent (felt like database
-                  entries)
-                </li>
+                <li>Failed to visually highlight key content</li>
                 <li>=inconsistent control styling that reduced trust</li>
               </ul>
             </li>
@@ -191,20 +167,32 @@ export default function ConfidentialFashionTech() {
         <div className="case-block-models">
           <h2>5. User Research Findings</h2>
           <p>
-            After auditing the old site, I validated assumptions through
-            lightweight interviews and prototype feedback with aspiring models,
-            parents, and clients. These findings revealed where the legacy
-            design failed real users:
+            To validate assumptions from the site audit, I conducted lightweight
+            interviews and prototype testing sessions with aspiring models,
+            parents, and industry professionals.{" "}
           </p>
-          <ol>
-            <li>Navigation confused most participants.</li>
 
-            <li>Clients found the dropdown-heavy search overwhelming.</li>
-            <li>Users skimmed long text blocks and dropped off quickly,</li>
+          <p>
+            The research helped uncover specific usability challenges in the
+            legacy design:
+          </p>
+
+          <ol>
+            <li>
+              Navigation was unclear and caused confusion for most participants.
+            </li>
+            <li>
+              Clients found the dropdown-heavy search overwhelming and
+              inefficient.
+            </li>
+            <li>
+              Users skimmed long text blocks and quickly disengaged due to low
+              scannability.
+            </li>
           </ol>
           <p>
-            These insights aligned with the website audit but provided
-            user-backed evidence to prioritize solutions: clearer navigation,
+            These insights confirmed the audit findings and provided user-backed
+            evidence to prioritize improvements: clearer navigation,
             trust-building visuals, structured flows, and modern discovery
             tools.
           </p>
@@ -213,28 +201,29 @@ export default function ConfidentialFashionTech() {
         <div className="case-block-models">
           <h2>6. Ideation</h2>
           <p>
-            Based on the research findings, I brainstormed ways to transform the
-            original 5-page concept (received from my client) into a scalable
-            platform. I expanded the sitemap into detailed flows for
-            competitions, portfolio uploads, and model/creative services.
+            Based on the research findings, I explored ways to evolve the
+            initial five-page brief into a scalable platform. I expanded the
+            sitemap into detailed user flows for participation, portfolio
+            management, and two key user groups.
           </p>
 
           <p>
-            Key ideas included breaking dense content into multi-step journeys
-            (e.g., competition entry forms), introducing hover/tap states to
-            make browsing talent more interactive, and creating tailored account
-            flows for both models and creatives.
+            Key ideas included breaking dense tasks into multi-step journeys
+            (e.g., entry forms), adding meaningful hover/tap states with
+            keyboard-accessible focus patterns, and tailoring account flows for
+            different user roles.
           </p>
+
           <p>
-            I also explored how to balance high-end aesthetics with usability:
-            clear typography, visual hierarchy, and grid-based layouts to
-            support large amounts of information while maintaining a premium
-            feel.
+            I balanced a high-end aesthetic with usability through clear
+            typography, strong visual hierarchy, and grid-based layouts that
+            support content scale.
           </p>
+
           <p>
-            Early sketches and low-fidelity wireframes tested different layouts
-            for grids, filters, and forms. These explorations helped validate
-            the information architecture before moving into high-fidelity
+            Early sketches and low-fidelity wireframes tested alternative
+            layouts for grids, filters, and forms, helping validate the
+            information architecture before moving into high-fidelity
             prototypes.
           </p>
         </div>
@@ -243,71 +232,45 @@ export default function ConfidentialFashionTech() {
           <h2>7. Solution</h2>
           <p>
             The old site was outdated, lacked essential functionality, and did
-            not meet the needs of users. For the redesign, the client requested
-            new features such as competitions, portfolio uploads, and tailored
-            services for both models and creatives. To solve these, I designed
-            scalable user journeys and interactive prototypes that expanded far
-            beyond the original 5-page concept.
+            not meet user needs. For the redesign, I developed scalable user
+            journeys and interactive prototypes that extended beyond the
+            original five-page brief — introducing modern features and improved
+            usability.
           </p>
           <ul className="solution-list">
             <li>
-              <strong>Competition Flow:</strong> Old site had no competition
-              entry. I built a clear 5-step process a multi-step entry process
-              with age-appropriate consent and legal confirmation. to reduce
-              confusion and ensure trust for both aspiring models and parents.
+              <strong>Participation Flow:</strong> The original site had no
+              structured entry process. I designed a clear, multi-step flow with
+              age-appropriate consent and confirmation steps to ensure clarity
+              and trust for all users.
             </li>
             <li>
-              <strong>Portfolio Uploads:</strong> With no upload feature
-              previously, I designed structured journeys for both models and
-              creatives — including account creation, body measurements,
-              specialties, certifications, and payment.
+              <strong>Portfolio Creation:</strong> Introduced guided account
+              setup with structured information entry, user specialties, and
+              upload functionality — enabling users to present their work more
+              effectively.
             </li>
             <li>
-              <strong>Advanced Discovery:</strong> Added filtering and grid
-              systems so clients could easily search models/creatives by
-              specialties, certifications, and measurements — functionality
-              missing in the old site.
+              <strong>Discovery Tools:</strong> Added refined search and
+              filtering with grid-based layouts, allowing professionals to
+              discover profiles efficiently. This functionality was missing in
+              the previous design.
             </li>
             <li>
-              <strong>Scalable Design System:</strong> Created responsive
-              layouts across desktop and mobile, supported by grids, clear
-              hierarchy, and consistent UI patterns.
+              <strong>Scalable Design System:</strong> Built a responsive,
+              component-driven system with consistent hierarchy and reusable UI
+              patterns across desktop and mobile.
             </li>
             <li>
-              <strong>High-End Visual Style:</strong> Delivered a modern,
-              premium aesthetic aligned with the client’s vision, while ensuring
-              usability and inclusivity for all audiences.
+              <strong>Visual Direction:</strong> Delivered a clean, high-end
+              visual language aligned with the client’s positioning, while
+              maintaining accessibility and inclusivity.
             </li>
           </ul>
         </div>
 
         <div className="case-block-models">
           <h2>8. User Flow</h2>
-          <p>
-            The user flow was designed around three personas —{" "}
-            <strong>Models</strong>, <strong>Creatives</strong>, and{" "}
-            <strong>Branding / Agencies</strong>. Each follows a clear path from
-            the <strong>Landing page</strong> to achieve their goals: models
-            build portfolios, find creatives, or join competitions; creatives
-            showcase work or collaborate; and branding users search and connect
-            with talent.
-          </p>
-
-          <p>
-            For models and creatives, portfolio creation includes form
-            completion, uploads, and payment before publishing in the directory.
-            The competition journey was designed as a clear, multi-step process
-            with age-appropriate consent and legal confirmation, improving
-            clarity for younger users and parents.
-          </p>
-
-          <p>
-            This streamlined design keeps navigation consistent across all
-            users, supports monetization from the start, and allows for easy
-            scaling as more features are added.
-          </p>
-
-          <h3 className="Userflow-Competition">User Flow</h3>
           <div className="user-flow-diagram">
             <img
               src="https://res.cloudinary.com/dmvngssd0/image/upload/v1760252526/userFlow_yb5u7t.png"
@@ -369,8 +332,14 @@ export default function ConfidentialFashionTech() {
             <h2>Why it’s confidential (and how I handle it)</h2>
             <ul className="bullets">
               <li>Pre-launch; under NDA at client request</li>
-              <li>Recreated, brand-neutral artefacts shown publicly</li>
-              <li>Full details shared privately on request</li>
+              <li>
+                Public visuals are recreated/anonymised; no proprietary assets
+                shown
+              </li>
+              <li>
+                Additional context available 1:1 (subject to NDA and client
+                permission)
+              </li>
             </ul>
           </div>
 
@@ -382,8 +351,8 @@ export default function ConfidentialFashionTech() {
             <div>
               <strong>Confidential FashionTech Platform (NDA)</strong>
               <p className="conf-cta__text">
-                Public visuals are recreated/anonymised. I can provide a brief
-                private walkthrough on request.
+                Public visuals are recreated/anonymised. A brief high-level
+                walkthrough can be provided on request.
               </p>
             </div>
             <a
