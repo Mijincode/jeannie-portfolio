@@ -357,10 +357,8 @@ export default function ConfidentialFashionTech() {
             <h2>10. Testimonial</h2>
             <div className="testimonial-card">
               <p className="testimonial-text">
-                “Jeannie, firstly I want to offer you my congratulations and the
-                thanks. This site is looking exceptionally good and I appreciate
-                the diligence and care you are taking. I will be happy to supply
-                a reference for you should you ever need one.”
+                “The client expressed appreciation for the design quality and
+                attention to detail and offered to provide a reference.”
               </p>
 
               <p className="testimonial-author">— Client, via email</p>
