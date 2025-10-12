@@ -1,35 +1,50 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import projectData from "./ProjectData";
 import "./css/project.css";
 
+function useMediaQuery(query) {
+  const [match, setMatch] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia(query);
+    const onChange = (e) => setMatch(e.matches);
+    setMatch(mq.matches);
+    mq.addEventListener?.("change", onChange) || mq.addListener(onChange);
+    return () =>
+      mq.removeEventListener?.("change", onChange) ||
+      mq.removeListener(onChange);
+  }, [query]);
+  return match;
+}
+
 export default function Projects() {
   const projectRefs = useRef([]);
+  const [expanded, setExpanded] = useState(() => new Set());
+  const isMobile = useMediaQuery("(max-width: 900px)");
+
+  const toggleExpand = (key) => {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      next.has(key) ? next.delete(key) : next.add(key);
+      return next;
+    });
+  };
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("animate");
-          } else {
-            entry.target.classList.remove("animate");
-          }
-        });
+        entries.forEach((entry) =>
+          entry.isIntersecting
+            ? entry.target.classList.add("animate")
+            : entry.target.classList.remove("animate")
+        );
       },
       { threshold: 0.1 }
     );
 
-    const currentRefs = projectRefs.current;
-    currentRefs.forEach((ref) => {
-      if (ref) observer.observe(ref);
-    });
-
-    return () => {
-      currentRefs.forEach((ref) => {
-        if (ref) observer.unobserve(ref);
-      });
-    };
+    const curr = projectRefs.current;
+    curr.forEach((ref) => ref && observer.observe(ref));
+    return () => curr.forEach((ref) => ref && observer.unobserve(ref));
   }, []);
 
   return (
@@ -39,6 +54,8 @@ export default function Projects() {
         <div className="project-list">
           {Object.keys(projectData).map((projectKey, index) => {
             const project = projectData[projectKey];
+            const isExpanded = expanded.has(projectKey);
+
             return (
               <div
                 className="project-wrapper"
@@ -64,12 +81,32 @@ export default function Projects() {
                     <h3 className="project-title">
                       {project.title || project.hoverText || project.role}
                     </h3>
+
                     {project.role && (
                       <p className="project-role">
                         <strong>Role:</strong> {project.role}
                       </p>
                     )}
-                    <p className="project-description">{project.description}</p>
+
+                    <p
+                      className={`project-description ${
+                        isExpanded ? "expanded" : ""
+                      } ${isMobile ? "tap-to-expand" : ""}`}
+                      onClick={() => isMobile && toggleExpand(projectKey)}
+                      onKeyDown={(e) => {
+                        if (!isMobile) return;
+                        if (e.key === "Enter" || e.key === " ") {
+                          e.preventDefault();
+                          toggleExpand(projectKey);
+                        }
+                      }}
+                      role={isMobile ? "button" : undefined}
+                      tabIndex={isMobile ? 0 : undefined}
+                      aria-expanded={isExpanded}
+                    >
+                      {project.description}
+                    </p>
+
                     <div className="project-actions">
                       {project.link && (
                         <Link to={project.link} className="project-button">

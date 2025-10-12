@@ -33,7 +33,7 @@ const projectData = {
     img: "https://res.cloudinary.com/dmvngssd0/image/upload/v1760080696/iPhone_17_Pro_deep_blue_front_lwdhc8.png",
     webPage: null,
     description:
-      "A SaaS-based creative network connecting models, photographers, and agencies — designed from zero to launch with 56+ responsive screens, consent flows, and a WCAG-aligned design system",
+      "SaaS platform - end-to-end UX/UI with responsive design and accessibility-informed patterns.",
     link: "/projects/confidential-fashiontech",
     githubUrl: null,
   },
