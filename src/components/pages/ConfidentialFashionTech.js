@@ -27,15 +27,10 @@ export default function ConfidentialFashionTech() {
         <div className="case-block-conf">
           <h2>1. Overview</h2>
           <p className="disclaimer">
-            * This project was completed under a non-disclosure agreement (NDA)
-            for a startup client in the fashion and talent industry. While I
-            cannot share proprietary assets or brand details, all visuals and
-            flows shown here are recreated and anonymised to reflect my design
-            process and problem-solving approach. The case study demonstrates my
-            end-to-end UX and UI contribution — from user research and
-            information architecture to responsive design systems and
-            accessibility-compliant prototypes. Note: Full artefacts and
-            prototypes can be discussed privately upon request.
+            * Note : All visuals and flows are recreated and anonymised to
+            protect client confidentiality. This case study focuses on my UX/UI
+            process and outcomes; proprietary materials are excluded under the
+            NDA.
           </p>
           <p>
             <strong>Role:</strong> Led UX/UI design end-to-end
@@ -47,8 +42,8 @@ export default function ConfidentialFashionTech() {
             <strong>Duration:</strong> 4 weeks
           </p>
           <p>
-            <strong>Deliverables:</strong> 24 desktop screens, 32 mobile
-            screens, interactive prototype
+            <strong>Deliverables:</strong> multiple responsive flows and an
+            interactive prototype
           </p>
         </div>
 
@@ -187,10 +182,7 @@ export default function ConfidentialFashionTech() {
                   Failed to visually showcase talent (felt like database
                   entries)
                 </li>
-                <li>
-                  Clashing red <em>Search</em> and <em>Clear</em> buttons broke
-                  trust
-                </li>
+                <li>=inconsistent control styling that reduced trust</li>
               </ul>
             </li>
           </ol>
@@ -260,9 +252,9 @@ export default function ConfidentialFashionTech() {
           <ul className="solution-list">
             <li>
               <strong>Competition Flow:</strong> Old site had no competition
-              entry. I built a clear 5-step process (overview, rules, entry
-              form, guardian consent, legal) to reduce confusion and ensure
-              trust for both aspiring models and parents.
+              entry. I built a clear 5-step process a multi-step entry process
+              with age-appropriate consent and legal confirmation. to reduce
+              confusion and ensure trust for both aspiring models and parents.
             </li>
             <li>
               <strong>Portfolio Uploads:</strong> With no upload feature
@@ -304,12 +296,9 @@ export default function ConfidentialFashionTech() {
           <p>
             For models and creatives, portfolio creation includes form
             completion, uploads, and payment before publishing in the directory.
-            The competition flow is structured as{" "}
-            <strong>
-              Overview → Rules → Entry Form → Guardian Consent (if under 18) →
-              Legal Confirmation
-            </strong>
-            , ensuring a safe, transparent process.
+            The competition journey was designed as a clear, multi-step process
+            with age-appropriate consent and legal confirmation, improving
+            clarity for younger users and parents.
           </p>
 
           <p>
@@ -321,109 +310,91 @@ export default function ConfidentialFashionTech() {
           <h3 className="Userflow-Competition">User Flow</h3>
           <div className="user-flow-diagram">
             <img
-              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1760143129/unified_purpose_flow_lanes_with_competition_shg7u9.png"
+              src="https://res.cloudinary.com/dmvngssd0/image/upload/v1760252526/userFlow_yb5u7t.png"
               alt="User Flow"
               className="user-flow"
+              loading="lazy"
+              decoding="async"
             />
-            {/* <div className="flow-steps">
-              <span className="flow-step">Competition Overview</span>
-              <span className="flow-arrow"></span>
-              <span className="flow-step">Rules</span>
-              <span className="flow-arrow"></span>
-              <span className="flow-step">Entry Form</span>
-              <span className="flow-arrow"></span>
-              <span className="flow-step">Guardian Consent</span>
-              <span className="flow-arrow"></span>
-              <span className="flow-step">Legal Information</span>
-            </div> */}
+            <figcaption className="caption">
+              *An anonymized user flow diagram illustrating generalized user
+              journeys for different personas. This visual is recreated for
+              portfolio purposes and does not contain client assets or
+              proprietary details.*
+            </figcaption>
           </div>
-          {/* <ul className="flow-insights">
-            <li>
-              <strong>Breaking into steps:</strong> Instead of one overwhelming
-              page, the competition was split into 5 steps. This improved
-              comprehension for younger models and parents.
-            </li>
-            <li>
-              <strong>Guardian consent:</strong> Added as a dedicated step to
-              ensure legal compliance and build trust for under-18 participants.
-            </li>
-            <li>
-              <strong>Legal confirmation:</strong> Final stage ensures
-              transparency and reduces risk of disputes for the agency.
-            </li>
-          </ul> */}
-        </div>
 
-        <div className="case-block-models">
-          <h2>9. Outcome</h2>
-          <p>
-            What began as a request for a simple 5-page website grew into a
-            comprehensive digital platform with{" "}
-            <strong>56+ responsive screens</strong>
-            across desktop and mobile. The redesign improved trust, created
-            clear application flows, and introduced portfolio uploads that
-            didn’t exist before.
-          </p>
-          <p>
-            The client praised the premium design quality, which now aligns with
-            their brand vision. For users, the site provides guidance,
-            interactivity, and a trustworthy platform. For the business, it
-            delivers scalability and a foundation for growth.
-          </p>
-          <p className="mt-8">
-            The project proved the value of a{" "}
-            <strong>UX-driven approach</strong>: instead of static layouts, the
-            deliverables combined{" "}
-            <strong>
-              user research, journeys, flows, prototypes, and testing
-            </strong>{" "}
-            to align real user needs with business goals. This transformation
-            gave the startup a credible, high-end presence in the market and a
-            strong foundation for growth.
-          </p>
-        </div>
-
-        <div className="case-block-models">
-          <h2>10. Testimonial</h2>
-          <div className="testimonial-card">
-            <p className="testimonial-text">
-              “Jeannie, firstly I want to offer you my congratulations and the
-              thanks. This site is looking exceptionally good and I appreciate
-              the diligence and care you are taking. I will be happy to supply a
-              reference for you should you ever need one.”
+          <div className="case-block-models">
+            <h2>9. Outcome</h2>
+            <p>
+              <p>
+                What began as a simple five-page request grew into a
+                comprehensive, scalable platform across web and mobile. The
+                redesign improved trust, clarified application flows, and
+                introduced portfolio uploads that didn’t exist before.
+              </p>
             </p>
-
-            <p className="testimonial-author">— Client, via email</p>
-          </div>
-        </div>
-
-        <div className="case-block-conf">
-          <h2>Why it’s confidential (and how I handle it)</h2>
-          <ul className="bullets">
-            <li>Pre-launch; under NDA at client request</li>
-            <li>Recreated, brand-neutral artefacts shown publicly</li>
-            <li>Full details shared privately on request</li>
-          </ul>
-        </div>
-
-        <div
-          className="conf-cta"
-          role="region"
-          aria-label="Request private walkthrough"
-        >
-          <div>
-            <strong>Confidential FashionTech Platform (NDA)</strong>
-            <p className="conf-cta__text">
-              Public visuals are recreated/anonymised. I can provide a brief
-              private walkthrough on request.
+            <p>
+              The client praised the premium design quality, which now aligns
+              with their brand vision. For users, the site provides guidance,
+              interactivity, and a trustworthy platform. For the business, it
+              delivers scalability and a foundation for growth.
+            </p>
+            <p className="mt-8">
+              The project proved the value of a{" "}
+              <strong>UX-driven approach</strong>: instead of static layouts,
+              the deliverables combined{" "}
+              <strong>
+                user research, journeys, flows, prototypes, and testing
+              </strong>{" "}
+              to align real user needs with business goals. This transformation
+              gave the startup a credible, high-end presence in the market and a
+              strong foundation for growth.
             </p>
           </div>
-          <a
-            className="conf-cta__btn"
-            href={`mailto:jeannieuxdesign@gmail.com?subject=Private%20walkthrough%20request%20(Confidential%20FashionTech)&body=Hi%20Jeannie%2C%0A%0AI%27d%20love%20a%20short%20walkthrough%20of%20your%20FashionTech%20project.%0A%0AThanks!`}
+
+          <div className="case-block-models">
+            <h2>10. Testimonial</h2>
+            <div className="testimonial-card">
+              <p className="testimonial-text">
+                “Jeannie, firstly I want to offer you my congratulations and the
+                thanks. This site is looking exceptionally good and I appreciate
+                the diligence and care you are taking. I will be happy to supply
+                a reference for you should you ever need one.”
+              </p>
+
+              <p className="testimonial-author">— Client, via email</p>
+            </div>
+          </div>
+
+          <div className="case-block-conf">
+            <h2>Why it’s confidential (and how I handle it)</h2>
+            <ul className="bullets">
+              <li>Pre-launch; under NDA at client request</li>
+              <li>Recreated, brand-neutral artefacts shown publicly</li>
+              <li>Full details shared privately on request</li>
+            </ul>
+          </div>
+
+          <div
+            className="conf-cta"
+            role="region"
+            aria-label="Request private walkthrough"
           >
-            Request access
-          </a>
+            <div>
+              <strong>Confidential FashionTech Platform (NDA)</strong>
+              <p className="conf-cta__text">
+                Public visuals are recreated/anonymised. I can provide a brief
+                private walkthrough on request.
+              </p>
+            </div>
+            <a
+              className="conf-cta__btn"
+              href={`mailto:jeannieuxdesign@gmail.com?subject=Private%20walkthrough%20request%20(Confidential%20FashionTech)&body=Hi%20Jeannie%2C%0A%0AI%27d%20love%20a%20short%20walkthrough%20of%20your%20FashionTech%20project.%0A%0AThanks!`}
+            >
+              Request access
+            </a>
+          </div>
         </div>
       </div>
       <ProjectNav />

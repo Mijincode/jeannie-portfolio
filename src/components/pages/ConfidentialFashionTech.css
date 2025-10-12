@@ -45,6 +45,10 @@
   border-left: 6px solid #be7177;
   color: #333;
 }
+.caption {
+  text-align: left;
+  margin-top: 20px;
+}
 .bullets {
   padding-left: 1.25rem;
   margin: 0.5rem 0 0;
